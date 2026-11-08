@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-07T09:16:12Z",
+  "updatedAt": "2026-11-08T09:17:10Z",
   "source": "Official FIA documents + MIT-licensed historical F1 penalty compilation",
-  "liveDocumentCount": 8,
+  "liveDocumentCount": 20,
   "liveDocumentsFound": true,
   "bootstrapDocumentsUsed": 0,
   "nextEvent": {
@@ -16,8 +16,92 @@
     "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
     "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072"
   ],
-  "documentsScanned": 8,
+  "documentsScanned": 20,
   "documents": [
+    {
+      "title": "Doc 51 - Provisional Starting Grid Published on 08.11.26 00:01 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_provisional_starting_grid.pdf",
+      "published": "2026-11-08T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 46 - Infringement - Qualifying Deleted Lap Times - Double Yellow Published on 07.11.26 21:56 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_qualifying_deleted_lap_times_-_double_yellow.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 44 - Infringement - Qualifying Deleted Lap Times Published on 07.11.26 21:45 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_qualifying_deleted_lap_times.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 43 - Infringement - Car 44 - Additional changes to PU elements Published on 07.11.26 21:08 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_44_-_additional_changes_to_pu_elements.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 41 - Infringement - Car 87 - Reversing in the Pit Lane Published on 07.11.26 19:35 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_87_-_reversing_in_the_pit_lane.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 40 - Infringement - Car 11 - Driving in an unsafe condition Published on 07.11.26 17:38 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_11_-_driving_in_an_unsafe_condition.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 39 - Infringement - Car 11 - Changes to PU elements Published on 07.11.26 17:31 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_11_-_changes_to_pu_elements.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 37 - Infringement - Car 44 - Changes to PU element Published on 07.11.26 17:11 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_44_-_changes_to_pu_element.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 36 - Infringement - Free Practice 3 Deleted Lap Times Published on 07.11.26 17:06 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_free_practice_3_deleted_lap_times.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 35 - Infringement - Car 16 - Changes to PU element Published on 07.11.26 17:05 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_16_-_changes_to_pu_element.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 33 - Infringement - Car 3 - Changes to PU elements Published on 07.11.26 16:56 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_3_-_changes_to_pu_elements.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 31 - Summons - Car 11 - Alleged driving in an unsafe condition Published on 07.11.26 16:47 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_summons_-_car_11_-_alleged_driving_in_an_unsafe_condition.pdf",
+      "published": "2026-11-07T00:00:00Z",
+      "event": "São Paulo Grand Prix",
+      "bootstrapFallback": false
+    },
     {
       "title": "Doc 25 - Infringement - Car 51 - Unnecessarily impeding of Car 16 Published on 06.11.26 22:11 CET",
       "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_51_-_unnecessarily_impeding_of_car_16.pdf",
@@ -63,13 +147,6 @@
     {
       "title": "Doc 16 - Infringement - Car 43 - Pit Lane Speeding Published on 06.11.26 17:40 CET",
       "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_43_-_pit_lane_speeding.pdf",
-      "published": "2026-11-06T00:00:00Z",
-      "event": "São Paulo Grand Prix",
-      "bootstrapFallback": false
-    },
-    {
-      "title": "Doc 15 - Infringement - Car 63 - Changes to PU element Published on 06.11.26 17:25 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_63_-_changes_to_pu_element.pdf",
       "published": "2026-11-06T00:00:00Z",
       "event": "São Paulo Grand Prix",
       "bootstrapFallback": false
@@ -374,114 +451,6 @@
     {
       "title": "Doc 56 - INFRINGEMENT - Qualifying 1 - track limit violations Published on 24.09.26 18:11 CET",
       "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_qualifying_1_-_track_limit_violations.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 55 - DECISION - Car 5 - allegedly impeded Car 17 Published on 24.09.26 18:07 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_decision_-_car_5_-_allegedly_impeded_car_17.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 54 - DECISION - Car 14 - allegedly impeded Car 17 Published on 24.09.26 18:06 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_decision_-_car_14_-_allegedly_impeded_car_17.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 53 - DECISION - Qualifying 1 - allegedly driving unnecessarily slowly Published on 24.09.26 18:05 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_decision_-_qualifying_1_-_allegedly_driving_unnecessarily_slowly.pdf",
-      "event": "Kush Maini Art Grand Prix",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 52 - INFRINGEMENT - Car 7 - driving unnecessarily slowly Published on 24.09.26 17:45 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_car_7_-_driving_unnecessarily_slowly.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 51 - INFRINGEMENT - Car 9 - unsafe release Published on 24.09.26 17:20 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_car_9_-_unsafe_release.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 50 - INFRINGEMENT - Car 4 impeded Car 21 in Q2 Published on 24.09.26 17:19 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_car_4_impeded_car_21_in_q2.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 48 - SUMMONS - Car 17 - allegedly driving unnecessarily slowly in Q1 Published on 24.09.26 15:36 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_17_-_allegedly_driving_unnecessarily_slowly_in_q1.pdf",
-      "event": "Art Grand Prix",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 47 - SUMMONS - Car 24 - allegedly driving unnecessarily slowly in Q1 Published on 24.09.26 15:34 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_24_-_allegedly_driving_unnecessarily_slowly_in_q1.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 46 - SUMMONS - Car 16 - allegedly driving unnecessarily slowly in Q1 Published on 24.09.26 15:29 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_16_-_allegedly_driving_unnecessarily_slowly_in_q1.pdf",
-      "event": "Art Grand Prix",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 45 - SUMMONS - Car 15 - allegedly driving unnecessarily slowly in Q1 Published on 24.09.26 15:28 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_15_-_allegedly_driving_unnecessarily_slowly_in_q1.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 44 - SUMMONS - Car 2 - allegedly driving unnecessarily slowly in Q1 Published on 24.09.26 15:26 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_2_-_allegedly_driving_unnecessarily_slowly_in_q1.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 43 - SUMMONS - Car 3 - allegedly driving unnecessarily slowly in Q1 Published on 24.09.26 15:25 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_3_-_allegedly_driving_unnecessarily_slowly_in_q1.pdf",
       "event": "Baku",
       "published": "2026-09-24T00:00:00Z",
       "season": 2026,
@@ -901,6 +870,14 @@
       "season": 2025,
       "series": "f2",
       "sourceType": "official-fia"
+    },
+    {
+      "title": "Historical FIA penalty compilation (MIT-licensed)",
+      "url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_63_-_changes_to_pu_element.pdf",
+      "event": "Brazil",
+      "published": "",
+      "season": 2026,
+      "sourceType": "historical-dataset"
     },
     {
       "title": "Historical FIA penalty compilation (MIT-licensed)",
@@ -1792,27 +1769,6 @@
       "sourcePage": "https://www.fia.com/documents/championship/championships/formula-2-championship-44"
     },
     {
-      "id": "fia-series-f5ae63b5b1ac0c415f13e9",
-      "series": "f2",
-      "season": 2026,
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
-      "date": "2026-09-24T00:00:00Z",
-      "driver": "",
-      "team": "",
-      "carNumber": "4",
-      "penalty": "3-place grid drop",
-      "gridPlaces": 3,
-      "sanctionType": "grid-drop",
-      "status": "confirmed",
-      "reason": "Car 4 in Turn 14; as a result, they elect to apply the standard three-place grid penalty. Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 5 of the FIA Judicial and Disciplinary Rules, within the applicable time limits. Andrew Mallalieu David Fuentes Shahin Mirkhudayev",
-      "documentTitle": "Doc 50 - INFRINGEMENT - Car 4 impeded Car 21 in Q2 Published on 24.09.26 17:19 CET",
-      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_car_4_impeded_car_21_in_q2.pdf",
-      "sourceTitle": "Official FIA document",
-      "sourceType": "official-fia",
-      "sourcePage": "https://www.fia.com/documents/championship/championships/formula-2-championship-44"
-    },
-    {
       "id": "fia-series-ddae3761253bc536286782",
       "series": "f2",
       "season": 2025,
@@ -1832,6 +1788,101 @@
       "sourceTitle": "Official FIA document",
       "sourceType": "official-fia",
       "sourcePage": "https://www.fia.com/documents/championships/formula-2-championship-44/season/season-2025-2071"
+    },
+    {
+      "id": "2026|São Paulo Grand Prix|44|75-place grid drop|https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_provisional_starting_grid.pdf",
+      "series": "f1",
+      "season": 2026,
+      "event": "São Paulo Grand Prix",
+      "published": "2026-11-08T00:00:00Z",
+      "driver": "Lewis Hamilton",
+      "team": "Ferrari",
+      "carNumber": "44",
+      "penalty": "75-place grid drop",
+      "gridPlaces": 75,
+      "sanctionType": "grid-drop",
+      "status": "pending",
+      "reason": "Car 44 - 75 place grid penalty - Additional power unit elements have been used - Stewards' document nos. 37 & 43 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formu",
+      "documentTitle": "Doc 51 - Provisional Starting Grid Published on 08.11.26 00:01 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_provisional_starting_grid.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+    },
+    {
+      "id": "2026|São Paulo Grand Prix|63|5-place grid drop|https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_provisional_starting_grid.pdf",
+      "series": "f1",
+      "season": 2026,
+      "event": "São Paulo Grand Prix",
+      "published": "2026-11-08T00:00:00Z",
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "carNumber": "63",
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
+      "sanctionType": "grid-drop",
+      "status": "pending",
+      "reason": "Car 63 - 5 place grid penalty - Additional power unit element has been used - Stewards' document no. 15 Cars 3 & 11 - 30 place grid penalties - Additional power unit elements have been used - Stewards' document nos. 33 & 39 Cars 16 - 10 place grid penalty - Additional power unit element h",
+      "documentTitle": "Doc 51 - Provisional Starting Grid Published on 08.11.26 00:01 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_provisional_starting_grid.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+    },
+    {
+      "id": "2026|São Paulo Grand Prix|11|10-place grid drop|https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_11_-_changes_to_pu_elements.pdf",
+      "series": "f1",
+      "season": 2026,
+      "event": "São Paulo Grand Prix",
+      "published": "2026-11-07T00:00:00Z",
+      "driver": "Sergio Pérez",
+      "team": "Cadillac F1 Team",
+      "carNumber": "11",
+      "penalty": "10-place grid drop",
+      "gridPlaces": 10,
+      "sanctionType": "grid-drop",
+      "status": "confirmed",
+      "reason": "hich the driver participates. Reason The penalty is imposed in accordance with Article B8.2.8a of the FIA F1 Regulations. The use of each additional element in this case carries a 10 grid place penalty therefore there is an accumulation of 30 places. Subject to",
+      "documentTitle": "Doc 39 - Infringement - Car 11 - Changes to PU elements Published on 07.11.26 17:31 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_11_-_changes_to_pu_elements.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+    },
+    {
+      "id": "2026|São Paulo Grand Prix|3|10-place grid drop|https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_3_-_changes_to_pu_elements.pdf",
+      "series": "f1",
+      "season": 2026,
+      "event": "São Paulo Grand Prix",
+      "published": "2026-11-07T00:00:00Z",
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "carNumber": "3",
+      "penalty": "10-place grid drop",
+      "gridPlaces": 10,
+      "sanctionType": "grid-drop",
+      "status": "confirmed",
+      "reason": "hich the driver participates. Reason The penalty is imposed in accordance with Article B8.2.8a of the FIA F1 Regulations. The use of each additional element in this case carries a 10 grid place penalty therefore there is an accumulation of 30 places. Subject to",
+      "documentTitle": "Doc 33 - Infringement - Car 3 - Changes to PU elements Published on 07.11.26 16:56 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_3_-_changes_to_pu_elements.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+    },
+    {
+      "id": "2026|São Paulo Grand Prix|44|5-place grid drop|https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_44_-_additional_changes_to_pu_elements.pdf",
+      "series": "f1",
+      "season": 2026,
+      "event": "São Paulo Grand Prix",
+      "published": "2026-11-07T00:00:00Z",
+      "driver": "Lewis Hamilton",
+      "team": "Ferrari",
+      "carNumber": "44",
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
+      "sanctionType": "grid-drop",
+      "status": "confirmed",
+      "reason": "h the driver participates. Reason The penalty is imposed in accordance with Article B8.2.8 of the FIA F1 Regulations. In this case, the use of the ICE additional element carries a 5 grid place penalty by virtue of Article B8.2.8b of the FIA F1 Regulations and the use of the TC, EXH, ES, PU-CE, MGU-K and PU-ANC additional elements carries a 10 grid place penalty by virtue of Article B8.2.8a of the FIA F1 Regulations. Therefore there is an accumulation of 65",
+      "documentTitle": "Doc 43 - Infringement - Car 44 - Additional changes to PU elements Published on 07.11.26 21:08 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_44_-_additional_changes_to_pu_elements.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
     },
     {
       "id": "historical-ce4f40e4819688815c67",
@@ -3152,6 +3203,36 @@
       "sourceType": "historical-dataset",
       "sourcePage": "https://github.com/j5t3313/F1_Penalties_Dashboard",
       "sourceExcelRow": 53
+    },
+    {
+      "id": "historical-e53d5fd15f091857832e",
+      "series": "f1",
+      "season": 2026,
+      "round": 20,
+      "event": "Brazil",
+      "date": "",
+      "published": "",
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "carNumber": "",
+      "session": "FP1",
+      "lap": null,
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
+      "sanctionType": "grid-drop",
+      "status": "confirmed",
+      "reason": "New power unit element(s) · Grid Penalty",
+      "allegation": "New power unit element(s)",
+      "outcome": "Grid Penalty",
+      "penaltyPoints": null,
+      "timePenaltySeconds": null,
+      "fine": null,
+      "stewards": "Nish Shetty, Loic Bacquelaine, Vitantonio Liuzzi, Felipe Maluhy",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_63_-_changes_to_pu_element.pdf",
+      "sourceTitle": "Historical FIA penalty compilation (MIT-licensed)",
+      "sourceType": "historical-dataset",
+      "sourcePage": "https://github.com/j5t3313/F1_Penalties_Dashboard",
+      "sourceExcelRow": 298
     },
     {
       "id": "historical-52885158be03d18a2217",
@@ -10910,8 +10991,8 @@
         2025,
         2026
       ],
-      "documentsScanned": 92,
-      "penaltyRecords": 5,
+      "documentsScanned": 80,
+      "penaltyRecords": 4,
       "sourcePages": [
         "https://www.fia.com/events/formula-2-championship/season-2017/fia-formula-2",
         "https://www.fia.com/events/formula-2-championship/season-2018/fia-formula-2",
@@ -10970,7 +11051,7 @@
     "url": "https://github.com/j5t3313/F1_Penalties_Dashboard",
     "license": "MIT",
     "licenseUrl": "https://github.com/j5t3313/F1_Penalties_Dashboard/blob/main/LICENSE",
-    "updatedAt": "2026-11-07T09:14:15Z",
+    "updatedAt": "2026-11-08T09:14:53Z",
     "coverage": {
       "2020": {
         "rowsRead": 139,
@@ -10997,11 +11078,11 @@
         "gridSanctionsImported": 48
       },
       "2026": {
-        "rowsRead": 296,
-        "gridSanctionsImported": 55
+        "rowsRead": 299,
+        "gridSanctionsImported": 56
       }
     },
-    "recordCount": 304
+    "recordCount": 305
   },
   "coverageYears": [
     2026,

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-07T09:16:13Z",
+  "updatedAt": "2026-11-08T09:17:10Z",
   "season": 2026,
   "nextRace": {
     "name": "Brazilian Grand Prix",
     "date": "2026-11-08",
     "round": "20"
   },
-  "sourceNewsUpdatedAt": "2026-11-07T09:14:06Z",
+  "sourceNewsUpdatedAt": "2026-11-08T09:14:31Z",
   "aiEnrichment": "local-structured-fallback",
   "teams": [
     {
