@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-08T09:17:10Z",
+  "updatedAt": "2026-11-09T09:43:25Z",
   "season": 2026,
   "nextRace": {
-    "name": "Brazilian Grand Prix",
-    "date": "2026-11-08",
-    "round": "20"
+    "name": "Las Vegas Grand Prix",
+    "date": "2026-11-22",
+    "round": "21"
   },
-  "sourceNewsUpdatedAt": "2026-11-08T09:14:31Z",
+  "sourceNewsUpdatedAt": "2026-11-09T09:36:46Z",
   "aiEnrichment": "local-structured-fallback",
   "teams": [
     {
@@ -57,21 +57,6 @@
           "detail": "McLaren has given their first impressions of its major upgrade package for the Brazil GP",
           "sourceTitle": "First impressions of McLaren’s big Brazil GP upgrade",
           "sourceUrl": "https://www.crash.net/f1/news/1109551/1/first-impressions-mclarens-big-brazil-gp-upgrades",
-          "sourceDate": "2026-11-06",
-          "sourceType": "media-report"
-        },
-        {
-          "id": "92eace47f7e0f8f2:McLaren",
-          "team": "McLaren",
-          "season": 2026,
-          "event": "",
-          "eventDate": "",
-          "components": [],
-          "status": "reported",
-          "statusLabel": "Reported by publisher",
-          "detail": "McLaren is the only team to bring upgrades for the Brazil Grand Prix, which features a concept for the 2027 Formula 1 season.",
-          "sourceTitle": "McLaren reveals major upgrade package for Brazil GP",
-          "sourceUrl": "https://www.crash.net/f1/news/1109390/1/mclaren-reveals-major-upgrade-package-brazil-gp",
           "sourceDate": "2026-11-06",
           "sourceType": "media-report"
         },
