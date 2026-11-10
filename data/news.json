@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T09:36:46Z",
+  "updatedAt": "2026-11-10T09:16:41Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,172 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "63aaad4da5b323a7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Mercedes considers plan to help George Russell beat Max Verstappen in F1 runner-up battle",
+      "summary": "Mercedes will aid George Russell's bid to reclaim P2 in the remaining three races of F1 2026.",
+      "link": "https://www.crash.net/f1/news/1110051/1/mercedes-considers-plan-help-george-russell-beat-max-verstappen-f1-runner-battle",
+      "published": "2026-11-09T16:47:55Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "f04f0edc93f596da",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "What's behind Piastri's split with Webber – and what it means for his F1 career",
+      "summary": "On the Monday after the Formula 1 Brazilian Grand Prix, Oscar Piastri and Mark Webber announced in a joint statement that the latter and Ann Neal would no longer manage the 25-year-old McLaren driver. The timing may come as a surprise – now rather than at the end of the season –…",
+      "link": "https://www.autosport.com/f1/news/whats-behind-piastris-split-with-webber-and-what-it-means-for-his-f1-career/10873410/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-09T15:53:07Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "McLaren"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "7c93188c1928cf1e",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "New Christian Horner details emerge from Red Bull F1 sacking",
+      "summary": "Christian Horner sheds new light on his Red Bull F1 sacking.",
+      "link": "https://www.crash.net/f1/news/1110048/1/new-christian-horner-details-emerge-red-bull-f1-sacking",
+      "published": "2026-11-09T15:22:19Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "c7cc6db1f8f752a7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "“Devastated” Lewis Hamilton seeks Ferrari answers after Brazil GP unravels",
+      "summary": "Lewis Hamilton left \"devastated\" after his race in Brazil unravelled following a positive start.",
+      "link": "https://www.crash.net/f1/news/1110043/1/devastated-lewis-hamilton-seeks-ferrari-answers-after-brazil-gp-unravels",
+      "published": "2026-11-09T13:50:47Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "fc4c7f2b4fd49dd7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Ferrari reveals reason for Lewis Hamilton Brazil GP struggles after stunning start",
+      "summary": "Lewis Hamilton's early struggles in Brazil have been explained by Ferrari.",
+      "link": "https://www.crash.net/f1/news/1110039/1/ferrari-reveals-reason-lewis-hamilton-struggles-after-stunning-start",
+      "published": "2026-11-09T11:57:53Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "ea9ba71a4118e68b",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "How the Racing Bulls pendulum is swinging back towards Lawson",
+      "summary": "When job security is in short supply, there's one solution for an Formula 1 driver. Be so good they can't ignore you. That's easier said than done, but it certainly seems to be what Liam Lawson has taken to heart as he battled for his future over the recent Americas triple-heade…",
+      "link": "https://www.autosport.com/f1/news/how-the-racing-bulls-pendulum-is-swinging-back-towards-lawson/10873320/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-09T11:54:39Z",
+      "source": "Autosport",
+      "category": "General",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Racing Bulls"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "6e119299d1eedb04",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen owns up to rare unseen error at Brazil GP",
+      "summary": "Max Verstappen admits he made a rare mistake at the start of the Sao Paulo Grand Prix.",
+      "link": "https://www.crash.net/f1/news/1110035/1/max-verstappen-owns-rare-unseen-error-brazil-gp",
+      "published": "2026-11-09T10:19:04Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "b86c42790b494fe4",
       "series": "f1",
@@ -1229,171 +1395,6 @@
         "driver-moves"
       ],
       "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "04198c144d95cbeb",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton, Charles Leclerc and Max Verstappen hit with Brazil GP grid penalties",
-      "summary": "Lewis Hamilton, Charles Leclerc and Max Verstappen will join George Russell in taking grid penalties in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109628/1/lewis-hamilton-and-max-verstappen-set-brazil-gp-grid-penalties",
-      "published": "2026-11-07T14:16:51Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "grid-penalty"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "968e168238c1d24f",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Ocon axing ‘surprised everybody at Haas’",
-      "summary": "Ayao Komatsu says “everybody was surprised” when he told the Haas squad that Esteban Ocon wouldn’t compete for the outfit in Formula 1’s Mexican Grand Prix. Ocon was dropped by Haas after a falling-out following Friday practice at Autodromo Hermanos Rodriguez. Despite widespread…",
-      "link": "https://www.autosport.com/f1/news/ayao-komatsu-esteban-ocon-axing-surprised-everybody-at-haas/10872457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T11:00:49Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Haas"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "14cd366de3968913",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton, Charles Leclerc Ferrari tension gives Toto Wolff “deja vu” after Mercedes escalation",
-      "summary": "Mercedes F1 boss Toto Wolff reveals the \"deja vu\" Ferrari's clashing drivers has given him.",
-      "link": "https://www.crash.net/f1/news/1109554/1/ferrari-driver-tension-gives-toto-wolff-deja-vu-after-mercedes-escalation",
-      "published": "2026-11-07T08:00:00Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes",
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "1d4421421d1a5eb5",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 debutant Rafael Camara penalised for ‘dangerous’ Charles Leclerc incident",
-      "summary": "Rafael Camara caused a \"clearly dangerous\" incident with Charles Leclerc on his F1 debut in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109553/1/f1-debutant-rafael-camara-penalised-dangerous-charles-leclerc-incident",
-      "published": "2026-11-06T22:46:28Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "6a13340586080ece",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Charles Leclerc claims Ferrari feud is “settled” after Lewis Hamilton talks",
-      "summary": "Charles Leclerc speaks out on his feud with Ferrari team-mate Lewis Hamilton.",
-      "link": "https://www.crash.net/f1/news/1109552/1/charles-leclerc-claims-ferrari-feud-settled-after-lewis-hamilton-talks",
-      "published": "2026-11-06T22:12:10Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "67fa0263f69db667",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "First impressions of McLaren’s big Brazil GP upgrade",
-      "summary": "McLaren has given their first impressions of its major upgrade package for the Brazil GP",
-      "link": "https://www.crash.net/f1/news/1109551/1/first-impressions-mclarens-big-brazil-gp-upgrades",
-      "published": "2026-11-06T21:45:00Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "technical-upgrade"
-      ],
-      "teams": [
-        "McLaren"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": true,
-      "upgradeStatus": "unspecified",
-      "gridPenaltyMentioned": false,
-      "importance": "high",
-      "aiTagged": false
-    },
-    {
-      "id": "b93358dabfa476fb",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Haas F1 boss opens up on ‘professional’ decision to axe Esteban Ocon",
-      "summary": "Ayao Komatsu explains his decision to drop Esteban Ocon from Haas' F1 driver line-up.",
-      "link": "https://www.crash.net/f1/news/1109550/1/haas-f1-boss-opens-professional-decision-axe-esteban-ocon",
-      "published": "2026-11-06T21:31:27Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Haas"
-      ],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,

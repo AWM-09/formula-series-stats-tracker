@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-09T09:43:25Z",
+  "updatedAt": "2026-11-10T09:18:41Z",
   "season": 2026,
   "nextRace": {
     "name": "Las Vegas Grand Prix",
     "date": "2026-11-22",
     "round": "21"
   },
-  "sourceNewsUpdatedAt": "2026-11-09T09:36:46Z",
+  "sourceNewsUpdatedAt": "2026-11-10T09:16:41Z",
   "aiEnrichment": "local-structured-fallback",
   "teams": [
     {
@@ -45,21 +45,6 @@
         ]
       },
       "reportedUpdates": [
-        {
-          "id": "67fa0263f69db667:McLaren",
-          "team": "McLaren",
-          "season": 2026,
-          "event": "",
-          "eventDate": "",
-          "components": [],
-          "status": "reported",
-          "statusLabel": "Reported by publisher",
-          "detail": "McLaren has given their first impressions of its major upgrade package for the Brazil GP",
-          "sourceTitle": "First impressions of McLaren’s big Brazil GP upgrade",
-          "sourceUrl": "https://www.crash.net/f1/news/1109551/1/first-impressions-mclarens-big-brazil-gp-upgrades",
-          "sourceDate": "2026-11-06",
-          "sourceType": "media-report"
-        },
         {
           "id": "mclaren-sao-paulo-2026-team-preview",
           "team": "McLaren",
