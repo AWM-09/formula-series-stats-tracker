@@ -35,12 +35,16 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
         id: fetch_data
         continue-on-error: true
+        env:
+          HISTORICAL_QUALIFYING_BACKFILL_ONLY: ${{ github.event_name == 'push' }}
         run: node scripts/fetch-f1-data.js
       - name: Set up Python for F2/F3 imports
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Install F2/F3 and circuit import dependencies
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           python -m pip install --disable-pip-version-check beautifulsoup4 pyyaml pypdf openpyxl
           python -m py_compile scripts/fetch-f2-f3-data.py scripts/fetch-f1-practice.py scripts/fetch-news.py scripts/fetch-circuit-data.py scripts/fetch-fia-grid-penalties.py scripts/import-historical-grid-penalties.py scripts/import-series-grid-penalties.py scripts/build-f1-upgrade-watch.py
@@ -58,6 +62,7 @@ jobs:
         continue-on-error: true
         run: python scripts/fetch-f2-f3-data.py
       - name: Refresh F1, F2 and F3 news snapshot
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         id: fetch_news
         continue-on-error: true
         env:
@@ -65,22 +70,27 @@ jobs:
           OPENAI_MODEL: gpt-6-luna
         run: python scripts/fetch-news.py
       - name: Import verified circuit layouts and track specifications
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         id: fetch_circuits
         continue-on-error: true
         run: python scripts/fetch-circuit-data.py
       - name: Import official FIA grid-penalty documents
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         id: fetch_grid_penalties
         continue-on-error: true
         run: python scripts/fetch-fia-grid-penalties.py
       - name: Import historical F1 grid penalties (2020 onward)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         id: fetch_grid_history
         continue-on-error: true
         run: python scripts/import-historical-grid-penalties.py
       - name: Import official F2 and F3 grid penalties
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         id: fetch_f2_f3_grid_penalties
         continue-on-error: true
         run: python scripts/import-series-grid-penalties.py
       - name: Build F1 team upgrade watch
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         id: build_upgrade_watch
         continue-on-error: true
         run: python scripts/build-f1-upgrade-watch.py
