@@ -1233,8 +1233,8 @@ function renderDriverPerformanceStats(profile,series,career){
     ?qualifying.length+" recorded qualifying classifications across "+qualifyingYears.length+" of "+profileSeasons+" seasons"+(qualifyingYears.length?" ("+qualifyingYears[0]+"–"+qualifyingYears[qualifyingYears.length-1]+")":"")+"."
     :"No qualifying classifications are stored for this driver in the current archive.";
   const qualifyingNote=qualifying.length
-    ?"Only numeric qualifying positions in the stored session records are counted. Missing historical sessions are not treated as zero."
-    :"This is missing source data, not evidence that the driver never qualified.";
+    ?"The connected qualifying archive supports 2003 onward. Numeric positions are counted only where the source supplies a classification; missing records are not treated as zero."
+    :"The connected qualifying archive supports 2003 onward. No qualifying classifications are stored for this driver in the available source; this is missing data, not evidence that the driver never qualified.";
 
   const gridGroups=new Map();
   const circuitGroups=new Map();
