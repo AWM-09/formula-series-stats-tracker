@@ -468,3 +468,23 @@ body{background:radial-gradient(ellipse at 82% -12%,#123044 0,transparent 38%),v
 @media(max-width:1120px){.calendar-month-layout{grid-template-columns:1fr}.calendar-agenda-list{max-height:none;grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.calendar-toolbar{align-items:stretch;flex-direction:column}.calendar-toolbar-filters{align-items:stretch;flex-direction:column}.calendar-control-field{width:100%}.calendar-search-field{max-width:none}.calendar-view-switch{align-self:flex-start}.calendar-event-grid{grid-template-columns:1fr}.calendar-agenda-list{grid-template-columns:1fr}}
 @media(max-width:520px){.calendar-month-panel,.calendar-agenda-panel,.calendar-list-view,.calendar-undated-panel{padding:9px}.calendar-day{min-height:88px;padding:5px 3px}.calendar-weekday{font-size:7px;padding:7px 2px}.calendar-day-number{font-size:9px;margin-bottom:4px}.calendar-day-event{padding:4px 3px}.calendar-day-event strong{font-size:7px}.calendar-day-event small{display:none}.calendar-day-event>span{font-size:6px}.calendar-month-bar h2{font-size:16px}.calendar-agenda-heading h2,.calendar-list-heading h2{font-size:16px}.calendar-legend{font-size:8px}}
+
+
+/* Driver profile: qualifying positions and race-win breakdowns */
+.driver-performance-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:13px;margin:14px 0}
+.driver-performance-grid>.panel{min-width:0;margin:0}
+.driver-win-breakdown{display:grid;gap:16px}
+.driver-win-breakdown section{min-width:0}
+.driver-win-breakdown h3{margin:0 0 9px;font-size:12px;letter-spacing:-.02em}
+.driver-breakdown-cell{min-width:112px}
+.driver-breakdown-button{border:1px solid #345b68;border-radius:6px;background:#142d38;color:#a6ead5;padding:6px 8px;font-size:9px;font-weight:900;white-space:nowrap}
+.driver-breakdown-button:hover{border-color:var(--red);background:#1b3a45;color:#fff}
+.driver-breakdown-content{margin-top:7px;padding:8px;border:1px solid #2b4355;border-radius:7px;background:#0b1823;min-width:230px;max-width:390px}
+.driver-breakdown-race-list{display:grid;gap:8px;max-height:260px;overflow:auto}
+.driver-breakdown-race{display:grid;gap:2px;padding-bottom:7px;border-bottom:1px solid #233747}
+.driver-breakdown-race:last-child{padding-bottom:0;border-bottom:0}
+.driver-breakdown-race .person-link{font-size:10px;font-weight:850}
+.driver-breakdown-race small{font-size:8px;line-height:1.45;color:var(--muted)}
+.driver-breakdown-note{margin:10px 1px 0;font-size:9px;line-height:1.6;color:var(--muted)}
+@media(max-width:1050px){.driver-performance-grid{grid-template-columns:1fr}.driver-win-breakdown{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.driver-win-breakdown{grid-template-columns:1fr}.driver-breakdown-content{min-width:200px;max-width:min(78vw,360px)}.driver-breakdown-cell{min-width:98px}}
