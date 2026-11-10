@@ -118,6 +118,7 @@ async function renderRoute(force=false){
   if(state.countdownTimer){clearInterval(state.countdownTimer);state.countdownTimer=null;}
   state.route=routeParse();
   const route=state.route[0]||"dashboard";
+  if(route==="race"&&state.route[4]==="session"&&state.route[5]&&!state.sessionFilter)state.sessionFilter=state.route[5];
   if(["driver","team"].includes(route)&&state.route[1]&&SERIES[state.route[1]]){
     state.series=state.route[1];if(state.route[2])state.season=Math.max(SERIES[state.series].first,Math.min(CURRENT_YEAR,state.season));
   }else if(route==="race"&&SERIES[state.route[1]]){
@@ -1158,6 +1159,128 @@ async function renderDrivers(){
   return pageHead("DRIVER DATABASE",seriesLabel(state.series)+" drivers","Search drivers, open their profiles and explore each season of their career.")+
     "<div class='panel'><div class='search-row'><input class='search-input' id='entitySearch' type='search' placeholder='Search driver, nationality or code…'><span class='result-count'>"+idx.drivers.length+" DRIVER PROFILES</span></div><div class='card-grid' id='entityList'>"+cards+"</div></div>";
 }
+function driverUniqueSessionRecords(records){
+  const seen=new Set();
+  return (records||[]).filter(record=>{
+    const key=[record.season,record.round,record.session,record.position].join("|");
+    if(seen.has(key))return false;
+    seen.add(key);return true;
+  });
+}
+function driverQualifyingRecords(profile){
+  return driverUniqueSessionRecords((profile.sessionResults||[]).filter(record=>
+    /qualifying|shootout/i.test(String(record.session||""))&&
+    record.position!==null&&record.position!==undefined&&
+    Number.isInteger(Number(record.position))&&Number(record.position)>0
+  )).sort((a,b)=>
+    (Number(a.season)||0)-(Number(b.season)||0)||
+    (Number(a.round)||0)-(Number(b.round)||0)||
+    String(a.session||"").localeCompare(String(b.session||""))
+  );
+}
+function driverWinningRecords(profile){
+  return driverUniqueSessionRecords((profile.results||[]).filter(record=>
+    seriesRaceSession(record.session||"Race")&&Number(record.position)===1
+  )).sort((a,b)=>
+    (Number(a.season)||0)-(Number(b.season)||0)||
+    (Number(a.round)||0)-(Number(b.round)||0)||
+    String(a.session||"").localeCompare(String(b.session||""))
+  );
+}
+function raceSessionHref(series,year,round,session){
+  return routeHref(["race",series,year,round,"session",session]);
+}
+function driverBreakdownRaces(records,series,kind){
+  if(!records.length)return "<div class='secondary'>No individual races are available for this entry.</div>";
+  return "<div class='driver-breakdown-race-list'>"+records.slice().reverse().map(record=>{
+    const event=record.raceName||("Round "+record.round);
+    const circuit=record.circuitName||"Circuit not supplied";
+    const session=record.session||"Race";
+    const extra=kind==="qualifying"
+      ?"Qualified P"+record.position
+      :(record.grid!==null&&record.grid!==undefined&&Number.isFinite(Number(record.grid))&&Number(record.grid)>0
+        ?"Started P"+Number(record.grid)
+        :"Starting grid not supplied");
+    return "<div class='driver-breakdown-race'><a class='person-link' href='"+raceSessionHref(series,record.season,record.round,session)+"'>"+esc(event)+" ↗</a>"+
+      "<small>"+esc(record.season)+" · "+esc(session)+" · "+esc(circuit)+" · "+esc(niceDate(record.date))+" · "+esc(extra)+"</small></div>";
+  }).join("")+"</div>";
+}
+function driverBreakdownCell(records,series,kind,index){
+  if(!records.length)return "<span class='secondary'>—</span>";
+  const target="driver-breakdown-"+kind+"-"+index;
+  return "<div class='driver-breakdown-cell'><button type='button' class='driver-breakdown-button' data-driver-breakdown-toggle='"+target+"' aria-expanded='false'>See which races</button>"+
+    "<div class='driver-breakdown-content hidden' id='"+target+"'>"+driverBreakdownRaces(records,series,kind)+"</div></div>";
+}
+function renderDriverPerformanceStats(profile,series,career){
+  const qualifying=driverQualifyingRecords(profile);
+  const wins=driverWinningRecords(profile);
+  const qualifyingGroups=new Map();
+  qualifying.forEach(record=>{
+    const position=Number(record.position);
+    if(!qualifyingGroups.has(position))qualifyingGroups.set(position,[]);
+    qualifyingGroups.get(position).push(record);
+  });
+  const qualifyingRows=[...qualifyingGroups.entries()].sort((a,b)=>a[0]-b[0]).map(([position,records],index)=>
+    "<tr><td class='rank'>P"+position+"</td><td class='num'>"+records.length+"</td><td>"+driverBreakdownCell(records,series,"qualifying",index)+"</td></tr>"
+  );
+  const qualifyingYears=[...new Set(qualifying.map(record=>Number(record.season)).filter(Number.isFinite))].sort((a,b)=>a-b);
+  const profileSeasons=(profile.seasons||[]).length;
+  const qualifyingCoverage=qualifying.length
+    ?qualifying.length+" recorded qualifying classifications across "+qualifyingYears.length+" of "+profileSeasons+" seasons"+(qualifyingYears.length?" ("+qualifyingYears[0]+"–"+qualifyingYears[qualifyingYears.length-1]+")":"")+"."
+    :"No qualifying classifications are stored for this driver in the current archive.";
+  const qualifyingNote=qualifying.length
+    ?"Only numeric qualifying positions in the stored session records are counted. Missing historical sessions are not treated as zero."
+    :"This is missing source data, not evidence that the driver never qualified.";
+
+  const gridGroups=new Map();
+  const circuitGroups=new Map();
+  wins.forEach(record=>{
+    const gridValue=record.grid!==null&&record.grid!==undefined&&Number.isInteger(Number(record.grid))&&Number(record.grid)>0
+      ?String(Number(record.grid)):"unknown";
+    if(!gridGroups.has(gridValue))gridGroups.set(gridValue,[]);
+    gridGroups.get(gridValue).push(record);
+    const circuitKey=String(record.circuitId||norm(record.circuitName||record.raceName)||"unknown");
+    if(!circuitGroups.has(circuitKey))circuitGroups.set(circuitKey,[]);
+    circuitGroups.get(circuitKey).push(record);
+  });
+  const gridEntries=[...gridGroups.entries()].sort((a,b)=>{
+    if(a[0]==="unknown")return 1;if(b[0]==="unknown")return -1;
+    return Number(a[0])-Number(b[0]);
+  });
+  const circuitEntries=[...circuitGroups.entries()].sort((a,b)=>
+    b[1].length-a[1].length||
+    String(a[1][0].circuitName||a[1][0].raceName).localeCompare(String(b[1][0].circuitName||b[1][0].raceName))
+  );
+  const gridRows=gridEntries.map(([grid,records],index)=>
+    "<tr><td>"+(grid==="unknown"?"Not recorded":"P"+grid)+"</td><td class='num'>"+records.length+"</td><td>"+driverBreakdownCell(records,series,"win-grid",index)+"</td></tr>"
+  );
+  const circuitRows=circuitEntries.map(([key,records],index)=>
+    "<tr><td>"+esc(records[0].circuitName||records[0].raceName||"Circuit not supplied")+"</td><td class='num'>"+records.length+"</td><td>"+driverBreakdownCell(records,series,"win-circuit",index)+"</td></tr>"
+  );
+  const summaryWins=career.wins===null||career.wins===undefined?null:Number(career.wins);
+  let winsNote=career.winsComplete
+    ?"The profile archive marks the career win total as complete."
+    :"These are wins with an individual first-place classification in the available archive; historical coverage may be incomplete.";
+  if(summaryWins!==null&&summaryWins!==wins.length){
+    winsNote+=" The profile summary reports "+summaryWins+" career wins, while "+wins.length+" individual winning classifications are available to list.";
+  }
+  if(!wins.length&&summaryWins>0){
+    winsNote+=" The summary has a win total, but the individual winning race records are not available.";
+  }
+  if(series!=="f1")winsNote+=" Sprint and feature-race wins are included where they are classified as championship race sessions.";
+
+  const qualifyingBody=table(["QUALIFYING POSITION","TIMES","RACES"],qualifyingRows)+
+    "<p class='driver-breakdown-note'>"+esc(qualifyingCoverage)+" "+esc(qualifyingNote)+"</p>";
+  const winsBody="<div class='driver-win-breakdown'>"+
+    "<section><h3>Wins by starting grid position</h3>"+table(["STARTED FROM","WINS","RACES"],gridRows)+"</section>"+
+    "<section><h3>Wins by circuit</h3>"+table(["CIRCUIT","WINS","RACES"],circuitRows)+"</section>"+
+    "</div><p class='driver-breakdown-note'><strong>"+wins.length+" individual winning classifications in the stored results.</strong> "+esc(winsNote)+"</p>";
+  return "<div class='driver-performance-grid'>"+
+    panel("QUALIFYING POSITION HISTORY","How often each position appears",qualifyingBody,"<span class='result-count'>"+qualifying.length+" RECORDED SESSIONS</span>")+
+    panel("RACE WIN BREAKDOWN","Where the victories came from",winsBody,"<span class='result-count'>"+wins.length+" RECORDED WINS</span>")+
+    "</div>";
+}
+
 async function renderDriverProfile(series,id){
   if(!SERIES[series]||!id)throw new Error("Driver profile link is invalid.");
   const p=await getProfile(series,"drivers",id);
@@ -1174,6 +1297,7 @@ async function renderDriverProfile(series,id){
     "<div class='grid-2'>"+panel("CAREER TIMELINE","Season-by-season performance","<div class='season-list'>"+(timeline||"<div class='empty-state'>No season history.</div>")+"</div>")+panel("CAREER OVERVIEW","Profile details","<div class='fact-grid'>"+[
       ["Seasons competed",c.seasons],["First season",c.firstSeason||"—"],["Last season",c.lastSeason||"—"],["Classified results",c.classifiedResults],["Fastest laps",c.fastestLaps==null?"—":c.fastestLaps+(c.fastestLapsComplete?"":"*")],["Pole starts",c.poleStarts==null?"—":c.poleStarts+(c.poleStartsComplete?"":"*")]
     ].map(x=>"<div class='fact'><span>"+esc(x[0])+"</span><strong>"+esc(number(x[1]))+"</strong></div>").join("")+"</div><p class='secondary'>* Available-source total. Pole starts count cars that started from grid position one; this is not a substitute for an official qualifying pole record. Historical points systems also changed over time.</p>")+"</div>"+
+    renderDriverPerformanceStats(p,series,c)+
     panel("RACE HISTORY","Most recent indexed results",table(["SEASON","EVENT / SESSION","CIRCUIT","POS","CONSTRUCTOR","POINTS"],resultRows),"<span class='secondary'>"+results.length+" result rows in profile archive</span>");
 }
 async function renderTeams(){
@@ -1859,6 +1983,13 @@ async function renderDataCentre(){
     "<div class='grid-2'>"+panel("KNOWN GAPS","Metrics not yet connected","<ul class='secondary'><li>Full historical qualifying and complete F2/F3 classifications for every season.</li><li>Official all-time circuit lap records, independently verified across eras.</li><li>Layout artwork for venues outside the connected F1 circuit reference set.</li><li>Pit stops, tyre strategy, detailed telemetry and lap charts where a verified feed is not imported.</li><li>Prediction-model back-testing and calibrated probabilities.</li></ul>")+panel("DATA INTEGRITY","How to interpret the numbers","<p class='secondary'>A blank field means the source did not provide a value; it is not zero. Circuit distance totals are calculated from stored winning-lap counts and the matching season layout length. Fastest laps captured from the archive are not presented as official circuit records.</p><p class='secondary'>Watchlists are stored in this browser only. Career totals and comparisons show the available source coverage and are not automatically complete all-time totals.</p>")+"</div>";
 }
 function bindDynamicEvents(){
+  document.querySelectorAll("[data-driver-breakdown-toggle]").forEach(button=>button.addEventListener("click",()=>{
+    const target=$(button.dataset.driverBreakdownToggle);
+    if(!target)return;
+    const isHidden=target.classList.toggle("hidden");
+    button.setAttribute("aria-expanded",String(!isHidden));
+    button.textContent=isHidden?"See which races":"Hide races";
+  }));
   $("calendarSessionFilter")?.addEventListener("change",e=>{
     state.calendarSessionFilter=e.target.value;
     renderRoute();
