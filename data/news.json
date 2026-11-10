@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T09:16:41Z",
+  "updatedAt": "2026-11-10T21:13:19Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,307 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "5ce78e47f4cac221",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "David Coulthard’s urgent plea to Lando Norris after taking firework to the face on Brazil GP podium",
+      "summary": "David Coulthard has warned that Lando Norris risks serious injury after the McLaren driver endured two frightening moments during his Brazil Grand Prix celebrations",
+      "link": "https://www.crash.net/f1/news/1110068/1/david-coulthards-urgent-plea-lando-norris-after-taking-firework-face-brazil-gp",
+      "published": "2026-11-10T17:00:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "McLaren"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "f2d392e497dbabd4",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Daniel Ricciardo hails Max Verstappen as ‘one of the best ever’",
+      "summary": "Daniel Ricciardo believes Max Verstappen has cemented his place among Formula 1's all-time greats following his continued success with Red Bull",
+      "link": "https://www.crash.net/f1/news/1110066/1/daniel-ricciardo-hails-max-verstappen-one-best-ever",
+      "published": "2026-11-10T15:31:24Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "8e72cab9908dbb2e",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Red Bull boss praises Liam Lawson but refuses to weigh in on 2027 decision",
+      "summary": "Laurent Mekies has praised Lawson's impressive recent form but insists the decision over his future rests with Racing Bulls",
+      "link": "https://www.crash.net/f1/news/1110063/1/red-bull-boss-praises-liam-lawson-refuses-weigh-2027-decision",
+      "published": "2026-11-10T15:30:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing",
+        "Racing Bulls"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "647cef2b69e9e644",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 delivers update on Qatar and Abu Dhabi GPs as Imola ruled out",
+      "summary": "Formula 1 has reiterated its commitment to racing in Qatar and Abu Dhabi despite previously considering an alternative venue",
+      "link": "https://www.crash.net/f1/news/1110062/1/f1-delivers-update-qatar-and-abu-dhabi-gps-imola-ruled-out",
+      "published": "2026-11-10T14:55:00Z",
+      "source": "Crash.net",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "d84dc5a1b22fa62c",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 2026 calendar update: Imola off the table, no plan B if Iran war escalates",
+      "summary": "The Qatar and Abu Dhabi grands prix which will conclude Formula 1’s 2026 season are set to proceed as planned, provided there is no dramatic escalation of the Iran war. The Middle Eastern conflict, which started in late February as the United States and Israel launched strikes o…",
+      "link": "https://www.autosport.com/f1/news/f1-2026-calendar-update-imola-off-the-table-no-plan-b-if-iran-war-escalates/10873643/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-10T14:52:26Z",
+      "source": "Autosport",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "f033c5c62f1b17a2",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Esteban Ocon releases fresh statement amid uncertainty over F1 future",
+      "summary": "Esteban Ocon has spoken out again following his Haas departure, with the Frenchman currently without a seat for the 2027 Formula 1 season.",
+      "link": "https://www.crash.net/f1/news/1110061/1/esteban-ocon-releases-fresh-statement-amid-uncertainty-over-f1-future",
+      "published": "2026-11-10T13:45:00Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Haas"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "5db924a08569975e",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen makes bold ‘I’d quit’ claim over F1's best driver debate",
+      "summary": "Max Verstappen remains confident in his abilities despite missing out on the Formula 1 drivers' title for the second consecutive season",
+      "link": "https://www.crash.net/f1/news/1110060/1/max-verstappen-makes-bold-id-quit-claim-over-f1s-best-driver-debate",
+      "published": "2026-11-10T12:55:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "9ea3a2a70b75a635",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "FIA announces results of final 2026 F1 ADUO engine review",
+      "summary": "The FIA has concluded its final engine performance assessment of 2026, with manufacturers now looking ahead to next season.",
+      "link": "https://www.crash.net/f1/news/1110058/1/fia-announces-results-final-2026-f1-aduo-engine-review",
+      "published": "2026-11-10T12:10:00Z",
+      "source": "Crash.net",
+      "category": "Technical & rules",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "e00dcbe00cda8bd7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "FIA reveals ADUO results in final review of 2026 F1 season",
+      "summary": "The FIA has announced its final Additional Development and Upgrade Opportunities (ADUO) results for the 2026 Formula 1 season, with no changes granted for any of the power unit manufacturers. From this season, the FIA installed a mechanism in the F1 regulations which allowed pow…",
+      "link": "https://www.autosport.com/f1/news/fia-reveals-aduo-results-in-final-review-of-2026-f1-season/10873566/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-10T11:45:39Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "technical-upgrade",
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "unspecified",
+      "gridPenaltyMentioned": false,
+      "importance": "medium",
+      "aiTagged": false
+    },
+    {
+      "id": "f2529d0d1c317dc9",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton travels to Egypt to visit Gaza humanitarian aid facilities",
+      "summary": "Lewis Hamilton has arrived in North Sinai, where he will learn more about the humanitarian operations supporting Palestine",
+      "link": "https://www.crash.net/f1/news/1110057/1/lewis-hamilton-travels-egypt-visit-gaza-humanitarian-aid-facilities",
+      "published": "2026-11-10T11:35:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "0af8a4f3a5bd04fc",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "FIA announces ADUO results following third review periods of 2026",
+      "summary": "Sport news Additional Development and Upgrade Opportunities (ADUO) is a mechanism within the 2026 Formula 1 Technical Regulations (Article C4) allowing Power Unit manufacturers whose Internal Combustion Engine (ICE) performance falls at least 2% below the best-performing ICE acr…",
+      "link": "https://www.fia.com/news/fia-announces-aduo-results-following-third-review-periods-2026",
+      "published": "2026-11-10T10:50:00Z",
+      "source": "FIA",
+      "category": "Technical & rules",
+      "topicTags": [
+        "technical-upgrade",
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "unspecified",
+      "gridPenaltyMentioned": false,
+      "importance": "medium",
+      "aiTagged": false
+    },
+    {
+      "id": "f6729e6c979c90e6",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Mercedes to investigate ‘very strange’ car behaviour after Brazil GP",
+      "summary": "The Mercedes team principal believes an overlooked issue may have contributed to George Russell and Kimi Antonelli's struggles at Interlagos",
+      "link": "https://www.crash.net/f1/news/1110055/1/mercedes-investigate-very-strange-car-behaviour-after-brazil-gp",
+      "published": "2026-11-10T10:40:00Z",
+      "source": "Crash.net",
+      "category": "Team news",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "64af99a55d137227",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Red Bull boss admits Max Verstappen is ‘beating the sim’ after Brazil GP comeback",
+      "summary": "Red Bull's team principal admitted that even the team's expectations were exceeded by Max Verstappen's recovery drive in Brazil",
+      "link": "https://www.crash.net/f1/news/1110053/1/red-bull-boss-admits-max-verstappen-beating-sim-after-brazil-gp-comeback",
+      "published": "2026-11-10T09:50:00Z",
+      "source": "Crash.net",
+      "category": "Team news",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "63aaad4da5b323a7",
       "series": "f1",
@@ -1095,304 +1396,6 @@
       "category": "Governance & calendar",
       "topicTags": [
         "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "3c6c4a0989c66b1e",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazil GP qualifying red-flagged after heavy rain storm",
-      "summary": "F1 qualifying in Brazil has been red-flagged due to torrential rain.",
-      "link": "https://www.crash.net/f1/news/1109753/1/f1-brazil-gp-qualifying-red-flagged-after-heavy-rain-storm",
-      "published": "2026-11-07T18:06:13Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d78076b27b3c2b3e",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Hamilton set for new penalty, will start F1 Brazilian GP from back of grid",
-      "summary": "Lewis Hamilton will have to start Formula 1’s Brazilian Grand Prix from the back of the grid, Ferrari has announced. Hamilton was given his fifth internal combustion engine of the season on Saturday morning, landing a 10-place grid drop as he was exceeding his quota for the firs…",
-      "link": "https://www.autosport.com/f1/news/hamilton-set-for-new-penalty-will-start-f1-brazilian-gp-from-back-of-grid/10872645/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T17:32:44Z",
-      "source": "Autosport",
-      "category": "Technical & rules",
-      "topicTags": [
-        "grid-penalty"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "b7ae4db4fc9de1ed",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton joins Max Verstappen at back of Brazil GP grid after Ferrari engine penalty drama",
-      "summary": "Lewis Hamilton will start from the back of the grid in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109740/1/lewis-hamilton-joins-max-verstappen-back-brazil-grid-after-engine-drama",
-      "published": "2026-11-07T17:29:39Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "grid-penalty",
-        "driver-moves"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "dfe066149a652c6b",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazil Grand Prix qualifying as it happened",
-      "summary": "Live updates from the F1 qualifying session at the Sao Paulo Grand Prix in Brazil.",
-      "link": "https://www.crash.net/f1/live/1044270/f1-brazil-live-updates-final-practice-sao-paulo",
-      "published": "2026-11-07T17:00:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "technical-upgrade"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "unspecified",
-      "gridPenaltyMentioned": false,
-      "importance": "medium",
-      "aiTagged": false
-    },
-    {
-      "id": "b4b104cad4c561a3",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Ralf Schumacher’s brutal verdict on Colton Herta: “Has no place in F1”",
-      "summary": "Colton Herta has been blasted by Ralf Schumacher, who believes he is not good enough for F1.",
-      "link": "https://www.crash.net/f1/news/1109730/1/ralf-schumachers-brutal-verdict-colton-herta-has-no-place-f1",
-      "published": "2026-11-07T16:51:00Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "07e43fb6f4b22f35",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 – Verstappen edges Antonelli in tight final practice in São Paulo but grid penalties bite",
-      "summary": "Sport news Max Verstappen topped the timesheets in Free Practice 3 at the São Paulo Grand Prix, narrowly beating Mercedes’ Kimi Antonelli and McLaren’s Lando Norris but with a number of leading drivers facing power unit-related grid penalties qualifying at the Autódromo José Car…",
-      "link": "https://www.fia.com/news/f1-verstappen-edges-antonelli-tight-final-practice-sao-paulo-grid-penalties-bite",
-      "published": "2026-11-07T16:48:00Z",
-      "source": "FIA",
-      "category": "Technical & rules",
-      "topicTags": [
-        "grid-penalty"
-      ],
-      "teams": [
-        "McLaren",
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f5113f67dc5e5462",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Sergio Perez faces investigation for unusual incident in Brazil GP practice",
-      "summary": "Sergio Perez could be in trouble with F1's stewards after a bizarre incident in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109688/1/sergio-perez-faces-investigation-unusual-incident-brazil-gp-practice",
-      "published": "2026-11-07T16:17:41Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "e259d2dd41c67f07",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen tops Brazil GP FP3 as Lewis Hamilton suffers engine trouble",
-      "summary": "Max Verstappen set the pace in final practice at the Sao Paulo Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1109657/1/max-verstappen-tops-brazil-gp-fp3-lewis-hamilton-suffers-engine-trouble",
-      "published": "2026-11-07T15:43:03Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7a511212e94ff9a4",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazil Grand Prix: Full final practice results",
-      "summary": "Full results from the final practice session at the 2026 F1 Sao Paulo Grand Prix in Brazil.",
-      "link": "https://www.crash.net/f1/results/1109660/1/f1-brazil-grand-prix-full-final-practice-results",
-      "published": "2026-11-07T15:38:48Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "cc9bbf1868862053",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazilian GP: Verstappen edges out Antonelli to top FP3 as Hamilton hits mechanical trouble",
-      "summary": "Max Verstappen set the fastest time in Free Practice 3 at Formula 1’s Brazilian Grand Prix, narrowly edging out Kimi Antonelli as Lewis Hamilton’s Ferrari suffered a mechanical issue. The impending threat of rain meant all drivers rushed onto the track – especially Nico Hulkenbe…",
-      "link": "https://www.autosport.com/f1/news/f1-brazilian-gp-verstappen-edges-out-antonelli-to-top-fp3-as-hamilton-hits-mechanical-trouble/10872582/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T15:37:40Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "6404e90ec2483b54",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Hamilton, Leclerc and Verstappen hit with F1 grid penalties for Brazilian GP",
-      "summary": "Lewis Hamilton, Charles Leclerc and Max Verstappen will all serve grid penalties for engine changes at Formula 1's Brazilian Grand Prix. Following a tough set of Friday practice sessions, Ferrari has decided to perform a planned engine change on both Hamilton and Leclerc’s SF-26…",
-      "link": "https://www.autosport.com/f1/news/lewis-hamilton-charles-leclerc-and-max-verstappen-hit-with-f1-grid-penalties-for-brazilian-gp/10872564/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T15:05:04Z",
-      "source": "Autosport",
-      "category": "Technical & rules",
-      "topicTags": [
-        "grid-penalty"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "59de85e25b5dae9f",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Iconic F1 track secures its future with bumper new deal",
-      "summary": "F1 will continue to race in Brazil through to 2035.",
-      "link": "https://www.crash.net/f1/news/1109632/1/iconic-f1-track-secures-its-future-bumper-new-deal",
-      "published": "2026-11-07T14:34:25Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "075053b4b7e89a0c",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 retains Brazilian GP until 2035 with fresh Sao Paulo deal",
-      "summary": "The Brazilian Grand Prix will remain on the Formula 1 calendar until at least 2035 after stakeholders agreed a five-year contract extension. Officially dubbed the Sao Paulo Grand Prix to reflect the financial contribution of the city council, the Brazil race last signed a contra…",
-      "link": "https://www.autosport.com/f1/news/f1-retains-brazilian-gp-until-2035-with-fresh-sao-paulo-deal/10872539/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T14:31:52Z",
-      "source": "Autosport",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
       ],
       "teams": [],
       "drivers": [],
