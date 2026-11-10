@@ -69,11 +69,53 @@ async function standings(year,type){
  if(!lists||!lists.length)return [];
  return lists[0][type==="driverStandings"?"DriverStandings":"ConstructorStandings"]||[];
 }
+async function backfillHistoricalQualifying(year,file,data){
+ const qualifying=await sessionResultsFor(year,"qualifying","QualifyingResults","Qualifying");
+ const totalRows=Array.from(qualifying.values()).reduce((sum,rows)=>sum+rows.length,0);
+ if(!totalRows)throw new Error("Jolpica returned no qualifying classifications for "+year+"; refusing to mark the season complete.");
+ const races=Array.isArray(data.races)?data.races:[];
+ const byRound=new Map(races.map(race=>[String(race.round),race]));
+ let added=0,alreadyPresent=0,unmatched=0;
+ for(const [round,rows] of qualifying){
+  const event=byRound.get(String(round));
+  if(!event){unmatched+=rows.length;continue;}
+  if(!Array.isArray(event.Results))event.Results=[];
+  if(event.Results.some(result=>String(result.session||"").toLowerCase()==="qualifying")){
+   alreadyPresent+=rows.length;
+   continue;
+  }
+  event.Results.push(...rows);
+  added+=rows.length;
+ }
+ if(!added&&!alreadyPresent)throw new Error("Qualifying records could not be matched to existing "+year+" race weekends.");
+ if(unmatched)console.warn(year+": "+unmatched+" qualifying rows did not match a stored race round.");
+ data.sessionDataVersion=3;
+ data.sessionCoverage={
+  ...(data.sessionCoverage||{}),
+  qualifying:"Jolpica F1 API",
+  qualifyingRows:totalRows,
+  qualifyingRounds:qualifying.size,
+  qualifyingBackfillComplete:true,
+  qualifyingBackfilledAt:new Date().toISOString()
+ };
+ await fs.writeFile(file,JSON.stringify(data));
+ console.log(year+": qualifying history backfilled; "+added+" rows added, "+alreadyPresent+" already present across "+qualifying.size+" rounds.");
+}
+
 async function main(){
  await fs.mkdir(OUT,{recursive:true});
  for(let year=START;year<=END;year++){
   const file=path.join(OUT,year+".json"),exists=await fs.access(file).then(()=>true).catch(()=>false);
-  if(exists&&year!==END){console.log("Historical snapshot retained; session backfill is limited to the current season: "+year);continue;}
+  if(exists&&year!==END){
+   const existingData=JSON.parse(await fs.readFile(file,"utf8"));
+   const coverage=existingData.sessionCoverage||{};
+   if(existingData.sessionDataVersion>=3&&coverage.qualifyingBackfillComplete===true&&coverage.qualifying==="Jolpica F1 API"){
+    console.log("Historical qualifying coverage already complete: "+year);continue;
+   }
+   console.log("Backfilling historical F1 qualifying classifications for "+year);
+   await backfillHistoricalQualifying(year,file,existingData);
+   continue;
+  }
   console.log("Fetching F1 "+year);
   const races=await resultsFor(year),schedule=await scheduleFor(year),driverStandings=await standings(year,"driverStandings"),constructorStandings=await standings(year,"constructorStandings");
   const qualifying=await sessionResultsFor(year,"qualifying","QualifyingResults","Qualifying");
@@ -95,7 +137,7 @@ async function main(){
    FirstPractice:r.FirstPractice||null,SecondPractice:r.SecondPractice||null,ThirdPractice:r.ThirdPractice||null,
    Qualifying:r.Qualifying||null,Sprint:r.Sprint||null,SprintQualifying:r.SprintQualifying||r.SprintShootout||null
   }));
-  const data={series:"f1",season:year,sessionDataVersion:2,updatedAt:new Date().toISOString(),source:"Jolpica F1 API",driverStandings,constructorStandings,races:mergedRaces,calendar,sessionCoverage:{qualifying:"Jolpica F1 API",sprint:year>=2021?"Jolpica F1 API":"Not applicable before 2021",practice:"FastF1 current-season practice imports where available"}};
+  const data={series:"f1",season:year,sessionDataVersion:3,updatedAt:new Date().toISOString(),source:"Jolpica F1 API",driverStandings,constructorStandings,races:mergedRaces,calendar,sessionCoverage:{qualifying:"Jolpica F1 API",qualifyingRows:Array.from(qualifying.values()).reduce((sum,rows)=>sum+rows.length,0),qualifyingRounds:qualifying.size,qualifyingBackfillComplete:true,qualifyingBackfilledAt:new Date().toISOString(),sprint:year>=2021?"Jolpica F1 API":"Not applicable before 2021",practice:"FastF1 current-season practice imports where available"}};
   if(!races.length&&year<END)throw new Error("No race results returned for historical season "+year+"; refusing to save an empty snapshot.");
   await fs.writeFile(file,JSON.stringify(data));
   console.log(year+": "+races.length+" race weekends, "+driverStandings.length+" driver standings, "+constructorStandings.length+" constructor standings.");
