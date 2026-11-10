@@ -106,6 +106,9 @@ async function main(){
  await fs.mkdir(OUT,{recursive:true});
  for(let year=START;year<=END;year++){
   const file=path.join(OUT,year+".json"),exists=await fs.access(file).then(()=>true).catch(()=>false);
+  if(exists&&year===END&&process.env.HISTORICAL_QUALIFYING_BACKFILL_ONLY==="true"){
+   console.log("Keeping the existing current-season snapshot during the historical qualifying backfill: "+year);continue;
+  }
   if(exists&&year!==END){
    const existingData=JSON.parse(await fs.readFile(file,"utf8"));
    const coverage=existingData.sessionCoverage||{};
