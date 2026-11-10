@@ -1220,9 +1220,13 @@ function renderDriverPerformanceStats(profile,series,career){
     if(!qualifyingGroups.has(position))qualifyingGroups.set(position,[]);
     qualifyingGroups.get(position).push(record);
   });
-  const qualifyingRows=[...qualifyingGroups.entries()].sort((a,b)=>a[0]-b[0]).map(([position,records],index)=>
-    "<tr><td class='rank'>P"+position+"</td><td class='num'>"+records.length+"</td><td>"+driverBreakdownCell(records,series,"qualifying",index)+"</td></tr>"
-  );
+  const minimumPositions=series==="f1"?20:series==="f2"?22:30;
+  const highestRecorded=Math.max(0,...qualifyingGroups.keys());
+  const maximumPosition=Math.max(minimumPositions,highestRecorded);
+  const qualifyingRows=Array.from({length:maximumPosition},(_,index)=>{
+    const position=index+1,records=qualifyingGroups.get(position)||[];
+    return "<tr><td class='rank'>P"+position+"</td><td class='num'>"+records.length+"</td><td>"+driverBreakdownCell(records,series,"qualifying",index)+"</td></tr>";
+  });
   const qualifyingYears=[...new Set(qualifying.map(record=>Number(record.season)).filter(Number.isFinite))].sort((a,b)=>a-b);
   const profileSeasons=(profile.seasons||[]).length;
   const qualifyingCoverage=qualifying.length
@@ -1269,7 +1273,7 @@ function renderDriverPerformanceStats(profile,series,career){
   }
   if(series!=="f1")winsNote+=" Sprint and feature-race wins are included where they are classified as championship race sessions.";
 
-  const qualifyingBody=table(["QUALIFYING POSITION","TIMES","RACES"],qualifyingRows)+
+  const qualifyingBody=table(["POSITION","TIMES","RACES"],qualifyingRows,"driver-position-table")+
     "<p class='driver-breakdown-note'>"+esc(qualifyingCoverage)+" "+esc(qualifyingNote)+"</p>";
   const winsBody="<div class='driver-win-breakdown'>"+
     "<section><h3>Wins by starting grid position</h3>"+table(["STARTED FROM","WINS","RACES"],gridRows)+"</section>"+
