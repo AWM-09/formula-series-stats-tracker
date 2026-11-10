@@ -32,7 +32,7 @@ jobs:
       - name: Validate JavaScript
         run: node --check app.js && node --check scripts/fetch-f1-data.js && node --check scripts/build-indexes.js
       - name: Fetch F1 historical data
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push'
         id: fetch_data
         continue-on-error: true
         run: node scripts/fetch-f1-data.js
