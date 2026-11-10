@@ -1180,7 +1180,7 @@ function driverQualifyingRecords(profile){
 }
 function driverWinningRecords(profile){
   return driverUniqueSessionRecords((profile.results||[]).filter(record=>
-    seriesRaceSession(record.session||"Race")&&Number(record.position)===1
+    isRaceClassification(profile.series||state.series,record.session||"Race")&&Number(record.position)===1
   )).sort((a,b)=>
     (Number(a.season)||0)-(Number(b.season)||0)||
     (Number(a.round)||0)-(Number(b.round)||0)||
