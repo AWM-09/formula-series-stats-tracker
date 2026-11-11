@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T21:51:32Z",
+  "updatedAt": "2026-11-11T09:23:08Z",
   "source": "Official FIA documents + MIT-licensed historical F1 penalty compilation",
   "liveDocumentCount": 42,
   "liveDocumentsFound": true,
@@ -365,93 +365,12 @@
       "sourceType": "official-fia"
     },
     {
-      "title": "Doc 79 - F2 Race 2 (Feature 1) - final grid Published on 25.09.26 11:15 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_f2_race_2_feature_1_-_final_grid.pdf",
-      "event": "Kush Maini Art Grand Prix",
-      "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 77 - F2 Race 2 (Feature 1) - provisional starting grid Published on 25.09.26 09:03 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_f2_race_2_feature_1_-_provisional_starting_grid.pdf",
-      "event": "Kush Maini Art Grand Prix",
-      "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 76 - INFRINGEMENT - F2 Race 1 - track limit violations Published on 25.09.26 08:55 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_f2_race_1_-_track_limit_violations.pdf",
-      "event": "Tasanapol Inthraphuvasak Art Grand Prix",
-      "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 75 - DECISION - Car 3 - alleged incident at Turn 1 with Car 5 Published on 25.09.26 08:50 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_decision_-_car_3_-_alleged_incident_at_turn_1_with_car_5.pdf",
-      "event": "Baku",
-      "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 74 - DECISION - Car 5 - alleged incident at Turn 1 with Car 3 Published on 25.09.26 08:49 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_decision_-_car_5_-_alleged_incident_at_turn_1_with_car_3.pdf",
-      "event": "Baku",
-      "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 73 - INFRINGEMENT - Car 10 - causing a collision T1 Published on 25.09.26 08:41 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_car_10_-_causing_a_collision_t1.pdf",
-      "event": "Baku",
-      "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 61 - F2 Race 1 (Sprint) - final starting grid Published on 25.09.26 05:15 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_f2_race_1_sprint_-_final_starting_grid.pdf",
-      "event": "Kush Maini Art Grand Prix",
-      "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 54 - DECISION - Car 14 - allegedly impeded Car 17 Published on 24.09.26 18:06 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_decision_-_car_14_-_allegedly_impeded_car_17.pdf",
+      "title": "Doc 56 - INFRINGEMENT - Qualifying 1 - track limit violations Published on 24.09.26 18:11 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_qualifying_1_-_track_limit_violations.pdf",
       "event": "Baku",
       "published": "2026-09-24T00:00:00Z",
       "season": 2026,
       "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 61 - SUMMONS - Car 10 - Alleged failure to engage set-up procedure when leaving grid for formation lap Published on 12.09.26 21:36 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_summons_-_car_10_-_alleged_failure_to_engage_set-up_procedure_when_leaving_grid_for_formation_lap.pdf",
-      "event": "Art Grand Prix",
-      "published": "2026-09-12T00:00:00Z",
-      "season": 2026,
-      "series": "f3",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 24 - INFRINGEMENT - Car 15 - Failure to follow RD instructions - Escape road instructions Published on 11.09.26 14:43 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_infringement_-_car_15_-_failure_to_follow_rd_instructions_-_escape_road_instructions.pdf",
-      "event": "Madrid",
-      "published": "2026-09-11T00:00:00Z",
-      "season": 2026,
-      "series": "f3",
       "sourceType": "official-fia"
     },
     {
@@ -866,15 +785,6 @@
       "published": "2025-12-05T00:00:00Z",
       "season": 2025,
       "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 30 - SUMMONS - Car 28 - Alleged breach of FIA F3 Sporting Regulations Article 24.16 - Plank limitation Published on 05.09.25 19:10 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2025_monza_event_-_summons_-_car_28_-_alleged_breach_of_fia_f3_sporting_regulations_article_24.16_-_plank_limitation.pdf",
-      "event": "Monza",
-      "published": "2025-09-05T00:00:00Z",
-      "season": 2025,
-      "series": "f3",
       "sourceType": "official-fia"
     },
     {
@@ -11299,7 +11209,7 @@
         2025,
         2026
       ],
-      "documentsScanned": 66,
+      "documentsScanned": 59,
       "penaltyRecords": 3,
       "sourcePages": [
         "https://www.fia.com/events/formula-2-championship/season-2017/fia-formula-2",
@@ -11339,7 +11249,7 @@
         2025,
         2026
       ],
-      "documentsScanned": 3,
+      "documentsScanned": 0,
       "penaltyRecords": 0,
       "sourcePages": [
         "https://www.fia.com/events/fia-formula-3-championship/season-2019/fia-formula-3",
@@ -11359,7 +11269,7 @@
     "url": "https://github.com/j5t3313/F1_Penalties_Dashboard",
     "license": "MIT",
     "licenseUrl": "https://github.com/j5t3313/F1_Penalties_Dashboard/blob/main/LICENSE",
-    "updatedAt": "2026-11-10T21:49:59Z",
+    "updatedAt": "2026-11-11T09:21:16Z",
     "coverage": {
       "2020": {
         "rowsRead": 139,
