@@ -8,7 +8,7 @@
   <title>Formula Stats Tracker</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
-  <script src="./app.js?v=feature-recommendation-form-20261111" defer></script>
+  <script src="./app.js?v=feature-recommendation-card-top-20261111" defer></script>
 </head>
 <body>
 <div class="app-shell">
@@ -55,29 +55,6 @@
   <main id="viewRoot" tabindex="-1">
     <div class="page-loading"><span class="spinner"></span><p>Loading Formula Stats Tracker…</p></div>
   </main>
-
-  <section class="recommendation-panel" aria-labelledby="recommendationTitle">
-    <div class="recommendation-copy">
-      <span class="eyebrow">HELP SHAPE THE TRACKER</span>
-      <h2 id="recommendationTitle">Recommend a feature</h2>
-      <p>Have an idea for the next update? Send it straight to Alex.</p>
-      <p class="recommendation-privacy">Please don’t submit private or sensitive information.</p>
-    </div>
-    <form class="recommendation-form" id="recommendationForm" action="https://formsubmit.co/ajax/alex@myrus.com" method="POST">
-      <input type="hidden" name="_subject" value="Formula Stats Tracker feature recommendation">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_url" value="https://awm-09.github.io/formula-series-stats-tracker/">
-      <label class="recommendation-honeypot" aria-hidden="true">Leave this field empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label>
-      <label class="recommendation-label" for="recommendationMessage">Your recommendation</label>
-      <textarea id="recommendationMessage" name="Recommendation" rows="4" minlength="10" maxlength="1000" required placeholder="What would make the tracker more useful to you?" aria-describedby="recommendationHelp recommendationCount recommendationStatus"></textarea>
-      <div class="recommendation-meta"><span id="recommendationHelp">10–1,000 characters</span><span id="recommendationCount" aria-live="polite">0 / 1,000</span></div>
-      <div class="recommendation-actions">
-        <button class="recommendation-submit" id="recommendationSubmit" type="submit">Send a recommendation <span aria-hidden="true">↗</span></button>
-        <p class="recommendation-status" id="recommendationStatus" role="status" aria-live="polite"></p>
-      </div>
-      <p class="recommendation-activation">First-time use may require Alex to confirm the form by email before delivery is activated.</p>
-    </form>
-  </section>
 
   <footer class="footer">
     <span>FORMULA STATS TRACKER · INDEPENDENT MOTORSPORT PROJECT</span>

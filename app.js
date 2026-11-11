@@ -867,6 +867,7 @@ function renderDashboard(){
     ["⬇","DATA OUTPUT","Export Centre","Download season standings, complete race-session results, calendars and career statistic tables.","exports"]
   ];
   return "<section class='platform-heading'><div><h1>Explore the platform</h1><p>Choose a tool based on what you want to investigate.</p></div></section>"+
+    renderRecommendationCard()+
     "<div class='platform-grid'>"+cards.map(card=>
       "<a class='platform-card' href='#/"+card[4]+"' aria-label='"+esc(card[2])+": "+esc(card[3])+"'>"+
         "<div class='platform-card-top'><span class='platform-icon' aria-hidden='true'>"+card[0]+"</span><span class='platform-category'>"+esc(card[1])+"</span><span class='platform-arrow' aria-hidden='true'>↗</span></div>"+
@@ -874,6 +875,18 @@ function renderDashboard(){
       "</a>"
     ).join("")+"</div>";
 }
+function renderRecommendationCard(){
+  return "<section class='recommendation-card' aria-labelledby='recommendationTitle'>"+
+    "<div class='recommendation-card-intro'><div class='platform-card-top'><span class='platform-icon' aria-hidden='true'>💡</span><span class='platform-category'>HELP SHAPE THE TRACKER</span></div><h2 id='recommendationTitle'>Recommend a feature</h2><p>What would make the tracker more useful to you?</p><small>Please don’t share private or sensitive information.</small></div>"+
+    "<form class='recommendation-form' id='recommendationForm' action='https://formsubmit.co/ajax/alex@myrus.com' method='POST'>"+
+      "<input type='hidden' name='_subject' value='Formula Stats Tracker feature recommendation'><input type='hidden' name='_template' value='table'><input type='hidden' name='_url' value='https://awm-09.github.io/formula-series-stats-tracker/'>"+
+      "<label class='recommendation-honeypot' aria-hidden='true'>Leave this field empty<input type='text' name='_honey' tabindex='-1' autocomplete='off'></label>"+
+      "<label class='recommendation-label' for='recommendationMessage'>Your recommendation</label><textarea id='recommendationMessage' name='Recommendation' rows='2' minlength='10' maxlength='1000' required placeholder='Share your idea…' aria-describedby='recommendationHelp recommendationCount recommendationStatus'></textarea>"+
+      "<div class='recommendation-meta'><span id='recommendationHelp'>10–1,000 characters</span><span id='recommendationCount' aria-live='polite'>0 / 1,000</span></div>"+
+      "<div class='recommendation-actions'><button class='recommendation-submit' id='recommendationSubmit' type='submit'>Send <span aria-hidden='true'>↗</span></button><p class='recommendation-status' id='recommendationStatus' role='status' aria-live='polite'></p></div>"+
+      "<p class='recommendation-activation'>First submission may require Alex to confirm email delivery.</p></form></section>";
+}
+
 async function renderCalendar(){
   const events=availableEvents(state.data);
   const races=events.map(e=>eventCard(state.series,state.season,e)).join("");
@@ -1987,6 +2000,49 @@ async function renderDataCentre(){
     "<div class='grid-2'>"+panel("KNOWN GAPS","Metrics not yet connected","<ul class='secondary'><li>Full historical qualifying and complete F2/F3 classifications for every season.</li><li>Official all-time circuit lap records, independently verified across eras.</li><li>Layout artwork for venues outside the connected F1 circuit reference set.</li><li>Pit stops, tyre strategy, detailed telemetry and lap charts where a verified feed is not imported.</li><li>Prediction-model back-testing and calibrated probabilities.</li></ul>")+panel("DATA INTEGRITY","How to interpret the numbers","<p class='secondary'>A blank field means the source did not provide a value; it is not zero. Circuit distance totals are calculated from stored winning-lap counts and the matching season layout length. Fastest laps captured from the archive are not presented as official circuit records.</p><p class='secondary'>Watchlists are stored in this browser only. Career totals and comparisons show the available source coverage and are not automatically complete all-time totals.</p>")+"</div>";
 }
 function bindDynamicEvents(){
+  const recommendationForm=$("recommendationForm");
+  if(recommendationForm){
+    const recommendationMessage=$("recommendationMessage");
+    const recommendationCount=$("recommendationCount");
+    const recommendationStatus=$("recommendationStatus");
+    const recommendationSubmit=$("recommendationSubmit");
+    recommendationMessage.addEventListener("input",()=>{
+      recommendationCount.textContent=recommendationMessage.value.length+" / 1,000";
+      recommendationMessage.setCustomValidity(recommendationMessage.value.trim().length<10?"Please enter at least 10 non-space characters.":"");
+    });
+    recommendationForm.addEventListener("submit",async event=>{
+      event.preventDefault();
+      recommendationStatus.textContent="";
+      recommendationStatus.className="recommendation-status";
+      recommendationMessage.setCustomValidity(recommendationMessage.value.trim().length<10?"Please enter at least 10 non-space characters.":"");
+      if(!recommendationForm.reportValidity())return;
+      if(recommendationForm.elements._honey.value)return;
+      recommendationSubmit.disabled=true;
+      recommendationSubmit.dataset.label=recommendationSubmit.innerHTML;
+      recommendationSubmit.textContent="Sending…";
+      try{
+        const fields=Object.fromEntries(new FormData(recommendationForm).entries());
+        fields.Recommendation=recommendationMessage.value.trim();
+        const response=await fetch(recommendationForm.action,{
+          method:"POST",
+          headers:{"Content-Type":"application/json","Accept":"application/json"},
+          body:JSON.stringify(fields)
+        });
+        const result=await response.json();
+        if(!response.ok||result.success===false)throw new Error(result.message||"The email service could not accept your recommendation.");
+        recommendationForm.reset();
+        recommendationCount.textContent="0 / 1,000";
+        recommendationStatus.textContent="Thanks! Your recommendation was submitted. If this is the first submission, delivery starts after the email activation step is completed.";
+        recommendationStatus.classList.add("success");
+      }catch(error){
+        recommendationStatus.textContent="We couldn’t send that just now. Please try again in a moment.";
+        recommendationStatus.classList.add("error");
+      }finally{
+        recommendationSubmit.disabled=false;
+        recommendationSubmit.innerHTML=recommendationSubmit.dataset.label||"Send ↗";
+      }
+    });
+  }
   document.querySelectorAll("[data-driver-breakdown-toggle]").forEach(button=>button.addEventListener("click",()=>{
     const target=$(button.dataset.driverBreakdownToggle);
     if(!target)return;
@@ -2110,49 +2166,7 @@ function bindDynamicEvents(){
 }
 
 document.querySelectorAll(".main-nav a").forEach(a=>a.addEventListener("click",()=>{}));
-const recommendationForm=$("recommendationForm");
-if(recommendationForm){
-  const recommendationMessage=$("recommendationMessage");
-  const recommendationCount=$("recommendationCount");
-  const recommendationStatus=$("recommendationStatus");
-  const recommendationSubmit=$("recommendationSubmit");
-  recommendationMessage.addEventListener("input",()=>{
-    recommendationCount.textContent=recommendationMessage.value.length+" / 1,000";
-    recommendationMessage.setCustomValidity(recommendationMessage.value.trim().length<10?"Please enter at least 10 non-space characters.":"");
-  });
-  recommendationForm.addEventListener("submit",async event=>{
-    event.preventDefault();
-    recommendationStatus.textContent="";
-    recommendationStatus.className="recommendation-status";
-    recommendationMessage.setCustomValidity(recommendationMessage.value.trim().length<10?"Please enter at least 10 non-space characters.":"");
-    if(!recommendationForm.reportValidity())return;
-    if(recommendationForm.elements._honey.value)return;
-    recommendationSubmit.disabled=true;
-    recommendationSubmit.dataset.label=recommendationSubmit.innerHTML;
-    recommendationSubmit.textContent="Sending…";
-    try{
-      const fields=Object.fromEntries(new FormData(recommendationForm).entries());
-      fields.Recommendation=recommendationMessage.value.trim();
-      const response=await fetch(recommendationForm.action,{
-        method:"POST",
-        headers:{"Content-Type":"application/json","Accept":"application/json"},
-        body:JSON.stringify(fields)
-      });
-      const result=await response.json();
-      if(!response.ok||result.success===false)throw new Error(result.message||"The email service could not accept your recommendation.");
-      recommendationForm.reset();
-      recommendationCount.textContent="0 / 1,000";
-      recommendationStatus.textContent="Thanks! Your recommendation was submitted. If this is the first submission, delivery starts after the email activation step is completed.";
-      recommendationStatus.classList.add("success");
-    }catch(error){
-      recommendationStatus.textContent="We couldn’t send that just now. Please try again in a moment.";
-      recommendationStatus.classList.add("error");
-    }finally{
-      recommendationSubmit.disabled=false;
-      recommendationSubmit.innerHTML=recommendationSubmit.dataset.label||"Send a recommendation ↗";
-    }
-  });
-}
+
 $("seriesSelect").addEventListener("change",e=>{
   const activeRoute=state.route[0];
   state.series=e.target.value;
