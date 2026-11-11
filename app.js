@@ -2110,6 +2110,49 @@ function bindDynamicEvents(){
 }
 
 document.querySelectorAll(".main-nav a").forEach(a=>a.addEventListener("click",()=>{}));
+const recommendationForm=$("recommendationForm");
+if(recommendationForm){
+  const recommendationMessage=$("recommendationMessage");
+  const recommendationCount=$("recommendationCount");
+  const recommendationStatus=$("recommendationStatus");
+  const recommendationSubmit=$("recommendationSubmit");
+  recommendationMessage.addEventListener("input",()=>{
+    recommendationCount.textContent=recommendationMessage.value.length+" / 1,000";
+    recommendationMessage.setCustomValidity(recommendationMessage.value.trim().length<10?"Please enter at least 10 non-space characters.":"");
+  });
+  recommendationForm.addEventListener("submit",async event=>{
+    event.preventDefault();
+    recommendationStatus.textContent="";
+    recommendationStatus.className="recommendation-status";
+    recommendationMessage.setCustomValidity(recommendationMessage.value.trim().length<10?"Please enter at least 10 non-space characters.":"");
+    if(!recommendationForm.reportValidity())return;
+    if(recommendationForm.elements._honey.value)return;
+    recommendationSubmit.disabled=true;
+    recommendationSubmit.dataset.label=recommendationSubmit.innerHTML;
+    recommendationSubmit.textContent="Sending…";
+    try{
+      const fields=Object.fromEntries(new FormData(recommendationForm).entries());
+      fields.Recommendation=recommendationMessage.value.trim();
+      const response=await fetch(recommendationForm.action,{
+        method:"POST",
+        headers:{"Content-Type":"application/json","Accept":"application/json"},
+        body:JSON.stringify(fields)
+      });
+      const result=await response.json();
+      if(!response.ok||result.success===false)throw new Error(result.message||"The email service could not accept your recommendation.");
+      recommendationForm.reset();
+      recommendationCount.textContent="0 / 1,000";
+      recommendationStatus.textContent="Thanks! Your recommendation was submitted. If this is the first submission, delivery starts after the email activation step is completed.";
+      recommendationStatus.classList.add("success");
+    }catch(error){
+      recommendationStatus.textContent="We couldn’t send that just now. Please try again in a moment.";
+      recommendationStatus.classList.add("error");
+    }finally{
+      recommendationSubmit.disabled=false;
+      recommendationSubmit.innerHTML=recommendationSubmit.dataset.label||"Send a recommendation ↗";
+    }
+  });
+}
 $("seriesSelect").addEventListener("change",e=>{
   const activeRoute=state.route[0];
   state.series=e.target.value;
