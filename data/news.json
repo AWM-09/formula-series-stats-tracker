@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:20:36Z",
+  "updatedAt": "2026-11-12T09:25:54Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,252 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "15339f8f3c6e35fb",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "How Roussel rose to make more Macau history with FIA F4 World Cup triumph",
+      "summary": "Sport news Jules Roussel made more motor sport history in Macau by winning an all-action inaugural FIA F4 World Cup showdown that highlighted the pace and potential of the next generation of drivers from across the globe. The exciting new addition to the Macau Grand Prix schedul…",
+      "link": "https://www.fia.com/news/how-roussel-rose-make-more-macau-history-fia-f4-world-cup-triumph",
+      "published": "2026-11-12T07:29:00Z",
+      "source": "FIA",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "2d2af32730af68f8",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "David Coulthard critiques F1 for not ‘fully respecting history’ with cautious stance on rain",
+      "summary": "David Coulthard reacts to F1 2026's first proper experience of wet-weather racing.",
+      "link": "https://www.crash.net/f1/news/1110084/1/david-coulthard-critiques-f1-not-fully-respecting-history-cautious-stance-rain",
+      "published": "2026-11-11T16:28:26Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "68c1735096a7b747",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen weighs in on Lewis Hamilton and Charles Leclerc skirmish: “I’d never get two No 1 drivers\"",
+      "summary": "Max Verstappen has his say on the relationship between Lewis Hamilton and Charles Leclerc at Ferrari.",
+      "link": "https://www.crash.net/f1/news/1110082/1/max-verstappen-weighs-lewis-hamilton-and-charles-leclerc-skirmish-id-never-get",
+      "published": "2026-11-11T15:28:36Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "842cd335e348456d",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Kimi Antonelli honours F1 title promise with hilarious Valentino Rossi look",
+      "summary": "Kimi Antonelli has celebrated his F1 title success in a radical way.",
+      "link": "https://www.crash.net/f1/news/1110080/1/kimi-antonelli-honours-f1-title-promise-hilarious-valentino-rossi-look",
+      "published": "2026-11-11T14:18:14Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "038b4bf46868161e",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lando Norris disagrees with F1 stewards’ verdict on Charles Leclerc penalty at Brazil GP",
+      "summary": "Lando Norris has questioned the penalty issued to Charles Leclerc in Brazil.",
+      "link": "https://www.crash.net/f1/news/1110078/1/lando-norris-disagrees-f1-stewards-verdict-charles-leclerc-penalty-brazil-gp",
+      "published": "2026-11-11T12:17:09Z",
+      "source": "Crash.net",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "a985f5e4f80c3ab4",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lightning strikes twice for F1 driver as unseen Brazil GP retirement explained",
+      "summary": "An incredibly rare F1 issue struck one driver for the second time in his career in Brazil.",
+      "link": "https://www.crash.net/f1/news/1110076/1/lightning-strikes-twice-f1-driver-unseen-brazil-gp-retirement-explained",
+      "published": "2026-11-11T11:36:24Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "f0c012718292acac",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton shock F1 move predicted if he’s “fed up” with Ferrari",
+      "summary": "F1 insider Peter Windsor weighs on in the dynamic between Lewis Hamilton and Ferrari.",
+      "link": "https://www.crash.net/f1/news/1110075/1/lewis-hamilton-shock-f1-move-predicted-if-hes-fed-ferrari",
+      "published": "2026-11-11T11:02:46Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "c98c189ad1e73393",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Martin Brundle reveals F1 team boss “at wit’s end” over reliability issues",
+      "summary": "Martin Brundle says one F1 team boss is growing increasingly frustrated about its reliability woes.",
+      "link": "https://www.crash.net/f1/news/1110073/1/martin-brundle-reveals-f1-team-boss-wits-end-over-reliability-issues",
+      "published": "2026-11-11T10:12:07Z",
+      "source": "Crash.net",
+      "category": "Team news",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "5df09f0f5cbf50c5",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Fabiana Ecclestone leads high-impact agenda in Brazil focusing on road safety and female empowerment",
+      "summary": "Members news During the week of preparations for the Formula 1 São Paulo Grand Prix, the Vice-President of the FIA for Sport in South America, Fabiana Ecclestone, carried out an extensive institutional schedule in Brazil. The activities highlighted the organisation’s commitment…",
+      "link": "https://www.fia.com/news/fabiana-ecclestone-leads-high-impact-agenda-brazil-focusing-road-safety-and-female-empowerment",
+      "published": "2026-11-11T09:55:00Z",
+      "source": "FIA",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "6d29eceec27896e4",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton has “rebuilt himself” after Abu Dhabi 2021 controversy, says Damon Hill",
+      "summary": "Lewis Hamilton has \"rebuilt himself\" after Abu Dhabi 2021, Damon Hill believes.",
+      "link": "https://www.crash.net/f1/news/1110070/1/lewis-hamilton-has-rebuilt-himself-after-abu-dhabi-2021-controversy-says-damon",
+      "published": "2026-11-11T09:32:07Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "b1d93e3cc68d4aa7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "What the Brazilian GP revealed about F1's ability to cope with rain",
+      "summary": "The question of what might happen in a wet race has vexed Formula 1's stakeholders since before the beginning of the season. It's also prompted some unnecessarily hysterical commentary throughout the year, peaking in the run-up to last weekend's Brazilian Grand Prix at Interlago…",
+      "link": "https://www.autosport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873789/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-11T09:23:42Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "5ce78e47f4cac221",
       "series": "f1",
@@ -1144,260 +1390,6 @@
       "teams": [
         "Aston Martin"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d699e213ea537975",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen “lost 12 hours of my life I’ll never get back” with Brazil GP penalty",
-      "summary": "Max Verstappen explains why he was not able to enjoy a wet qualifying session in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109824/1/max-verstappen-lost-12-hours-my-life-ill-never-get-back-brazil-gp-penalty",
-      "published": "2026-11-07T22:29:49Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "4ec63530c1f7e431",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Why Russell was so angry in Brazilian GP qualifying despite already having a grid penalty",
-      "summary": "In keeping with the theme of the Brazilian Grand Prix's weather-hit qualifying, George Russell had a thunderous look on his face when he faced the Formula 1 media in the post-session press conference. The title has gone and a five-place grid penalty for an engine swap meant Russ…",
-      "link": "https://www.autosport.com/f1/news/why-russell-was-so-angry-in-brazilian-gp-qualifying-despite-already-having-a-grid-penalty/10872788/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T22:15:40Z",
-      "source": "Autosport",
-      "category": "Technical & rules",
-      "topicTags": [
-        "grid-penalty"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "a7ab2619e0ad439d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "George Russell explains “miscommunication” behind Brazil GP qualifying radio rage",
-      "summary": "George Russell raged at Mercedes over team radio during qualifying in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109823/1/george-russell-explains-miscommunication-behind-brazil-gp-qualifying-radio-rage",
-      "published": "2026-11-07T21:49:18Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7bdc7d111a210e5c",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Hamilton insists Ferrari tensions with Leclerc are over: \"We've squashed it\"",
-      "summary": "Lewis Hamilton has revealed he and Charles Leclerc have cleared the air in Sao Paulo following their clash at the Formula 1 Mexico Grand Prix and the tensions have been “squashed”. Moreover, the seven-time world champion insists it didn't require Fred Vasseur's involvement – as…",
-      "link": "https://www.autosport.com/f1/news/lewis-hamilton-insists-ferrari-tensions-with-charles-leclerc-are-over-weve-squashed-it/10872775/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T21:48:47Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "936c22e063cc5bfd",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 – Norris takes São Paulo pole as rain-hit Qualifying delivers drama at Interlagos",
-      "summary": "Sport news Lando Norris secured pole position for the 2026 FIA Formula 1 São Paulo Grand Prix after a dramatic, rain-affected Qualifying session at Interlagos, beating Mercedes’ George Russell by 0.204s. Kimi Antonelli completed the top three, while Racing Bulls’ Liam Lawson cla…",
-      "link": "https://www.fia.com/news/f1-norris-takes-sao-paulo-pole-rain-hit-qualifying-delivers-drama-interlagos",
-      "published": "2026-11-07T21:45:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [
-        "Mercedes",
-        "Racing Bulls"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "e3425cb7c00a43fd",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton reveals details of Charles Leclerc Mexico fall out talks: \"We squashed it\"",
-      "summary": "Lewis Hamilton says he and Charles Leclerc cleared up their relationship without the influence of Fred Vasseur after their Mexico F1 clash.",
-      "link": "https://www.crash.net/f1/news/1109821/1/lewis-hamilton-insists-charles-leclerc-relationship-just-fine-after-post-mexico",
-      "published": "2026-11-07T21:32:05Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "2d7763d781a3fbc9",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazilian GP: Norris splashes to pole from Russell",
-      "summary": "McLaren's Lando Norris has claimed pole in a wet qualifying session at Formula 1's Brazilian Grand Prix, beating George Russell on a treacherous Interlagos circuit. In a challenging session that was red-flagged by over an hour due to heavy rain and standing water, Norris topped…",
-      "link": "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-takes-pole-in-soaking-wet-qualifying/10872710/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-07T20:33:59Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "McLaren"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d0e42859713c88f5",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lando Norris takes pole in heavily-delayed wet Brazil GP qualifying",
-      "summary": "Lando Norris grabbed pole position in a chaotic wet qualifying in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109818/1/lando-norris-takes-pole-heavily-delayed-wet-brazil-gp-qualifying",
-      "published": "2026-11-07T20:30:49Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "abb1ba91c10b201a",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazil Grand Prix: Full qualifying results",
-      "summary": "Full results from the wet and delayed qualifying session at the 2026 F1 Sao Paulo Grand Prix in Brazil.",
-      "link": "https://www.crash.net/f1/results/1109817/1/f1-brazil-grand-prix-full-qualifying-results",
-      "published": "2026-11-07T20:28:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "e5fc0f5a6bbb1b2f",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 - 2026 São Paulo Grand Prix Post - Qualifying Press Conference Transcript",
-      "summary": "Sport news DRIVERS 1 – Lando NORRIS (McLaren) 2 – George RUSSELL (Mercedes) 3 – Kimi ANTONELLI (Mercedes) PARC FERMÉ INTERVIEWS (Conducted by Naomi Schiff) Q: Lando Norris, a huge congratulations after a very tricky qualifying session out there. Your first pole position since Ma…",
-      "link": "https://www.fia.com/news/f1-2026-sao-paulo-grand-prix-post-qualifying-press-conference-transcript",
-      "published": "2026-11-07T18:30:00Z",
-      "source": "FIA",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "McLaren",
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "2e3443b53a52cc67",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "United Against Online Abuse Brings Global Campaign to São Paulo Grand Prix",
-      "summary": "FIA news The São Paulo Grand Prix activation comes at a particularly relevant time. Research and monitoring conducted through UAOA indicate that a significant proportion of online abuse currently being tracked originates from Latin America, making the region a key focus for awar…",
-      "link": "https://www.fia.com/news/united-against-online-abuse-brings-global-campaign-sao-paulo-grand-prix",
-      "published": "2026-11-07T18:13:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,

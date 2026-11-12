@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:23:08Z",
+  "updatedAt": "2026-11-12T09:27:46Z",
   "source": "Official FIA documents + MIT-licensed historical F1 penalty compilation",
   "liveDocumentCount": 42,
   "liveDocumentsFound": true,
@@ -360,15 +360,6 @@
       "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_6_-_allegedly_driving_through_another_teams_pit_box.pdf",
       "event": "Baku",
       "published": "2026-09-25T00:00:00Z",
-      "season": 2026,
-      "series": "f2",
-      "sourceType": "official-fia"
-    },
-    {
-      "title": "Doc 56 - INFRINGEMENT - Qualifying 1 - track limit violations Published on 24.09.26 18:11 CET",
-      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_qualifying_1_-_track_limit_violations.pdf",
-      "event": "Baku",
-      "published": "2026-09-24T00:00:00Z",
       "season": 2026,
       "series": "f2",
       "sourceType": "official-fia"
@@ -11209,7 +11200,7 @@
         2025,
         2026
       ],
-      "documentsScanned": 59,
+      "documentsScanned": 58,
       "penaltyRecords": 3,
       "sourcePages": [
         "https://www.fia.com/events/formula-2-championship/season-2017/fia-formula-2",
@@ -11269,7 +11260,7 @@
     "url": "https://github.com/j5t3313/F1_Penalties_Dashboard",
     "license": "MIT",
     "licenseUrl": "https://github.com/j5t3313/F1_Penalties_Dashboard/blob/main/LICENSE",
-    "updatedAt": "2026-11-11T09:21:16Z",
+    "updatedAt": "2026-11-12T09:26:23Z",
     "coverage": {
       "2020": {
         "rowsRead": 139,
