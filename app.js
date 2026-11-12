@@ -129,10 +129,21 @@ async function renderRoute(force=false){
   $("seriesSelect").value=state.series;fillSeasonOptions();$("seasonSelect").value=String(state.season);
   setActiveNav(state.route);
   if(route==="dashboard"){
-    status("good",state.series.toUpperCase()+" PLATFORM READY");
-    notice("Choose a tool based on what you want to investigate.");
-    $("updatedLabel").textContent=state.season+" SEASON SELECTED";
-    $("viewRoot").innerHTML=renderDashboard();
+    status("good",state.series.toUpperCase()+" DASHBOARD");
+    $("viewRoot").innerHTML="<div class='page-loading'><span class='spinner'></span><p>Loading the selected season snapshot…</p></div>";
+    try{
+      state.data=await getSeason(state.series,state.season,force);
+      const events=availableEvents(state.data),classified=events.filter(event=>eventHasResults(event)).length;
+      notice(classified+" of "+events.length+" scheduled events have classified race results. Historical coverage varies by season and metric.");
+      $("updatedLabel").textContent=state.data.updatedAt?"DATA UPDATED "+niceDate(state.data.updatedAt.slice(0,10)).toUpperCase():"UPDATE DATE NOT SUPPLIED";
+      $("viewRoot").innerHTML=renderDashboard();
+    }catch(error){
+      console.warn("Season snapshot is unavailable.",error);
+      state.data=null;
+      notice("Season data could not be loaded. You can still explore the platform tools.","warning");
+      $("updatedLabel").textContent="SEASON DATA UNAVAILABLE";
+      $("viewRoot").innerHTML=renderDashboard();
+    }
     bindDynamicEvents();
     return;
   }
@@ -847,33 +858,34 @@ function renderNews(snapshot){
     "<div class='empty-state "+(articles.length?"hidden":"")+"' id='newsEmpty'>"+(articles.length?"No stories match this structured request. Try removing one constraint or broaden the time window.":"No headlines are available in the cached feed yet. The scheduled importer will retry.")+"</div>";
 }
 
+function renderDashboardSnapshot(data){
+  if(!data)return "<section class='season-snapshot'><div class='snapshot-heading'><div><span class='eyebrow'>SEASON SNAPSHOT</span><h2>Season data is unavailable</h2><p>Try refreshing, or choose another championship season above.</p></div><a class='text-link' href='#/data-centre'>Data Centre ↗</a></div></section>";
+  const events=availableEvents(data),today=new Date().toISOString().slice(0,10);
+  const upcoming=events.find(event=>!eventHasResults(event)&&event.date&&String(event.date).slice(0,10)>=today);
+  const latest=[...events].reverse().find(event=>eventHasResults(event));
+  const drivers=data.driverStandings||[],teams=data.constructorStandings||[],leader=drivers[0],teamLeader=teams[0];
+  const winner=latest&&(latest.Results||[]).find(result=>!result.isRecordOnly&&String(result.position)==="1"&&result.Driver&&isRaceClassification(state.series,result.session));
+  const snapshotCard=(label,value,sub,href)=>"<a class='snapshot-card' href='"+href+"'><span>"+esc(label)+"</span><strong>"+esc(value)+"</strong><small>"+esc(sub)+"</small><b aria-hidden='true'>↗</b></a>";
+  const nextCard=upcoming?snapshotCard("NEXT RACE · ROUND "+upcoming.round,upcoming.raceName,niceDate(upcoming.date)+" · "+(((upcoming.Circuit||{}).Location||{}).country||"Location not supplied"),raceHref(state.series,state.season,upcoming.round)):
+    snapshotCard("SEASON CALENDAR",events.length?"No upcoming round listed":"No events listed",events.length?"Open the calendar for the full season schedule":"No schedule data is available", "#/calendar");
+  const latestCard=winner?snapshotCard("LATEST RACE RESULT",driverName(winner.Driver),latest.raceName+" · "+niceDate(latest.date),raceHref(state.series,state.season,latest.round)):
+    snapshotCard("LATEST RACE RESULT",latest?"Results available":"No completed results",latest?latest.raceName:"The archive has no classified result yet","#/race-centre");
+  const leaderCard=leader?snapshotCard("DRIVER CHAMPIONSHIP LEADER",driverName(leader.Driver),number(leader.points)+" points · "+(leader.wins==null?"wins not supplied":leader.wins+" wins"),driverHref(state.series,leader.Driver&&leader.Driver.driverId)):
+    snapshotCard("DRIVER CHAMPIONSHIP LEADER","No standings", "No driver standings in this season file", "#/overview");
+  const teamCard=teamLeader?snapshotCard("CONSTRUCTOR LEADER",teamLeader.Constructor&&teamLeader.Constructor.name||"Not supplied",number(teamLeader.points)+" points",teamHref(state.series,(teamLeader.Constructor||{}).constructorId||slug(teamLeader.Constructor&&teamLeader.Constructor.name))):
+    snapshotCard("CONSTRUCTOR LEADER","No standings","No constructor standings in this season file","#/overview");
+  const top=drivers.slice(0,3).map(entry=>"<a class='snapshot-leader-row' href='"+driverHref(state.series,entry.Driver&&entry.Driver.driverId)+"'><span>"+esc(entry.position||"—")+"</span><strong>"+esc(driverName(entry.Driver))+"</strong><small>"+esc(number(entry.points))+" pts</small></a>").join("");
+  return "<section class='season-snapshot' aria-labelledby='snapshotTitle'><div class='snapshot-heading'><div><span class='eyebrow'>"+esc(seriesLabel(state.series).toUpperCase())+" · "+esc(state.season)+" SEASON</span><h2 id='snapshotTitle'>Your season at a glance</h2><p>Jump straight to the latest championship picture.</p></div><a class='text-link' href='#/overview'>Full season overview ↗</a></div><div class='snapshot-grid'>"+nextCard+latestCard+leaderCard+teamCard+"</div>"+(top?"<div class='snapshot-leaders'><span class='eyebrow'>DRIVER STANDINGS</span>"+top+"<a class='snapshot-all-link' href='#/overview'>See full standings ↗</a></div>":"")+"</section>";
+}
 function renderDashboard(){
-  const cards=[
-    ["📊","CORE STATISTICS","Season Overview","Championship standings, driver and constructor battles, season totals and key performance statistics.","overview"],
-    ["🏁","RACE SCHEDULE","Race Calendar","Browse the Formula 1, Formula 2 and Formula 3 calendars, upcoming rounds and completed events.","calendar"],
-    ["📰","MOTORSPORT NEWS","Latest News","Follow F1, F2 and F3 headlines in one searchable feed, with every story linked to its publisher.","news"],
-    ["⚑","OFFICIAL DOCUMENTS","Grid Penalties","See confirmed and pending Formula One grid penalties sourced from FIA decisions and official grid documents.","grid-penalties"],
-    ["🛠️","TECHNICAL DEVELOPMENT","F1 Upgrade Watch","See each team’s next publicly reported upgrade, expected race weekend and components, with source links.","upgrades"],
-    ["🏎️","DRIVER DATABASE","Driver Profiles","Search driver profiles, explore career progression, season statistics, teams and race histories.","drivers"],
-    ["🏆","TEAM DATABASE","Constructor Database","Explore constructor histories, championship performance, line-ups and team statistics across seasons.","teams"],
-    ["🏎","CIRCUIT DATABASE","Circuit Explorer","Discover circuits, locations, race histories and the statistics behind each venue.","circuits"],
-    ["📋","RACE WEEKENDS","Race Centre","Open race weekends and inspect available practice, qualifying, sprint and race classifications.","race-centre"],
-    ["🎯","MODEL EVALUATION","Prediction Lab","Explore model-based race forecasts, historical backtests and prediction performance.","predictions"],
-    ["⇄","COMPARISON TOOLS","Comparisons","Compare drivers and constructors across seasons with head-to-head statistics and performance trends.","comparisons"],
-    ["🏅","HISTORICAL RESEARCH","Records & Milestones","Find championship milestones, career records, race records and all-time statistical leaders.","records"],
-    ["📈","DEEP ANALYTICS","Advanced Analytics","Investigate progression, performance metrics, historical trends and configurable statistical analyses.","analytics"],
-    ["🗂️","RELIABILITY","Data Centre","Review archive coverage, update timestamps, source information and incomplete or missing session data.","data-centre"],
-    ["⭐","PERSONAL TRACKING","Watchlist","Save favourite drivers and teams and return to their latest career and season statistics.","watchlist"],
-    ["⬇","DATA OUTPUT","Export Centre","Download season standings, complete race-session results, calendars and career statistic tables.","exports"]
+  const groups=[
+    ["Season & race weekend",[["📊","CHAMPIONSHIP","Season Overview","Standings, title battles, season totals and key performance statistics.","overview"],["🏁","SCHEDULE","Race Calendar","Upcoming rounds and completed events across F1, F2 and F3.","calendar"],["📋","RACE WEEKENDS","Race Centre","Practice, qualifying, sprint and race classifications.","race-centre"]]],
+    ["Live updates",[["📰","MOTORSPORT NEWS","Latest News","Search headlines from F1, F2 and F3, with links to each publisher.","news"],["⚑","OFFICIAL DOCUMENTS","Grid Penalties","Confirmed and pending Formula One penalties with FIA document sources.","grid-penalties"],["🛠️","TECHNICAL DEVELOPMENT","F1 Upgrade Watch","Reported team upgrades, expected rounds, components and sources.","upgrades"]]],
+    ["Drivers, teams & circuits",[["🏎️","DRIVER DATABASE","Driver Profiles","Career progression, season statistics, teams and race histories.","drivers"],["🏆","TEAM DATABASE","Constructor Database","Constructor histories, line-ups and championship statistics.","teams"],["🏎","CIRCUIT DATABASE","Circuit Explorer","Circuits, locations, race histories and venue statistics.","circuits"],["⭐","PERSONAL TRACKING","Watchlist","Save favourite drivers and teams for quick access.","watchlist"]]],
+    ["Analysis & data",[["🎯","MODEL EVALUATION","Prediction Lab","Model-based race forecasts, historical backtests and performance.","predictions"],["⇄","COMPARISON TOOLS","Comparisons","Compare drivers and constructors across seasons.","comparisons"],["🏅","HISTORICAL RESEARCH","Records & Milestones","Championship milestones and all-time statistical leaders.","records"],["📈","DEEP ANALYTICS","Advanced Analytics","Explore progression, performance metrics and historical trends.","analytics"],["⬇","DATA OUTPUT","Export Centre","Download standings, race results, calendars and career statistics.","exports"],["🗂️","RELIABILITY","Data Centre","Review archive coverage, timestamps, sources and missing data.","data-centre"]]]
   ];
-  return "<section class='platform-heading'><div><h1>Explore the platform</h1><p>Choose a tool based on what you want to investigate.</p></div></section>"+
-    renderRecommendationCard()+
-    "<div class='platform-grid'>"+cards.map(card=>
-      "<a class='platform-card' href='#/"+card[4]+"' aria-label='"+esc(card[2])+": "+esc(card[3])+"'>"+
-        "<div class='platform-card-top'><span class='platform-icon' aria-hidden='true'>"+card[0]+"</span><span class='platform-category'>"+esc(card[1])+"</span><span class='platform-arrow' aria-hidden='true'>↗</span></div>"+
-        "<h2>"+esc(card[2])+"</h2><p>"+esc(card[3])+"</p>"+
-      "</a>"
-    ).join("")+"</div>";
+  const sections=groups.map(group=>"<section class='feature-section' aria-label='"+esc(group[0])+"'><h2>"+esc(group[0])+"</h2><div class='platform-grid'>"+group[1].map(card=>"<a class='platform-card' href='#/"+card[4]+"' aria-label='"+esc(card[2])+"'><div class='platform-card-top'><span class='platform-icon' aria-hidden='true'>"+card[0]+"</span><span class='platform-category'>"+esc(card[1])+"</span><span class='platform-arrow' aria-hidden='true'>↗</span></div><h3>"+esc(card[2])+"</h3><p>"+esc(card[3])+"</p></a>").join("")+"</div></section>").join("");
+  return renderDashboardSnapshot(state.data)+"<section class='platform-heading'><div><h1>Explore the platform</h1><p>Choose a tool based on what you want to investigate.</p></div></section>"+sections+"<details class='recommendation-details'><summary>💡 Recommend a feature</summary><div class='recommendation-details-body'>"+renderRecommendationCard()+"</div></details>";
 }
 function renderRecommendationCard(){
   return "<section class='recommendation-card' aria-labelledby='recommendationTitle'>"+
