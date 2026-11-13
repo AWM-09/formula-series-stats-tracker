@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T09:25:54Z",
+  "updatedAt": "2026-11-13T09:24:49Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,303 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "4e2332a864c8ca7c",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton shares heartfelt message after visiting Palestinian children",
+      "summary": "Lewis Hamilton shares heartfelt message after meeting Palestinian children evacuated from Gaza.",
+      "link": "https://www.crash.net/f1/news/1110103/1/lewis-hamilton-shares-heartfelt-message-after-visiting-palestinian-children",
+      "published": "2026-11-13T09:08:15Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "72a22ab781e9c44e",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Ex-F1 star Romain Grosjean makes significant racing career declaration",
+      "summary": "Romain Grosjean says his time in single-seaters is likely over",
+      "link": "https://www.crash.net/f1/news/1110100/1/ex-f1-star-romain-grosjean-makes-significant-racing-career-declaration",
+      "published": "2026-11-12T16:31:30Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "bca7d471cbb672dd",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Red Bull announces F1 plans for Nikola Tsolov after missing 2027 race seat",
+      "summary": "Red Bull has made Nikola Tsolov its official reserve driver for 2027",
+      "link": "https://www.crash.net/f1/news/1110098/1/red-bull-announces-f1-plans-nikola-tsolov-after-missing-2027-race-seat",
+      "published": "2026-11-12T15:26:09Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "fb8a38e5c9b5fc45",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Tsolov lands reserve driver role for F1 2027",
+      "summary": "Nikola Tsolov has been named as reserve driver for both Red Bull and Racing Bulls for the 2027 Formula 1 season having missed out on a full-time drive. The 19-year-old Bulgarian had been linked to a step up from F2 to replace Liam Lawson at Racing Bulls in 2027, but after weeks…",
+      "link": "https://www.autosport.com/f1/news/tsolov-lands-reserve-driver-role-for-f1-2027/10874151/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-12T15:21:07Z",
+      "source": "Autosport",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Red Bull Racing",
+        "Racing Bulls"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "89a23cf62be1488f",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Kimi Antonelli '10 years out' from Ferrari F1 move, reckons Guenther Steiner",
+      "summary": "Guenther Steiner believes F1 champion Kimi Antonelli will be a Ferrari driver",
+      "link": "https://www.crash.net/f1/news/1110096/1/kimi-antonelli-10-years-out-ferrari-f1-move-reckons-guenther-steiner",
+      "published": "2026-11-12T15:10:44Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "2981991109fbc5f9",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 could be sold within two years, claims former Liberty Media boss",
+      "summary": "Former Liberty Media boss Greg Maffei thinks F1 could be sold within the next two years",
+      "link": "https://www.crash.net/f1/news/1110094/1/f1-could-be-sold-within-two-years-claims-former-liberty-media-boss",
+      "published": "2026-11-12T13:11:01Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "2f84da09203a6367",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Russell partners with BRDC to launch karting academy",
+      "summary": "Formula 1 star George Russell has launched a karting academy in partnership with Silverstone to make motorsport more accessible and discover the next young superstar. The eight-time grand prix winner launched his GR63 Karting Academy on Thursday with it open to boys and girls ag…",
+      "link": "https://www.autosport.com/f1/news/russell-and-brdc-launch-karting-academy/10874110/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-12T12:27:55Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "964bc098c9fa9553",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "BTCC team, whose base was destroyed by fire, offering reward for stolen car",
+      "summary": "Power Maxed Racing is appealing for information on its stolen race car",
+      "link": "https://www.crash.net/btcc/news/1110090/1/btcc-team-whose-base-was-destroyed-fire-offering-reward-stolen-car",
+      "published": "2026-11-12T11:30:22Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "d2aa2f02175db38d",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 2027 grid: Which drivers have a seat and who is out of contract?",
+      "summary": "The complete F1 grid for the 2027 season, including every team’s confirmed driver line-ups (so far).",
+      "link": "https://www.crash.net/f1/feature/1088707/1/f1-2027-grid-every-teams-confirmed-driver-line",
+      "published": "2026-11-12T11:09:00Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "9769531ff797e5a4",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lawson to stay in F1 as Racing Bulls announces 2027 driver pairing",
+      "summary": "Racing Bulls has confirmed Liam Lawson will stay with the team for the 2027 Formula 1 campaign, partnering Arvid Lindblad for a second, straight season. They have formed a formidable duo this year having propelled Racing Bulls to fifth in the championship, which is set to be the…",
+      "link": "https://www.autosport.com/f1/news/lawson-to-stay-in-f1-as-racing-bulls-announces-2027-driver-pairing/10874063/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-12T11:06:00Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Racing Bulls"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "f039e06186fd2c02",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Liam Lawson wins race to keep Racing Bulls F1 seat after weeks of uncertainty",
+      "summary": "Liam Lawson has retained his Racing Bulls seat for the 2027 F1 season.",
+      "link": "https://www.crash.net/f1/news/1110045/1/liam-lawson-wins-race-keep-racing-bulls-seat-f1-2027",
+      "published": "2026-11-12T11:03:55Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Racing Bulls"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "cb111bd3e095ade0",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Formula E postpones Jeddah season-opener as F1 pushing on with Middle East races",
+      "summary": "Formula E has announced its Jeddah race in December has been postponed",
+      "link": "https://www.crash.net/f1/news/1110088/1/formula-e-postpones-jeddah-season-opener-f1-pushing-middle-east-races",
+      "published": "2026-11-12T10:53:10Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "5b5c6d7bd1b7d7e3",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Daniel Ricciardo reveals F1 career highlight he “just wanted to be over”",
+      "summary": "Daniel Ricciardo opens up on the F1 career highlight he was dreading",
+      "link": "https://www.crash.net/f1/news/1110087/1/daniel-ricciardo-reveals-f1-career-highlight-he-just-wanted-be-over",
+      "published": "2026-11-12T09:55:58Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "15339f8f3c6e35fb",
       "series": "f1",
@@ -1091,305 +1388,6 @@
         "general"
       ],
       "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d7033fb01df3cbb9",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lando Norris beats recovering Max Verstappen to win Brazil GP as Mercedes seals F1 title double",
-      "summary": "Lando Norris beats Max Verstappen to victory at the Sao Paulo Grand Prix.",
-      "link": "https://www.crash.net/f1/race-report/1110006/1/lando-norris-beats-recovering-max-verstappen-win-brazil-gp-mercedes-seals",
-      "published": "2026-11-08T18:40:52Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "98890579f3458242",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 - 2026 São Paulo Grand Prix Post-Race Press Conference Transcript",
-      "summary": "Sport news DRIVERS 1 – Lando NORRIS (McLaren) 2 – Max VERSTAPPEN (Red Bull Racing) 3 – Isack HADJAR (Red Bull Racing) TRACK INTERVIEWS (Conducted by James Hinchcliffe) Q: And here we are with your winner, Lando Norris. From pole position to victory here, back-to-back races, Land…",
-      "link": "https://www.fia.com/news/f1-2026-sao-paulo-grand-prix-post-race-press-conference-transcript",
-      "published": "2026-11-08T17:00:00Z",
-      "source": "FIA",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "McLaren",
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "3f433ac645fcb7cd",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen’s heartwarming gesture as Red Bull F1 veteran leaves",
-      "summary": "Max Verstappen showed his class with a heartwarming gesture as a Red Bull veteran bows out.",
-      "link": "https://www.crash.net/f1/news/1109874/1/max-verstappens-heartwarming-gesture-red-bull-f1-veteran-leaves",
-      "published": "2026-11-08T16:23:09Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "e4c2d966049e3c4e",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 2026 Brazil Grand Prix: Mixed up starting grid after spate of engine penalties",
-      "summary": "The full starting grid for the 2026 Formula 1 Sao Paulo Grand Prix in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109820/1/f1-2026-brazil-grand-prix-mixed-starting-grid-after-five-engine-penalties",
-      "published": "2026-11-08T16:03:59Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "4b15cabb590e52a9",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazil Grand Prix as it happened",
-      "summary": "Live updates from the 2026 F1 Sao Paulo Grand Prix",
-      "link": "https://www.crash.net/f1/live/1044270/f1-brazil-grand-prix-live-race-updates-hamilton-verstappen-come-last",
-      "published": "2026-11-08T16:00:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "technical-upgrade"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "unspecified",
-      "gridPenaltyMentioned": false,
-      "importance": "medium",
-      "aiTagged": false
-    },
-    {
-      "id": "fece455355235ae5",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "George Russell warns F1 over risks of “horrific incident” at Brazil GP",
-      "summary": "George Russell reveals \"horrific incident\" fears if qualifying weather conditions are repeated in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109851/1/george-russell-warns-f1-over-risks-horrific-incident-brazil-gp",
-      "published": "2026-11-08T15:35:17Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "833d0a1e66713f44",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Ted Kravitz insists Racing Bulls ‘can’t sack’ Liam Lawson amid 2027 uncertainty",
-      "summary": "Liam Lawson's impressive qualifying performance in Brazil has prompted questions over whether Racing Bulls can afford to drop him for 2027.",
-      "link": "https://www.crash.net/f1/news/1109850/1/ted-kravitz-insists-racing-bulls-cant-sack-liam-lawson-amid-2027-uncertainty",
-      "published": "2026-11-08T15:25:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Racing Bulls"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7f26c68affae6b41",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Fred Vasseur’s $1 million contribution to Esteban Ocon’s F1 debut revealed",
-      "summary": "Fred Vasseur stepped in to provide the missing funds needed to secure Esteban Ocon's first Formula 1 seat with Manor in 2016.",
-      "link": "https://www.crash.net/f1/news/1109846/1/fred-vasseurs-1-million-contribution-esteban-ocons-f1-debut-revealed",
-      "published": "2026-11-08T14:50:00Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "db50567c1fb6079d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Can Hamilton and Verstappen fight back for F1 Brazilian GP victory?",
-      "summary": "With Lewis Hamilton and Max Verstappen 20th and 21st on the grid of the Brazilian Grand Prix, Sunday’s Formula 1 race promises to be fascinating – regardless of weather conditions. Hamilton and Verstappen happen to be two drivers who performed memorable recoveries at Autodromo J…",
-      "link": "https://www.autosport.com/f1/news/ill-try-to-win-somehow-can-lewis-hamilton-and-max-verstappen-fight-back-for-f1-brazilian-gp-victory/10872922/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-08T13:29:32Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "c6e6ea169b61ca59",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "What Mercedes needs to be crowned F1 champions again in Brazil",
-      "summary": "This is how Mercedes can seal the F1 constructors' world championship on Sunday in Brazil.",
-      "link": "https://www.crash.net/f1/news/1109346/1/what-mercedes-needs-be-crowned-f1-champions-again-brazil",
-      "published": "2026-11-08T11:25:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "2eae6a5e4bc3a35d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "What time is the next F1 race? Brazil GP dates and full schedule",
-      "summary": "The next round of the 2026 Formula 1 season takes place at Sao Paulo Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1109311/1/what-time-next-f1-race-brazil-gp-dates-and-full-schedule",
-      "published": "2026-11-08T11:15:41Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "0e55853e8a23d14c",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "The wet-weather challenges thrown up by Brazilian GP qualifying",
-      "summary": "One hour, 23 minutes. You could've squeezed most of a football match into the rain delay during Formula 1 qualifying for the Sao Paulo Grand Prix, and it looked for all the world like the session wouldn't actually get going again. A repeat of 2024, where qualifying was squeezed…",
-      "link": "https://www.autosport.com/f1/news/the-wet-weather-challenges-thrown-up-by-brazilian-gp-qualifying/10872894/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-08T11:09:51Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "fe53f4515214cd30",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Why Fernando Alonso was disappointed despite Brazil GP qualifying heroics",
-      "summary": "Fernando Alonso was not fully satisfied despite taking his Aston Martin to Q3 for the first time this season.",
-      "link": "https://www.crash.net/f1/news/1109825/1/why-fernando-alonso-was-disappointed-despite-brazil-gp-qualifying-heroics",
-      "published": "2026-11-07T23:09:58Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Aston Martin"
-      ],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
