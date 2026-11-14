@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T09:24:49Z",
+  "updatedAt": "2026-11-14T09:14:21Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,234 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "4352e97f46fe75fe",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Toto Wolff reveals he offered to resign from Mercedes “several times”",
+      "summary": "Toto Wolff makes huge revelation about Mercedes' F1 struggles.",
+      "link": "https://www.crash.net/f1/news/1110112/1/toto-wolff-reveals-he-offered-resign-mercedes-several-times",
+      "published": "2026-11-14T09:00:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "b62aab9eae8da361",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "FIA World Cups bring added excitement to Macau Grand Prix",
+      "summary": "Sport news Sixty-eight drivers from 34 nations across the globe will chase success during the 73rd Macau Grand Prix week through their participation in the FIA World Cups for Formula Regional, GT and Formula 4 cars. A street racing festival like no other, the Macau Grand Prix, w…",
+      "link": "https://www.fia.com/news/fia-world-cups-bring-added-excitement-macau-grand-prix",
+      "published": "2026-11-13T17:27:00Z",
+      "source": "FIA",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "0070c20f5e74ee7e",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "The surprising convergence behind F1's increasingly competitive 2026 season",
+      "summary": "As George Russell took pole for F1 2026's curtain raiser in Australia by a whopping eight tenths over Mercedes's nearest rivals, you could see the collective heads drop in the paddock. With this season the first year of all-new regulations, both on the chassis and power unit sid…",
+      "link": "https://www.autosport.com/f1/news/the-surprising-convergence-behind-f1s-increasingly-competitive-2026-season/10874375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-13T17:14:52Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "c48cc141e46a1772",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Kimi Antonelli moved to tears as stadium crowd chants his name at Italy and France match",
+      "summary": "Kimi Antonelli was seen tearing up as he watched Italy play France in a football match.",
+      "link": "https://www.crash.net/f1/news/1110111/1/kimi-antonelli-moved-tears-stadium-crowd-chants-his-name-italy-and-france-match",
+      "published": "2026-11-13T13:24:55Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "7567b6c948246705",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton ‘not fast enough’ against Charles Leclerc says Ralf Schumacher in brutal jibe",
+      "summary": "Ralf Schumacher has once again heavily criticised Lewis Hamilton.",
+      "link": "https://www.crash.net/f1/news/1110110/1/lewis-hamilton-not-fast-enough-against-charles-leclerc-says-ralf-schumacher",
+      "published": "2026-11-13T11:49:08Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "a0c3333d897bd121",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Buenos Aires MotoGP circuit transformation gathers pace, F1 “dream”",
+      "summary": "Buenos Aires circuit renovations continue with new asphalt laid ahead of its 2027 MotoGP return.",
+      "link": "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
+      "published": "2026-11-13T11:07:44Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "0039d3ee20396407",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 journalist claims he has been banned from paddock after Charles Leclerc criticism",
+      "summary": "A British journalist claims he has been banned from the F1 paddock until the end of the season.",
+      "link": "https://www.crash.net/f1/news/1110107/1/f1-journalist-claims-he-has-been-banned-paddock-after-charles-leclerc-criticism",
+      "published": "2026-11-13T11:02:41Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "14226b2e655fac8b",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Watch Dani Pedrosa race KTM MotoGP bike against Red Bull F1 car on ice",
+      "summary": "Dani Pedrosa takes his KTM MotoGP bike onto ice to challenge an F1 car, rally car, snowmobile and off-road vehicle.",
+      "link": "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
+      "published": "2026-11-13T10:15:44Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "ed9b432bb797e8a8",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton loses 'most marketable athlete' crown and overtaken by F1 rival",
+      "summary": "Lewis Hamilton has slipped down sport's 'most marketable athlete' ranking.",
+      "link": "https://www.crash.net/f1/news/1110105/1/lewis-hamilton-loses-most-marketable-athlete-crown-and-overtaken-f1-rival",
+      "published": "2026-11-13T10:05:02Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "c8265cd6b910eeca",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "The Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
+      "summary": "Mercedes mechanics have learned to watch their backs. Not because of the dangers of a pitstop, but because of Kimi Antonelli. Formula 1's newly crowned world champion has a rather unusual habit. He approaches members of his crew, greets them and, when they least expect it, gives…",
+      "link": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-13T10:04:48Z",
+      "source": "Autosport",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "4e2332a864c8ca7c",
       "series": "f1",
@@ -1154,240 +1382,6 @@
       "teams": [
         "Mercedes"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "13808a70d7967573",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Charles Leclerc hit with Brazil GP penalty for Liam Lawson collision",
-      "summary": "Charles Leclerc has been punished for hitting Liam Lawson at the end of the Sao Paulo Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1110025/1/charles-leclerc-hit-brazil-gp-penalty-liam-lawson-collision",
-      "published": "2026-11-08T21:27:22Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d76bdcac86cbb2a1",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen makes foul-mouthed Red Bull complaint despite Brazil GP P2",
-      "summary": "Max Verstappen was unhappy with the state of his Red Bull F1 car despite charging to P2.",
-      "link": "https://www.crash.net/f1/news/1110024/1/max-verstappen-makes-foul-mouthed-red-bull-complaint-despite-brazil-gp-p2",
-      "published": "2026-11-08T20:59:57Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "e4bd1d4a590f16e6",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Antonelli explains \"weird\" spin and car instability which cost F1 Brazilian GP win",
-      "summary": "Kimi Antonelli vowed to put aside his Brazilian Grand Prix anger to celebrate Mercedes winning the Formula 1 constructors' title, as he rued the balance issues and the spin that took him out of victory contention. The new world champion had picked up the lead from polesitter Lan…",
-      "link": "https://www.autosport.com/f1/news/antonelli-explains-weird-spin-and-car-instability-which-cost-f1-brazilian-gp-win/10873132/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-08T20:57:57Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "2d04a12ae1483c05",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton reveals Ferrari radio confusion behind costly Brazil GP mistake",
-      "summary": "Lewis Hamilton has explained how confusion over worsening weather conditions cost him valuable positions in the closing stages of the Brazil Grand Prix",
-      "link": "https://www.crash.net/f1/news/1110022/1/lewis-hamilton-reveals-ferrari-radio-confusion-behind-costly-brazil-gp-mistake",
-      "published": "2026-11-08T20:35:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "09e094d1adc3519b",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lando Norris suffers Brazil GP mishap as podium celebration goes wrong",
-      "summary": "Lando Norris was left red-faced on the podium after his victory in Brazil.",
-      "link": "https://www.crash.net/f1/news/1110020/1/lando-norris-suffers-brazil-gp-mishap-podium-celebration-goes-wrong",
-      "published": "2026-11-08T20:16:22Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "a2de018c32bbd6cd",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 – Norris triumphs in São Paulo as Mercedes secure 2026 Constructors’ Championship",
-      "summary": "Sport news Lando Norris converted pole position into victory at the 2026 FIA Formula 1 São Paulo Grand Prix, mastering changing conditions at Interlagos to take the chequered flag 14.6 seconds clear of Max Verstappen. The Red Bull driver produced a remarkable recovery from 21st…",
-      "link": "https://www.fia.com/news/f1-norris-triumphs-sao-paulo-mercedes-secure-2026-constructors-championship",
-      "published": "2026-11-08T20:06:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "driver-moves",
-        "regulations"
-      ],
-      "teams": [
-        "Mercedes",
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "b02cefbfe503d9b1",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Toto Wolff's first words as Mercedes seals constructors’ F1 title",
-      "summary": "Toto Wolff reacts as Mercedes claim the constructors' title at the Brazil Grand Prix",
-      "link": "https://www.crash.net/f1/news/1110017/1/toto-wolffs-first-words-mercedes-seal-constructors-f1-title",
-      "published": "2026-11-08T19:38:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "91742976025c756d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "New F1 championship standings after the Brazil Grand Prix",
-      "summary": "Updated F1 championship results after the Sao Paulo Grand Prix in Brazil.",
-      "link": "https://www.crash.net/f1/news/1110014/1/new-f1-championship-standings-after-brazil-grand-prix",
-      "published": "2026-11-08T19:13:33Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "8f42c893f2f16c12",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazilian GP: Norris wins in mixed conditions, Mercedes clinch constructors’ title",
-      "summary": "Lando Norris has snared his third win of 2026 in a mixed weather Formula 1 Brazilian Grand Prix, defeating a resurgent Max Verstappen while Mercedes claimed the world constructors' championship. After reclaiming the lead from his world champion successor Kimi Antonelli early on…",
-      "link": "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-wins-in-mixed-conditions-mercedes-clinches-constructors-title/10873048/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-08T18:50:51Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "183f6ba6f865e191",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Brazil Grand Prix: Updated race results after post-race penalties",
-      "summary": "Full results from the race at the 2026 F1 Sao Paulo Grand Prix in Brazil.",
-      "link": "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
-      "published": "2026-11-08T18:45:00Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
