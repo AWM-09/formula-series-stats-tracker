@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T09:14:21Z",
+  "updatedAt": "2026-11-15T09:12:41Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,98 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "f211da696bc6029d",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Guenther Steiner suggests Max Verstappen ‘solution’ to solve Ferrari woes",
+      "summary": "Guenther Steiner suggests a possible solution to Ferrari's F1 woes.",
+      "link": "https://www.crash.net/f1/news/1110115/1/guenther-steiner-makes-max-verstappen-solution-recommendation-ferrari",
+      "published": "2026-11-15T09:00:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "6e256fdc2aad8440",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Mission of discovery as young stars assemble for second FIA F4 World Cup",
+      "summary": "Sport news By contesting the FIA F4 World Cup, which takes place for a second time from 19-22 November as part of Macau Grand Prix week, they will get their first opportunity to take on the 6.120-kilometre Guia Circuit, ranked as one of the toughest street tracks in existence. T…",
+      "link": "https://www.fia.com/news/mission-discovery-young-stars-assemble-second-fia-f4-world-cup",
+      "published": "2026-11-14T22:57:00Z",
+      "source": "FIA",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "2a39160797e9b7b1",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "FIA boss looking to make controversial change to presidency rule",
+      "summary": "FIA boss Mohammed Ben Sulayem is looking to make a controversial change to a key rule.",
+      "link": "https://www.crash.net/f1/news/1110114/1/fia-boss-looking-make-controversial-change-presidency-rule",
+      "published": "2026-11-14T12:00:00Z",
+      "source": "Crash.net",
+      "category": "Technical & rules",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "a4558b1fded93e36",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "McLaren to upgrade MCL40 F1 car at its bogey track Las Vegas",
+      "summary": "McLaren will introduce upgrades to its MCL40 at Formula 1’s Las Vegas Grand Prix, with the new parts labelled as “the foundation for next year’s car”. The team launched its 2027 front wing concept in Brazil, with team principal Andrea Stella describing it as an improvement for d…",
+      "link": "https://www.autosport.com/f1/news/mclaren-to-upgrade-mcl40-f1-car-at-its-bogey-track-las-vegas/10874450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-14T09:13:34Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "technical-upgrade"
+      ],
+      "teams": [
+        "McLaren"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "unspecified",
+      "gridPenaltyMentioned": false,
+      "importance": "medium",
+      "aiTagged": false
+    },
     {
       "id": "4352e97f46fe75fe",
       "series": "f1",
@@ -1287,101 +1379,6 @@
         "general"
       ],
       "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "0a0b259a374ce729",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Oscar Piastri confirms split with F1 career manager Mark Webber",
-      "summary": "Oscar Piastri has split from F1 manager Mark Webber.",
-      "link": "https://www.crash.net/f1/news/1110032/1/oscar-piastri-confirms-split-f1-career-manager-mark-webber",
-      "published": "2026-11-09T08:35:59Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f78a377298c5d410",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Leclerc penalised for Lawson clash; Antonelli and Oliver Bearman also punished after F1 Brazilian GP",
-      "summary": "Charles Leclerc was handed a five-second penalty after the Formula 1 Brazilian Grand Prix for his clash with Liam Lawson, dropping the Ferrari driver down to eighth place in the final results. The Monegasque was battling the Racing Bulls driver for seventh place on lap 69 of the…",
-      "link": "https://www.autosport.com/f1/news/leclerc-penalised-for-lawson-clash-antonelli-and-oliver-bearman-also-punished-after-f1-brazilian-gp/10873166/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-08T21:59:31Z",
-      "source": "Autosport",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Ferrari",
-        "Racing Bulls"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "e6dfa4a8d1ae2afa",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Kimi Antonelli and Mercedes punished for unsafe release in messy Brazil GP",
-      "summary": "Kimi Antonelli has received a penalty for his unsafe release in Brazil.",
-      "link": "https://www.crash.net/f1/news/1110027/1/kimi-antonelli-and-mercedes-punished-unsafe-release-messy-brazil-gp",
-      "published": "2026-11-08T21:43:19Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "a31736fa9587275b",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "George Russell explains unusual pit lane blunder during Brazil GP",
-      "summary": "George Russell overcame a dramatic pit lane mistake to help Mercedes secure the Constructors' Championship in Brazil.",
-      "link": "https://www.crash.net/f1/news/1110026/1/george-russell-explains-unusual-pit-lane-blunder-during-brazil-gp",
-      "published": "2026-11-08T21:40:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
