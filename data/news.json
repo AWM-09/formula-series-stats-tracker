@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T09:12:41Z",
+  "updatedAt": "2026-11-16T10:24:17Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,212 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "ddce7635797c62e3",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Toto Wolff reveals what Christian Horner told him after Kimi Antonelli’s F1 title win",
+      "summary": "Toto Wolff has opened up on the message he received from Christian Horner after winning the 2026 title",
+      "link": "https://www.crash.net/f1/news/1110125/1/toto-wolff-reveals-what-christian-horner-told-him-after-kimi-antonellis-f1-title",
+      "published": "2026-11-16T10:12:57Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "44b4df099261f2ad",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Haas sticks with Camara for Las Vegas GP, Hirakawa in for FP1",
+      "summary": "Rafael Camara will race again for Haas at Formula 1's upcoming Las Vegas Grand Prix, as Ryo Hirakawa takes Ollie Bearman's seat for the opening practice session. Both Hirakawa and Camara have now raced for the team following the dismissal of Esteban Ocon, who was stood down duri…",
+      "link": "https://www.autosport.com/f1/news/haas-sticks-with-rafael-camara-for-las-vegas-ryo-hirakawa-in-for-fp1/10874781/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-16T09:52:30Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Haas"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "ac82cebbadd08eb6",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "What is left to fight for in F1 2026?",
+      "summary": "A five-way battle for P2 in the drivers’ championship Kimi Antonelli romped to his maiden world title to become Formula 1’s youngest world champion, but behind him it’s all to play for – and closer than ever. As the highest-scoring driver across the latest eight rounds, Max Vers…",
+      "link": "https://www.autosport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874769/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-16T09:28:44Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "82d6fc0703174cfb",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton makes £50m investment demand ‘the future of F1 depends on’",
+      "summary": "Lewis Hamilton is demanding a big investment from F1 to boost diversity in the paddock",
+      "link": "https://www.crash.net/f1/news/1110123/1/lewis-hamilton-makes-ps50m-investment-demand-future-f1-depends",
+      "published": "2026-11-16T09:22:23Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "3b1f902b6a9c1c31",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Haas confirms driver plans for F1 Vegas GP with two changes",
+      "summary": "Haas has confirmed two driver line-up changes for the Vegas GP",
+      "link": "https://www.crash.net/f1/news/1110122/1/haas-confirms-driver-plans-f1-vegas-gp-two-changes",
+      "published": "2026-11-16T08:46:53Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Haas"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "e6d6e2b839abf6cb",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Has Ferrari solved its Lewis Hamilton-Charles Leclerc problem? Fred Vasseur shares peace talk details",
+      "summary": "Fred Vasseur reveals more about the meeting he held with Lewis Hamilton and Charles Leclerc in Brazil.",
+      "link": "https://www.crash.net/f1/news/1110117/1/has-ferrari-solved-its-lewis-hamilton-charles-leclerc-problem-fred-vasseur-shares",
+      "published": "2026-11-15T14:00:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "6eca20a335939ae6",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Retaining Lawson isn't enough – Red Bull must stop treating him like a failure",
+      "summary": "Liam Lawson never failed at Red Bull Racing in 2025. It was Red Bull that failed Liam Lawson. Retaining his services for another year isn't just a logical decision, but perhaps the first sign that the organisation is changing the habits it developed under Helmut Marko. Yet there…",
+      "link": "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-15T13:08:22Z",
+      "source": "Autosport",
+      "category": "Driver moves",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "16065dc949108268",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
+      "summary": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix.",
+      "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
+      "published": "2026-11-15T12:00:00Z",
+      "source": "Crash.net",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "e13a65a0f9bf2fb6",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
+      "summary": "Finding the right balance is often a challenge in modern Formula 1. That applies to the technical regulations: striking a balance between satisfying drivers and purists on the one hand, and delivering the spectacle F1 wants to offer younger fans on the other, with a constant str…",
+      "link": "https://www.autosport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-15T09:39:18Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "f211da696bc6029d",
       "series": "f1",
@@ -1167,218 +1373,6 @@
       "teams": [
         "Red Bull Racing"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "63aaad4da5b323a7",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Mercedes considers plan to help George Russell beat Max Verstappen in F1 runner-up battle",
-      "summary": "Mercedes will aid George Russell's bid to reclaim P2 in the remaining three races of F1 2026.",
-      "link": "https://www.crash.net/f1/news/1110051/1/mercedes-considers-plan-help-george-russell-beat-max-verstappen-f1-runner-battle",
-      "published": "2026-11-09T16:47:55Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f04f0edc93f596da",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "What's behind Piastri's split with Webber – and what it means for his F1 career",
-      "summary": "On the Monday after the Formula 1 Brazilian Grand Prix, Oscar Piastri and Mark Webber announced in a joint statement that the latter and Ann Neal would no longer manage the 25-year-old McLaren driver. The timing may come as a surprise – now rather than at the end of the season –…",
-      "link": "https://www.autosport.com/f1/news/whats-behind-piastris-split-with-webber-and-what-it-means-for-his-f1-career/10873410/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-09T15:53:07Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "McLaren"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7c93188c1928cf1e",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "New Christian Horner details emerge from Red Bull F1 sacking",
-      "summary": "Christian Horner sheds new light on his Red Bull F1 sacking.",
-      "link": "https://www.crash.net/f1/news/1110048/1/new-christian-horner-details-emerge-red-bull-f1-sacking",
-      "published": "2026-11-09T15:22:19Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "c7cc6db1f8f752a7",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "“Devastated” Lewis Hamilton seeks Ferrari answers after Brazil GP unravels",
-      "summary": "Lewis Hamilton left \"devastated\" after his race in Brazil unravelled following a positive start.",
-      "link": "https://www.crash.net/f1/news/1110043/1/devastated-lewis-hamilton-seeks-ferrari-answers-after-brazil-gp-unravels",
-      "published": "2026-11-09T13:50:47Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "fc4c7f2b4fd49dd7",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Ferrari reveals reason for Lewis Hamilton Brazil GP struggles after stunning start",
-      "summary": "Lewis Hamilton's early struggles in Brazil have been explained by Ferrari.",
-      "link": "https://www.crash.net/f1/news/1110039/1/ferrari-reveals-reason-lewis-hamilton-struggles-after-stunning-start",
-      "published": "2026-11-09T11:57:53Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "ea9ba71a4118e68b",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "How the Racing Bulls pendulum is swinging back towards Lawson",
-      "summary": "When job security is in short supply, there's one solution for an Formula 1 driver. Be so good they can't ignore you. That's easier said than done, but it certainly seems to be what Liam Lawson has taken to heart as he battled for his future over the recent Americas triple-heade…",
-      "link": "https://www.autosport.com/f1/news/how-the-racing-bulls-pendulum-is-swinging-back-towards-lawson/10873320/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-09T11:54:39Z",
-      "source": "Autosport",
-      "category": "General",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Racing Bulls"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "6e119299d1eedb04",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen owns up to rare unseen error at Brazil GP",
-      "summary": "Max Verstappen admits he made a rare mistake at the start of the Sao Paulo Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1110035/1/max-verstappen-owns-rare-unseen-error-brazil-gp",
-      "published": "2026-11-09T10:19:04Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "b86c42790b494fe4",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Racing Bulls closing on F1 2027 driver decision after Liam Lawson statement",
-      "summary": "Racing Bulls is reportedly close to announcing its F1 2027 driver plans.",
-      "link": "https://www.crash.net/f1/news/1110034/1/racing-bulls-closing-f1-2027-driver-decision-after-liam-lawson-statement",
-      "published": "2026-11-09T09:34:59Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Racing Bulls"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "197c01cf875f8871",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Piastri and Webber terminate management agreement",
-      "summary": "Oscar Piastri and Mark Webber have mutually agreed to terminate their management agreement, the pair have announced. Webber and his wife Ann – who ran Mark’s career herself back in the day – became Piastri’s managers in 2019, the year the youngster narrowly beat Victor Martins t…",
-      "link": "https://www.autosport.com/f1/news/oscar-piastri-splits-from-mark-webber-management/10873258/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-09T08:43:40Z",
-      "source": "Autosport",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
