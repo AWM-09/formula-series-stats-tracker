@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-16T10:26:50Z",
+  "updatedAt": "2026-11-17T09:30:18Z",
   "season": 2026,
   "nextRace": {
     "name": "Las Vegas Grand Prix",
     "date": "2026-11-22",
     "round": "21"
   },
-  "sourceNewsUpdatedAt": "2026-11-16T10:24:17Z",
+  "sourceNewsUpdatedAt": "2026-11-17T09:28:15Z",
   "aiEnrichment": "local-structured-fallback",
   "teams": [
     {

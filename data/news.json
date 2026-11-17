@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T10:24:17Z",
+  "updatedAt": "2026-11-17T09:28:15Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,189 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "e57a1b084b0aacc0",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Fernando Alonso to race in Dakar Rally for Aston Martin",
+      "summary": "Fernando Alonso confirms his return to prestigious Dakar rally.",
+      "link": "https://www.crash.net/dakar/news/1110143/1/fernando-alonso-race-dakar-rally-aston-martin",
+      "published": "2026-11-17T09:14:19Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Aston Martin"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "8817ab3fc863d66a",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Alonso, Loeb join Aston Martin for 2027 Dakar Rally",
+      "summary": "Two-time Formula 1 champion Fernando Alonso will headline Aston Martin’s factory entry into the Dakar Rally in 2027, joining Sebastien Loeb and Lucas Moraes as part of a star-studded line-up. Alonso will drive a Prodrive-built Aston Martin Dreadnought in the 49th edition of Daka…",
+      "link": "https://www.autosport.com/dakar/news/alonso-loeb-join-aston-martin-for-2027-dakar-rally/10875003/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-17T09:01:58Z",
+      "source": "Autosport",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Aston Martin"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "16065dc949108268",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
+      "summary": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix.",
+      "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
+      "published": "2026-11-17T08:59:00Z",
+      "source": "Crash.net",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "0ffc1ed40ea0e5e1",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Norris: Las Vegas GP would be \"scary\" with current F1 wet tyres",
+      "summary": "Lando Norris hopes Formula 1 tyre supplier Pirelli will field much-improved rain tyres in 2027 as he expects the current range won't work properly at a low-downforce circuit like Las Vegas. Following partially rain-affected weekends in Malaysia and Singapore, F1's 2026 cars went…",
+      "link": "https://www.autosport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874886/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-16T17:30:03Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "06f881df7fd4f64a",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Australian GP boss to leave role weeks after final MotoGP race at Phillip Island",
+      "summary": "Travis Auld will leave his role at the Australian GP at the end of 2026",
+      "link": "https://www.crash.net/motogp/news/1110135/1/australian-gp-boss-leave-role-weeks-after-final-motogp-race-phillip-island",
+      "published": "2026-11-16T15:28:00Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "4b32f629c39256eb",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Nico Rosberg highlights where Michael Schumacher “was not at his best” in F1 comeback",
+      "summary": "Nico Rosberg shares his thoughts on Michael Schumacher’s F1 comeback",
+      "link": "https://www.crash.net/f1/news/1110133/1/nico-rosberg-highlights-where-michael-schumacher-was-not-his-best-f1-comeback",
+      "published": "2026-11-16T14:37:44Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "91c255050ccf95a7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen loses F1 champion mechanic to another racing series",
+      "summary": "A key Max Verstappen mechanic is leaving Red Bull",
+      "link": "https://www.crash.net/f1/news/1110130/1/max-verstappen-loses-f1-champion-mechanic-another-racing-series",
+      "published": "2026-11-16T12:48:11Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "0a28f7ad2db25994",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "FREC heroes go for FIA FR World Cup gold in Macau Grand Prix",
+      "summary": "Sport news Counting as the 73rd Macau Grand Prix, the FIA FR World Cup features a 26-strong line-up of some of the sport’s leading young racers, including Italy’s Emanuele Olivieri , the FIA FREC champion, runner-up Sebastian Wheldon from the USA and UK-based Kean Nakamura-Berta…",
+      "link": "https://www.fia.com/news/frec-heroes-go-fia-fr-world-cup-gold-macau-grand-prix",
+      "published": "2026-11-16T11:43:00Z",
+      "source": "FIA",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves",
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "ddce7635797c62e3",
       "series": "f1",
@@ -165,28 +348,6 @@
       "teams": [
         "Red Bull Racing"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "16065dc949108268",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
-      "summary": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
-      "published": "2026-11-15T12:00:00Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
@@ -1015,28 +1176,6 @@
       "aiTagged": false
     },
     {
-      "id": "5df09f0f5cbf50c5",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Fabiana Ecclestone leads high-impact agenda in Brazil focusing on road safety and female empowerment",
-      "summary": "Members news During the week of preparations for the Formula 1 São Paulo Grand Prix, the Vice-President of the FIA for Sport in South America, Fabiana Ecclestone, carried out an extensive institutional schedule in Brazil. The activities highlighted the organisation’s commitment…",
-      "link": "https://www.fia.com/news/fabiana-ecclestone-leads-high-impact-agenda-brazil-focusing-road-safety-and-female-empowerment",
-      "published": "2026-11-11T09:55:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
       "id": "6d29eceec27896e4",
       "series": "f1",
       "seriesLabel": "F1",
@@ -1235,144 +1374,6 @@
         "driver-moves"
       ],
       "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "9ea3a2a70b75a635",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "FIA announces results of final 2026 F1 ADUO engine review",
-      "summary": "The FIA has concluded its final engine performance assessment of 2026, with manufacturers now looking ahead to next season.",
-      "link": "https://www.crash.net/f1/news/1110058/1/fia-announces-results-final-2026-f1-aduo-engine-review",
-      "published": "2026-11-10T12:10:00Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "e00dcbe00cda8bd7",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "FIA reveals ADUO results in final review of 2026 F1 season",
-      "summary": "The FIA has announced its final Additional Development and Upgrade Opportunities (ADUO) results for the 2026 Formula 1 season, with no changes granted for any of the power unit manufacturers. From this season, the FIA installed a mechanism in the F1 regulations which allowed pow…",
-      "link": "https://www.autosport.com/f1/news/fia-reveals-aduo-results-in-final-review-of-2026-f1-season/10873566/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-10T11:45:39Z",
-      "source": "Autosport",
-      "category": "Technical & rules",
-      "topicTags": [
-        "technical-upgrade",
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "unspecified",
-      "gridPenaltyMentioned": false,
-      "importance": "medium",
-      "aiTagged": false
-    },
-    {
-      "id": "f2529d0d1c317dc9",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton travels to Egypt to visit Gaza humanitarian aid facilities",
-      "summary": "Lewis Hamilton has arrived in North Sinai, where he will learn more about the humanitarian operations supporting Palestine",
-      "link": "https://www.crash.net/f1/news/1110057/1/lewis-hamilton-travels-egypt-visit-gaza-humanitarian-aid-facilities",
-      "published": "2026-11-10T11:35:00Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "0af8a4f3a5bd04fc",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "FIA announces ADUO results following third review periods of 2026",
-      "summary": "Sport news Additional Development and Upgrade Opportunities (ADUO) is a mechanism within the 2026 Formula 1 Technical Regulations (Article C4) allowing Power Unit manufacturers whose Internal Combustion Engine (ICE) performance falls at least 2% below the best-performing ICE acr…",
-      "link": "https://www.fia.com/news/fia-announces-aduo-results-following-third-review-periods-2026",
-      "published": "2026-11-10T10:50:00Z",
-      "source": "FIA",
-      "category": "Technical & rules",
-      "topicTags": [
-        "technical-upgrade",
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "unspecified",
-      "gridPenaltyMentioned": false,
-      "importance": "medium",
-      "aiTagged": false
-    },
-    {
-      "id": "f6729e6c979c90e6",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Mercedes to investigate ‘very strange’ car behaviour after Brazil GP",
-      "summary": "The Mercedes team principal believes an overlooked issue may have contributed to George Russell and Kimi Antonelli's struggles at Interlagos",
-      "link": "https://www.crash.net/f1/news/1110055/1/mercedes-investigate-very-strange-car-behaviour-after-brazil-gp",
-      "published": "2026-11-10T10:40:00Z",
-      "source": "Crash.net",
-      "category": "Team news",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "64af99a55d137227",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Red Bull boss admits Max Verstappen is ‘beating the sim’ after Brazil GP comeback",
-      "summary": "Red Bull's team principal admitted that even the team's expectations were exceeded by Max Verstappen's recovery drive in Brazil",
-      "link": "https://www.crash.net/f1/news/1110053/1/red-bull-boss-admits-max-verstappen-beating-sim-after-brazil-gp-comeback",
-      "published": "2026-11-10T09:50:00Z",
-      "source": "Crash.net",
-      "category": "Team news",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Red Bull Racing"
-      ],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,

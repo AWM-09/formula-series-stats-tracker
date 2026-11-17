@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T10:26:50Z",
+  "updatedAt": "2026-11-17T09:30:18Z",
   "source": "Official FIA documents + MIT-licensed historical F1 penalty compilation",
   "liveDocumentCount": 42,
   "liveDocumentsFound": true,
@@ -359,6 +359,15 @@
       "title": "Doc 83 - SUMMONS - Car 6 - allegedly driving through another team's pit box Published on 25.09.26 14:06 CET",
       "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_6_-_allegedly_driving_through_another_teams_pit_box.pdf",
       "event": "Baku",
+      "published": "2026-09-25T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 79 - F2 Race 2 (Feature 1) - final grid Published on 25.09.26 11:15 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_f2_race_2_feature_1_-_final_grid.pdf",
+      "event": "Kush Maini Art Grand Prix",
       "published": "2026-09-25T00:00:00Z",
       "season": 2026,
       "series": "f2",
@@ -11200,7 +11209,7 @@
         2025,
         2026
       ],
-      "documentsScanned": 58,
+      "documentsScanned": 59,
       "penaltyRecords": 3,
       "sourcePages": [
         "https://www.fia.com/events/formula-2-championship/season-2017/fia-formula-2",
@@ -11260,7 +11269,7 @@
     "url": "https://github.com/j5t3313/F1_Penalties_Dashboard",
     "license": "MIT",
     "licenseUrl": "https://github.com/j5t3313/F1_Penalties_Dashboard/blob/main/LICENSE",
-    "updatedAt": "2026-11-16T10:24:58Z",
+    "updatedAt": "2026-11-17T09:28:46Z",
     "coverage": {
       "2020": {
         "rowsRead": 139,
