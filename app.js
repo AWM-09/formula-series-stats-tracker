@@ -147,6 +147,19 @@ async function renderRoute(force=false){
     bindDynamicEvents();
     return;
   }
+  if(route==="past-champions"){
+    status("good",state.series.toUpperCase()+" CHAMPIONSHIP ARCHIVE");
+    notice("Completed driver and team champions from every season available in the selected championship.");
+    $("updatedLabel").textContent="CHAMPIONSHIP HISTORY";
+    $("viewRoot").innerHTML="<div class='page-loading'><span class='spinner'></span><p>Loading past champions…</p></div>";
+    try{
+      const index=await getIndex(state.series,"drivers");
+      $("updatedLabel").textContent=index.generatedAt?"ARCHIVE UPDATED "+niceDate(index.generatedAt.slice(0,10)).toUpperCase():"CHAMPIONSHIP ARCHIVE";
+      $("viewRoot").innerHTML=renderPastChampions(index);
+    }catch(error){console.error(error);pageError(error);return;}
+    bindDynamicEvents();
+    return;
+  }
   if(route==="grid-penalties"){
     status("good","OFFICIAL FIA GRID-PENALTY REGISTER");
     notice("Grid sanctions are listed only when explicit FIA document wording is available.");
@@ -1969,6 +1982,20 @@ function renderPointsProgression(data,series){
     "<text x='14' y='16' fill='#9aabba' font-size='10'>CUMULATIVE POINTS</text><text x='"+(width-right)+"' y='"+(height-2)+"' text-anchor='end' fill='#9aabba' font-size='10'>ROUND</text></svg></div>"+
     "<div class='progression-legend'>"+legend+"</div><p class='secondary'>Cumulative points after each round, using numeric points attached to the stored race-session classifications. Sprint points are not added unless the archive records them within these race-session rows.</p>";
 }
+function renderPastChampions(index){
+  const seasons=(index.seasons||[]).filter(season=>season.status==="final"&&(season.champion||season.constructorChampion)).slice().sort((a,b)=>Number(b.year)-Number(a.year));
+  const driverTitles=seasons.filter(season=>season.champion).length;
+  const teamTitles=seasons.filter(season=>season.constructorChampion).length;
+  const rows=seasons.map(season=>{
+    const driver=season.champion?(season.championId?"<a class='person-link' href='"+driverHref(state.series,season.championId)+"'>"+esc(season.champion)+"</a>":esc(season.champion)):"—";
+    const team=season.constructorChampion?esc(season.constructorChampion):(state.series==="f1"&&Number(season.year)<1958?"Not contested":"Not recorded");
+    const search=esc([season.year,season.champion||"",season.constructorChampion||""].join(" ").toLowerCase());
+    return "<tr data-past-champion-search data-search='"+search+"'><td class='rank'>"+esc(season.year)+"</td><td>"+driver+"</td><td>"+team+"</td></tr>";
+  });
+  return pageHead("CHAMPIONSHIP HISTORY",seriesLabel(state.series)+" past champions","See the drivers’ and teams’ champions for every completed season. Use the championship selector above to switch between F1, F2 and F3.")+
+    "<div class='kpi-grid'>"+kpi("Completed seasons",seasons.length,"Final seasons in this archive")+kpi("Driver champions listed",driverTitles,"Seasons with a recorded driver champion")+kpi("Team champions listed",teamTitles,"Seasons with a recorded team champion")+"</div>"+
+    panel("TITLE HISTORY","Drivers and teams","<label class='news-search past-champions-search'><span>SEARCH BY SEASON, DRIVER OR TEAM</span><input id='pastChampionsSearch' class='field-input' type='search' placeholder='e.g. 2021, Verstappen, Mercedes' autocomplete='off'></label>"+table(["SEASON","DRIVER CHAMPION","TEAM CHAMPION"],rows,"past-champions-table"));
+}
 async function renderAnalytics(){
   const idx=await getIndex(state.series,"drivers"),seasons=idx.seasons||[];
   const champions=seasons.filter(s=>s.status==="final"&&s.champion);
@@ -2012,6 +2039,11 @@ async function renderDataCentre(){
     "<div class='grid-2'>"+panel("KNOWN GAPS","Metrics not yet connected","<ul class='secondary'><li>Full historical qualifying and complete F2/F3 classifications for every season.</li><li>Official all-time circuit lap records, independently verified across eras.</li><li>Layout artwork for venues outside the connected F1 circuit reference set.</li><li>Pit stops, tyre strategy, detailed telemetry and lap charts where a verified feed is not imported.</li><li>Prediction-model back-testing and calibrated probabilities.</li></ul>")+panel("DATA INTEGRITY","How to interpret the numbers","<p class='secondary'>A blank field means the source did not provide a value; it is not zero. Circuit distance totals are calculated from stored winning-lap counts and the matching season layout length. Fastest laps captured from the archive are not presented as official circuit records.</p><p class='secondary'>Watchlists are stored in this browser only. Career totals and comparisons show the available source coverage and are not automatically complete all-time totals.</p>")+"</div>";
 }
 function bindDynamicEvents(){
+  const pastChampionsSearch=$("pastChampionsSearch");
+  pastChampionsSearch?.addEventListener("input",()=>{
+    const query=pastChampionsSearch.value.trim().toLowerCase();
+    document.querySelectorAll("[data-past-champion-search]").forEach(row=>row.classList.toggle("hidden",!row.dataset.search.includes(query)));
+  });
   const recommendationForm=$("recommendationForm");
   if(recommendationForm){
     const recommendationMessage=$("recommendationMessage");
