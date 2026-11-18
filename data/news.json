@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T09:28:15Z",
+  "updatedAt": "2026-11-18T09:30:05Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,291 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "04651d20bbf19068",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "The Antonelli you don't know: Daily life with F1's newest champion",
+      "summary": "There is one thing that physiotherapist Sergi Avila took a little while to understand. When Kimi Antonelli finally found himself with a free weekend, after weeks being spent between circuits, airports and training, the most logical choice would have been to stay at home: sleep a…",
+      "link": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-18T09:20:55Z",
+      "source": "Autosport",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "d656626cef882dcc",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Piastri set for grid penalty at F1 Las Vegas GP",
+      "summary": "McLaren driver Oscar Piastri is set for a 10-place grid drop at Formula 1's Las Vegas GP for exceeding his engine allowance for the season. Piastri was already on the limit of four internal combustion engines for the year but will need a fifth Mercedes V6 engine to finish the 20…",
+      "link": "https://www.autosport.com/f1/news/piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-18T08:14:39Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "grid-penalty",
+        "driver-moves"
+      ],
+      "teams": [
+        "McLaren",
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": true,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "8bb0f8963943cde3",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton calls out ex-F1 drivers for “talking smack” about young stars",
+      "summary": "Lewis Hamilton has hit back at ex-F1 drivers for criticising the next generation.",
+      "link": "https://www.crash.net/f1/news/1110158/1/lewis-hamilton-calls-out-ex-f1-drivers-talking-smack-about-young-stars",
+      "published": "2026-11-18T08:00:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "a1b52f71d93e86d5",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 - 2026 Las Vegas Grand Prix Preview",
+      "summary": "Sport news FIA Formula One World Championship Brazilian Grand Prix SEASON 2026 Sport Circuit 1SportFIA Formula One World ChampionshipCircuitSEASON 2026Brazilian Grand Prix00 Tuesday, November 17, 2026 - 5:20pm Tuesday, November 17, 2026 - 5:20pm",
+      "link": "https://www.fia.com/news/f1-2026-las-vegas-grand-prix-preview",
+      "published": "2026-11-17T16:20:00Z",
+      "source": "FIA",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "fbcd099024b2167a",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Toto Wolff offers blunt response to Kimi Antonelli to Ferrari question",
+      "summary": "Toto Wolff addresses the prospect of Kimi Antonelli moving to Ferrari one day.",
+      "link": "https://www.crash.net/f1/news/1110156/1/toto-wolff-offers-blunt-response-kimi-antonelli-ferrari-question",
+      "published": "2026-11-17T15:42:25Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "8720ed18fafc0578",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Why George Russell won’t get Mercedes F1 engine upgrade at Las Vegas GP",
+      "summary": "Mercedes will finally introduce its ADUO F1 engine upgrade in Las Vegas.",
+      "link": "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
+      "published": "2026-11-17T14:29:22Z",
+      "source": "Crash.net",
+      "category": "Technical & rules",
+      "topicTags": [
+        "technical-upgrade"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "unspecified",
+      "gridPenaltyMentioned": false,
+      "importance": "medium",
+      "aiTagged": false
+    },
+    {
+      "id": "2e977641cbf86352",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton announces huge new partnership ahead of Las Vegas GP",
+      "summary": "Lewis Hamilton has become the new global ambassador for AG1.",
+      "link": "https://www.crash.net/f1/news/1110149/1/lewis-hamilton-announces-huge-new-partnership-ahead-las-vegas-gp",
+      "published": "2026-11-17T14:00:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "d00a544cf95f48d8",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 - 2026 Las Vegas GP Schedule of Press Conferences",
+      "summary": "Sport news DATE TIME DRIVER / TEAM MEMBER Wednesday, 18 November 1730hrs 1800hrs Lance Stroll (Aston Martin) Valtteri Bottas (Cadillac) Lando Norris (McLaren) Nico Hülkenbeg (Audi) Liam Lawson (Racing Bulls) Carlos Sainz (Williams) Thursday, 19 November 1830hrs Flavio Briatore (…",
+      "link": "https://www.fia.com/news/f1-2026-las-vegas-gp-schedule-press-conferences",
+      "published": "2026-11-17T13:07:00Z",
+      "source": "FIA",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "McLaren",
+        "Aston Martin",
+        "Williams",
+        "Audi",
+        "Racing Bulls",
+        "Cadillac"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "0587734e1d780bcb",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Ferrari boss Fred Vasseur “overwhelmed” by job claims Bernie Ecclestone",
+      "summary": "Ex-F1 boss Bernie Ecclestone launches scathing attack on Ferrari and Fred Vasseur.",
+      "link": "https://www.crash.net/f1/news/1110151/1/ferrari-boss-fred-vasseur-overwhelmed-job-claims-bernie-ecclestone",
+      "published": "2026-11-17T12:30:10Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "db9169ae144d6662",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton ‘house-hunting in LA’ to spend more time with girlfriend Kim Kardashian",
+      "summary": "Lewis Hamilton is said to be looking at properties in Los Angeles.",
+      "link": "https://www.crash.net/f1/news/1110147/1/lewis-hamilton-house-hunting-la-spend-more-time-girlfriend-kim-kardashian",
+      "published": "2026-11-17T11:28:21Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "424fb09634bd5152",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Ferrari reveals special Las Vegas GP look for Lewis Hamilton and Charles Leclerc",
+      "summary": "Ferrari has revealed a special-edition race suit for the 2026 F1 Las Vegas Grand Prix.",
+      "link": "https://www.crash.net/f1/news/1110145/1/ferrari-reveals-special-las-vegas-gp-look-lewis-hamilton-and-charles-leclerc",
+      "published": "2026-11-17T10:18:35Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "672daf7ca9d91e1f",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton told to “think about quitting” F1 by Bernie Ecclestone",
+      "summary": "Ex-F1 supremo Bernie Ecclestone issues a brutal verdict about Ferrari driver Lewis Hamilton.",
+      "link": "https://www.crash.net/f1/news/1110144/1/lewis-hamilton-told-think-about-quitting-f1-bernie-ecclestone",
+      "published": "2026-11-17T09:56:59Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "e57a1b084b0aacc0",
       "series": "f1",
@@ -486,28 +771,6 @@
       "teams": [
         "Mercedes"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "b62aab9eae8da361",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "FIA World Cups bring added excitement to Macau Grand Prix",
-      "summary": "Sport news Sixty-eight drivers from 34 nations across the globe will chase success during the 73rd Macau Grand Prix week through their participation in the FIA World Cups for Formula Regional, GT and Formula 4 cars. A street racing festival like no other, the Macau Grand Prix, w…",
-      "link": "https://www.fia.com/news/fia-world-cups-bring-added-excitement-macau-grand-prix",
-      "published": "2026-11-13T17:27:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
@@ -996,28 +1259,6 @@
       "aiTagged": false
     },
     {
-      "id": "15339f8f3c6e35fb",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "How Roussel rose to make more Macau history with FIA F4 World Cup triumph",
-      "summary": "Sport news Jules Roussel made more motor sport history in Macau by winning an all-action inaugural FIA F4 World Cup showdown that highlighted the pace and potential of the next generation of drivers from across the globe. The exciting new addition to the Macau Grand Prix schedul…",
-      "link": "https://www.fia.com/news/how-roussel-rose-make-more-macau-history-fia-f4-world-cup-triumph",
-      "published": "2026-11-12T07:29:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
       "id": "2d2af32730af68f8",
       "series": "f1",
       "seriesLabel": "F1",
@@ -1145,235 +1386,6 @@
       "teams": [
         "Ferrari"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "c98c189ad1e73393",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Martin Brundle reveals F1 team boss “at wit’s end” over reliability issues",
-      "summary": "Martin Brundle says one F1 team boss is growing increasingly frustrated about its reliability woes.",
-      "link": "https://www.crash.net/f1/news/1110073/1/martin-brundle-reveals-f1-team-boss-wits-end-over-reliability-issues",
-      "published": "2026-11-11T10:12:07Z",
-      "source": "Crash.net",
-      "category": "Team news",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "6d29eceec27896e4",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton has “rebuilt himself” after Abu Dhabi 2021 controversy, says Damon Hill",
-      "summary": "Lewis Hamilton has \"rebuilt himself\" after Abu Dhabi 2021, Damon Hill believes.",
-      "link": "https://www.crash.net/f1/news/1110070/1/lewis-hamilton-has-rebuilt-himself-after-abu-dhabi-2021-controversy-says-damon",
-      "published": "2026-11-11T09:32:07Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "b1d93e3cc68d4aa7",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "What the Brazilian GP revealed about F1's ability to cope with rain",
-      "summary": "The question of what might happen in a wet race has vexed Formula 1's stakeholders since before the beginning of the season. It's also prompted some unnecessarily hysterical commentary throughout the year, peaking in the run-up to last weekend's Brazilian Grand Prix at Interlago…",
-      "link": "https://www.autosport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873789/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-11T09:23:42Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "5ce78e47f4cac221",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "David Coulthard’s urgent plea to Lando Norris after taking firework to the face on Brazil GP podium",
-      "summary": "David Coulthard has warned that Lando Norris risks serious injury after the McLaren driver endured two frightening moments during his Brazil Grand Prix celebrations",
-      "link": "https://www.crash.net/f1/news/1110068/1/david-coulthards-urgent-plea-lando-norris-after-taking-firework-face-brazil-gp",
-      "published": "2026-11-10T17:00:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "McLaren"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f2d392e497dbabd4",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Daniel Ricciardo hails Max Verstappen as ‘one of the best ever’",
-      "summary": "Daniel Ricciardo believes Max Verstappen has cemented his place among Formula 1's all-time greats following his continued success with Red Bull",
-      "link": "https://www.crash.net/f1/news/1110066/1/daniel-ricciardo-hails-max-verstappen-one-best-ever",
-      "published": "2026-11-10T15:31:24Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "8e72cab9908dbb2e",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Red Bull boss praises Liam Lawson but refuses to weigh in on 2027 decision",
-      "summary": "Laurent Mekies has praised Lawson's impressive recent form but insists the decision over his future rests with Racing Bulls",
-      "link": "https://www.crash.net/f1/news/1110063/1/red-bull-boss-praises-liam-lawson-refuses-weigh-2027-decision",
-      "published": "2026-11-10T15:30:00Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Red Bull Racing",
-        "Racing Bulls"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "647cef2b69e9e644",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 delivers update on Qatar and Abu Dhabi GPs as Imola ruled out",
-      "summary": "Formula 1 has reiterated its commitment to racing in Qatar and Abu Dhabi despite previously considering an alternative venue",
-      "link": "https://www.crash.net/f1/news/1110062/1/f1-delivers-update-qatar-and-abu-dhabi-gps-imola-ruled-out",
-      "published": "2026-11-10T14:55:00Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d84dc5a1b22fa62c",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 2026 calendar update: Imola off the table, no plan B if Iran war escalates",
-      "summary": "The Qatar and Abu Dhabi grands prix which will conclude Formula 1’s 2026 season are set to proceed as planned, provided there is no dramatic escalation of the Iran war. The Middle Eastern conflict, which started in late February as the United States and Israel launched strikes o…",
-      "link": "https://www.autosport.com/f1/news/f1-2026-calendar-update-imola-off-the-table-no-plan-b-if-iran-war-escalates/10873643/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-10T14:52:26Z",
-      "source": "Autosport",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f033c5c62f1b17a2",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Esteban Ocon releases fresh statement amid uncertainty over F1 future",
-      "summary": "Esteban Ocon has spoken out again following his Haas departure, with the Frenchman currently without a seat for the 2027 Formula 1 season.",
-      "link": "https://www.crash.net/f1/news/1110061/1/esteban-ocon-releases-fresh-statement-amid-uncertainty-over-f1-future",
-      "published": "2026-11-10T13:45:00Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Haas"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "5db924a08569975e",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen makes bold ‘I’d quit’ claim over F1's best driver debate",
-      "summary": "Max Verstappen remains confident in his abilities despite missing out on the Formula 1 drivers' title for the second consecutive season",
-      "link": "https://www.crash.net/f1/news/1110060/1/max-verstappen-makes-bold-id-quit-claim-over-f1s-best-driver-debate",
-      "published": "2026-11-10T12:55:00Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,

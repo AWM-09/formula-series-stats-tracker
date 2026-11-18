@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-17T09:30:18Z",
+  "updatedAt": "2026-11-18T09:32:40Z",
   "season": 2026,
   "nextRace": {
     "name": "Las Vegas Grand Prix",
     "date": "2026-11-22",
     "round": "21"
   },
-  "sourceNewsUpdatedAt": "2026-11-17T09:28:15Z",
+  "sourceNewsUpdatedAt": "2026-11-18T09:30:05Z",
   "aiEnrichment": "local-structured-fallback",
   "teams": [
     {
@@ -84,9 +84,43 @@
     },
     {
       "team": "Mercedes",
-      "nextUpgrade": null,
-      "reportedUpdates": [],
-      "status": "not-announced"
+      "nextUpgrade": {
+        "id": "8720ed18fafc0578:Mercedes",
+        "team": "Mercedes",
+        "season": 2026,
+        "event": "Las Vegas Grand Prix",
+        "eventDate": "2026-11-22",
+        "components": [
+          "Power unit"
+        ],
+        "status": "reported",
+        "statusLabel": "Reported by publisher",
+        "detail": "Mercedes will finally introduce its ADUO F1 engine upgrade in Las Vegas.",
+        "sourceTitle": "Why George Russell won’t get Mercedes F1 engine upgrade at Las Vegas GP",
+        "sourceUrl": "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
+        "sourceDate": "2026-11-17",
+        "sourceType": "media-report"
+      },
+      "reportedUpdates": [
+        {
+          "id": "8720ed18fafc0578:Mercedes",
+          "team": "Mercedes",
+          "season": 2026,
+          "event": "Las Vegas Grand Prix",
+          "eventDate": "2026-11-22",
+          "components": [
+            "Power unit"
+          ],
+          "status": "reported",
+          "statusLabel": "Reported by publisher",
+          "detail": "Mercedes will finally introduce its ADUO F1 engine upgrade in Las Vegas.",
+          "sourceTitle": "Why George Russell won’t get Mercedes F1 engine upgrade at Las Vegas GP",
+          "sourceUrl": "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
+          "sourceDate": "2026-11-17",
+          "sourceType": "media-report"
+        }
+      ],
+      "status": "reported"
     },
     {
       "team": "Ferrari",
