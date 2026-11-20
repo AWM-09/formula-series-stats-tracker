@@ -1,51 +1,50 @@
 {
-  "updatedAt": "2026-11-19T09:36:01Z",
+  "updatedAt": "2026-11-20T17:08:46Z",
   "season": 2026,
   "nextRace": {
     "name": "Las Vegas Grand Prix",
     "date": "2026-11-22",
     "round": "21"
   },
-  "sourceNewsUpdatedAt": "2026-11-19T09:33:17Z",
+  "sourceNewsUpdatedAt": "2026-11-20T17:06:16Z",
   "aiEnrichment": "local-structured-fallback",
   "teams": [
     {
       "team": "McLaren",
       "nextUpgrade": {
-        "id": "a4558b1fded93e36:McLaren",
+        "id": "mclaren-sao-paulo-2026-team-preview",
         "team": "McLaren",
         "season": 2026,
-        "event": "Las Vegas Grand Prix",
-        "eventDate": "2026-11-22",
+        "event": "Brazilian Grand Prix",
+        "eventDate": "2026-11-08",
         "components": [
-          "Front wing"
+          "Front wing",
+          "Rear wing",
+          "Floor"
         ],
         "status": "reported",
-        "statusLabel": "Reported by publisher",
-        "detail": "McLaren will introduce upgrades to its MCL40 at Formula 1’s Las Vegas Grand Prix, with the new parts labelled as “the foundation for next year’s car”. The team launched its 2027 front wing concept in Brazil, with team principal Andrea Stella describing it as an improvement for d…",
-        "sourceTitle": "McLaren to upgrade MCL40 F1 car at its bogey track Las Vegas",
-        "sourceUrl": "https://www.autosport.com/f1/news/mclaren-to-upgrade-mcl40-f1-car-at-its-bogey-track-las-vegas/10874450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-        "sourceDate": "2026-11-14",
-        "sourceType": "media-report"
+        "statusLabel": "Team statement · not FIA declaration",
+        "detail": "McLaren says it will bring front-wing and rear-wing upgrades plus small floor components to São Paulo to improve aerodynamic performance and car balance. The new front-wing concept is also intended to inform the 2027 car. This comes from the team's own race preview; it is not an FIA car-presentation submission.",
+        "sourceTitle": "McLaren — Five things to watch out for in São Paulo",
+        "sourceUrl": "https://www.mclaren.com/racing/formula-1/2026/sao-paulo-grand-prix/five-things-to-watch-out-for-in-sao-paulo/",
+        "sourceDate": "2026-11-05",
+        "sourceType": "team-statement",
+        "additionalSources": [
+          {
+            "title": "Autosport — McLaren to bring upgrades to Brazil GP with F1 2027 in mind",
+            "url": "https://www.autosport.com/f1/news/mclaren-to-bring-upgrades-to-brazil-gp-with-f1-2027-in-mind/10871328/"
+          },
+          {
+            "title": "Sky Sports — Norris wary of new McLaren upgrades in São Paulo",
+            "url": "https://www.skysports.com/f1/news/13607894/lando-norris-mclaren-driver-unsure-if-sao-paulo-grand-prix-upgrades-will-improve-horrible-mclaren-car"
+          },
+          {
+            "title": "Formula1.com — Norris wary of new McLaren upgrades in São Paulo",
+            "url": "https://www.formula1.com/en/latest/article/want-to-believe-that-we-can-still-make-improvements-norris-wary-of-new-mclaren-upgrades-in-sao-paulo.6NvdXqDIqBz1Mw1xveJv0k"
+          }
+        ]
       },
       "reportedUpdates": [
-        {
-          "id": "a4558b1fded93e36:McLaren",
-          "team": "McLaren",
-          "season": 2026,
-          "event": "Las Vegas Grand Prix",
-          "eventDate": "2026-11-22",
-          "components": [
-            "Front wing"
-          ],
-          "status": "reported",
-          "statusLabel": "Reported by publisher",
-          "detail": "McLaren will introduce upgrades to its MCL40 at Formula 1’s Las Vegas Grand Prix, with the new parts labelled as “the foundation for next year’s car”. The team launched its 2027 front wing concept in Brazil, with team principal Andrea Stella describing it as an improvement for d…",
-          "sourceTitle": "McLaren to upgrade MCL40 F1 car at its bogey track Las Vegas",
-          "sourceUrl": "https://www.autosport.com/f1/news/mclaren-to-upgrade-mcl40-f1-car-at-its-bogey-track-las-vegas/10874450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-          "sourceDate": "2026-11-14",
-          "sourceType": "media-report"
-        },
         {
           "id": "mclaren-sao-paulo-2026-team-preview",
           "team": "McLaren",
@@ -84,43 +83,9 @@
     },
     {
       "team": "Mercedes",
-      "nextUpgrade": {
-        "id": "8720ed18fafc0578:Mercedes",
-        "team": "Mercedes",
-        "season": 2026,
-        "event": "Las Vegas Grand Prix",
-        "eventDate": "2026-11-22",
-        "components": [
-          "Power unit"
-        ],
-        "status": "reported",
-        "statusLabel": "Reported by publisher",
-        "detail": "Mercedes will finally introduce its ADUO F1 engine upgrade in Las Vegas.",
-        "sourceTitle": "Why George Russell won’t get Mercedes F1 engine upgrade at Las Vegas GP",
-        "sourceUrl": "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
-        "sourceDate": "2026-11-17",
-        "sourceType": "media-report"
-      },
-      "reportedUpdates": [
-        {
-          "id": "8720ed18fafc0578:Mercedes",
-          "team": "Mercedes",
-          "season": 2026,
-          "event": "Las Vegas Grand Prix",
-          "eventDate": "2026-11-22",
-          "components": [
-            "Power unit"
-          ],
-          "status": "reported",
-          "statusLabel": "Reported by publisher",
-          "detail": "Mercedes will finally introduce its ADUO F1 engine upgrade in Las Vegas.",
-          "sourceTitle": "Why George Russell won’t get Mercedes F1 engine upgrade at Las Vegas GP",
-          "sourceUrl": "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
-          "sourceDate": "2026-11-17",
-          "sourceType": "media-report"
-        }
-      ],
-      "status": "reported"
+      "nextUpgrade": null,
+      "reportedUpdates": [],
+      "status": "not-announced"
     },
     {
       "team": "Ferrari",

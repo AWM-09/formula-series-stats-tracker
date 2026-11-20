@@ -1,23 +1,118 @@
 {
-  "updatedAt": "2026-11-19T09:36:01Z",
+  "updatedAt": "2026-11-20T17:08:46Z",
   "source": "Official FIA documents + MIT-licensed historical F1 penalty compilation",
-  "liveDocumentCount": 0,
-  "liveDocumentsFound": false,
-  "bootstrapDocumentsUsed": 1,
+  "liveDocumentCount": 8,
+  "liveDocumentsFound": true,
+  "bootstrapDocumentsUsed": 0,
   "nextEvent": {
     "name": "Las Vegas Grand Prix",
     "date": "2026-11-22",
     "round": "21"
   },
-  "nextEventPenalties": [],
+  "nextEventPenalties": [
+    {
+      "id": "2026|Las Vegas Grand Prix|87|5-place grid drop|https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_87_-_changes_to_pu_elements.pdf",
+      "series": "f1",
+      "season": 2026,
+      "event": "Las Vegas Grand Prix",
+      "published": "2026-11-20T00:00:00Z",
+      "driver": "Oliver Bearman",
+      "team": "Haas F1 Team",
+      "carNumber": "87",
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
+      "sanctionType": "grid-drop",
+      "status": "confirmed",
+      "reason": "xt Race in which the driver participates. Reason The penalty is imposed in accordance with Article B8.2.8 of the FIA F1 Regulations. In this case, the use of the (MGU-K) carries a 5 grid place penalty by virtue of Article B8.2.8 b) of the FIA F1 Regulations and the use of the (ICE), (TC) and (EXH) additional element(s) carries a 10 grid place penalty by virtue of Article B8.2.8 a) of the FIA F1 Regulations. Therefore, there is an accumulation of 35 places.",
+      "documentTitle": "Doc 20 - Infringement - Car 87 - Changes to PU elements Published on 20.11.26 06:46 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_87_-_changes_to_pu_elements.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+    },
+    {
+      "id": "2026|Las Vegas Grand Prix|18|5-place grid drop|https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_18_-_changes_to_pu_elements.pdf",
+      "series": "f1",
+      "season": 2026,
+      "event": "Las Vegas Grand Prix",
+      "published": "2026-11-20T00:00:00Z",
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "carNumber": "18",
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
+      "sanctionType": "grid-drop",
+      "status": "confirmed",
+      "reason": "hich the driver participates. Reason The penalty is imposed in accordance with Article B8.2.8b of the FIA F1 Regulations. The use of each additional element in this case carries a 5 grid place penalty therefore there is an accumulation of 10 places. Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 5 of the FIA Judicial and Discipli",
+      "documentTitle": "Doc 19 - Infringement - Car 18 - Changes to PU elements Published on 20.11.26 06:33 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_18_-_changes_to_pu_elements.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
+    }
+  ],
   "nextEventFinalGridFound": false,
-  "nextEventStatus": "unknown",
+  "nextEventStatus": "pending-final-grid",
   "sourcePages": [
     "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14",
     "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072"
   ],
-  "documentsScanned": 1,
+  "documentsScanned": 8,
   "documents": [
+    {
+      "title": "Doc 23 - Infringement - Free Practice 2 Deleted Lap Times - Double Yellow Flags Published on 20.11.26 07:30 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_free_practice_2_deleted_lap_times_-_double_yellow_flags.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 22 - Infringement - Free Practice 2 Deleted Lap Times Published on 20.11.26 07:26 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_free_practice_2_deleted_lap_times.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 20 - Infringement - Car 87 - Changes to PU elements Published on 20.11.26 06:46 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_87_-_changes_to_pu_elements.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 19 - Infringement - Car 18 - Changes to PU elements Published on 20.11.26 06:33 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_18_-_changes_to_pu_elements.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 18 - Infringement - Car 55 - Changes to PU element Published on 20.11.26 06:33 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_55_-_changes_to_pu_element.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 17 - Infringement - Car 12 - Changes to PU element Published on 20.11.26 06:34 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_12_-_changes_to_pu_element.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 16 - Infringement - Car 81 - Changes to PU element Published on 20.11.26 07:11 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_81_-_changes_to_pu_element.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
+    {
+      "title": "Doc 11 - Infringement - Free Practice 1 Deleted Lap Times Published on 20.11.26 02:45 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_free_practice_1_deleted_lap_times.pdf",
+      "published": "2026-11-20T00:00:00Z",
+      "event": "Las Vegas Grand Prix",
+      "bootstrapFallback": false
+    },
     {
       "title": "Doc 97 - DECISION - Car 15 - alleged yellow flag violation Published on 26.09.26 11:34 CET",
       "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_decision_-_car_15_-_alleged_yellow_flag_violation.pdf",
@@ -496,11 +591,175 @@
       "sourceType": "official-fia"
     },
     {
-      "title": "Doc 52 - Final Starting Grid - Hungarian Grand Prix",
-      "url": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_final_starting_grid.pdf",
-      "published": "2026-07-26T12:00:00Z",
-      "event": "Hungarian Grand Prix",
-      "bootstrapFallback": true
+      "title": "Doc 35 - SUMMONS - Car 17 - allegedly impeded by Car 5 from Turn 2 in Q1 Published on 24.09.26 15:05 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_17_-_allegedly_impeded_by_car_5_from_turn_2_in_q1.pdf",
+      "event": "Art Grand Prix",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 34 - SUMMONS - Car 17 - allegedly impeded by Car 14 at T18-19 in Q1 Published on 24.09.26 15:02 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_17_-_allegedly_impeded_by_car_14_at_t18-19_in_q1.pdf",
+      "event": "Art Grand Prix",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 33 - SUMMONS - Car 14 - allegedly impeded Car 17 at T18-19 in Q1 Published on 24.09.26 15:02 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_14_-_allegedly_impeded_car_17_at_t18-19_in_q1.pdf",
+      "event": "Baku",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 32 - SUMMONS - Car 4 - allegedly impeded Car 21 at T14 in Q2 Published on 24.09.26 14:59 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_4_-_allegedly_impeded_car_21_at_t14_in_q2.pdf",
+      "event": "Baku",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 31 - SUMMONS - Car 21 - alleged impeded by Car 4 at T14 in Q2 Published on 24.09.26 14:58 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_21_-_alleged_impeded_by_car_4_at_t14_in_q2.pdf",
+      "event": "Baku",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 30 - SUMMONS - Car 4 alleged unsafe release from Car 9 in Q2 Published on 24.09.26 14:54 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_4_alleged_unsafe_release_from_car_9_in_q2.pdf",
+      "event": "Baku",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 29 - SUMMONS - Car 9 alleged unsafe release in Q2 Published on 24.09.26 14:53 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_9_alleged_unsafe_release_in_q2.pdf",
+      "event": "Baku",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 24 - INFRINGEMENT - F2 Practice - DWYF lap time cancellations Published on 24.09.26 10:59 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_f2_practice_-_dwyf_lap_time_cancellations.pdf",
+      "event": "Kush Maini Art Grand Prix",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 23 - INFRINGEMENT - F2 Practice - track limit violations Published on 24.09.26 10:57 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_infringement_-_f2_practice_-_track_limit_violations.pdf",
+      "event": "Tasanapol Inthraphuvasak Art Grand Prix",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 19 - SUMMONS - Car 9 - alleged technical non-conformity (fuel sample) Published on 24.09.26 10:30 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_baku_event_-_summons_-_car_9_-_alleged_technical_non-conformity_fuel_sample.pdf",
+      "event": "Baku",
+      "published": "2026-09-24T00:00:00Z",
+      "season": 2026,
+      "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 79 - DECISION - Car 4 - Alleged contact with Car 22 Published on 13.09.26 13:56 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_decision_-_car_4_-_alleged_contact_with_car_22.pdf",
+      "event": "Madrid",
+      "published": "2026-09-13T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 78 - DECISION - Car 1 - Allegedly leaving the track without justifiable reason Published on 13.09.26 13:52 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_decision_-_car_1_-_allegedly_leaving_the_track_without_justifiable_reason.pdf",
+      "event": "Madrid",
+      "published": "2026-09-13T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 69 - F3 Race 3 (Feature 2) - Final starting grid Published on 13.09.26 08:45 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_f3_race_3_feature_2_-_final_starting_grid.pdf",
+      "event": "Maciej Gladysz Art Grand Prix",
+      "published": "2026-09-13T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 59 - INFRINGEMENT - Car 29 - Second Pit lane speeding in Race 2 Published on 12.09.26 20:46 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_infringement_-_car_29_-_second_pit_lane_speeding_in_race_2.pdf",
+      "event": "Madrid",
+      "published": "2026-09-12T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 55 - SUMMONS - Car 29 - Alleged failure to follow RD instructions - Escape road instructions Published on 12.09.26 20:36 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_summons_-_car_29_-_alleged_failure_to_follow_rd_instructions_-_escape_road_instructions.pdf",
+      "event": "Madrid",
+      "published": "2026-09-12T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 51 - F3 Race 2 (Feature 1) - Provisional starting grid Published on 12.09.26 15:11 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_f3_race_2_feature_1_-_provisional_starting_grid.pdf",
+      "event": "Taito Kato Art Grand Prix",
+      "published": "2026-09-12T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 23 - DECISION - Car 16 - Alleged failure to follow RD instructions - Escape road instructions Published on 11.09.26 14:37 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_decision_-_car_16_-_alleged_failure_to_follow_rd_instructions_-_escape_road_instructions_.pdf",
+      "event": "Madrid",
+      "published": "2026-09-11T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 18 - SUMMONS - Car 16 - Alleged failure to follow RD instructions - Escape road instructions Published on 11.09.26 12:21 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_summons_-_car_16_-_alleged_failure_to_follow_rd_instructions_-_escape_road_instructions.pdf",
+      "event": "Madrid",
+      "published": "2026-09-11T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 15 - SUMMONS - Car 11 - Allegedly impeded Car 14 in Practice Published on 11.09.26 11:57 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_summons_-_car_11_-_allegedly_impeded_car_14_in_practice.pdf",
+      "event": "Art Grand Prix",
+      "published": "2026-09-11T00:00:00Z",
+      "season": 2026,
+      "series": "f3",
+      "sourceType": "official-fia"
     },
     {
       "title": "Doc 69 - INFRINGEMENT - F2 Race 2 - lap cancellations Published on 07.12.25 13:44 CET",
@@ -914,6 +1173,60 @@
       "published": "2025-12-05T00:00:00Z",
       "season": 2025,
       "series": "f2",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 59 - INFRINGEMENT - Car 29 - Forcing another driver off track Published on 06.09.25 16:50 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2025_monza_event_-_infringement_-_car_29_-_forcing_another_driver_off_track.pdf",
+      "event": "Monza",
+      "published": "2025-09-06T00:00:00Z",
+      "season": 2025,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 56 - INFRINGEMENT - Car 5 - Leaving track and gaining an advantage over Car 8 Published on 06.09.25 16:21 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2025_monza_event_-_infringement_-_car_5_-_leaving_track_and_gaining_an_advantage_over_car_8.pdf",
+      "event": "Monza",
+      "published": "2025-09-06T00:00:00Z",
+      "season": 2025,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 49 - SUMMONS - Car 17 - Alleged failure to engage start set-up procedure at start of formation lap Published on 06.09.25 15:24 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2025_monza_event_-_summons_-_car_17_-_alleged_failure_to_engage_start_set-up_procedure_at_start_of_formation_lap.pdf",
+      "event": "Monza",
+      "published": "2025-09-06T00:00:00Z",
+      "season": 2025,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 43 - SUMMONS - Car 6 - Allegedly involved in a collision with Car 1 and Car 2 Published on 06.09.25 12:42 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2025_monza_event_-_summons_-_car_6_-_allegedly_involved_in_a_collision_with_car_1_and_car_2.pdf",
+      "event": "Monza",
+      "published": "2025-09-06T00:00:00Z",
+      "season": 2025,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 32 - INFRINGEMENT - Car 28 - Breach of FIA F3 Sporting Regulations Article 24.16 - Plank limitation Published on 05.09.25 19:56 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2025_monza_event_-_infringement_-_car_28_-_breach_of_fia_f3_sporting_regulations_article_24.16_-_plank_limitation.pdf",
+      "event": "Monza",
+      "published": "2025-09-05T00:00:00Z",
+      "season": 2025,
+      "series": "f3",
+      "sourceType": "official-fia"
+    },
+    {
+      "title": "Doc 27 - DECISION - Car 28 - Alleged failure to follow Race Director instructions Published on 05.09.25 18:19 CET",
+      "url": "https://www.fia.com/system/files/decision-document/2025_monza_event_-_decision_-_car_28_-_alleged_failure_to_follow_race_director_instructions.pdf",
+      "event": "Monza",
+      "published": "2025-09-05T00:00:00Z",
+      "season": 2025,
+      "series": "f3",
       "sourceType": "official-fia"
     },
     {
@@ -1807,6 +2120,27 @@
   ],
   "penalties": [
     {
+      "id": "fia-series-05b077d2d2ef37dc773ab9",
+      "series": "f3",
+      "season": 2026,
+      "event": "Taito Kato Art Grand Prix",
+      "published": "2026-09-12T00:00:00Z",
+      "date": "2026-09-12T00:00:00Z",
+      "driver": "Nandhavud Bhirombhakdi",
+      "team": "",
+      "carNumber": "",
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
+      "sanctionType": "grid-drop",
+      "status": "pending",
+      "reason": "yun SHIN Hitech 1:51.876 26 19 Niccolo MACCAGNANI Rodin Motorsport 1:52.700 28 28 Fernando BARRICHELLO * AIX Racing 1:51.935 * PENALTIES Cars 24 & 28 - 10 second time penalties converted to 5 place grid penalties - Causing a collision - Stewards' document nos. 77 & 79 (2026 Monza Event) The F 3 FIA FORMULA 3 CHAMPIONSHIP logo, FIA logo, FIA FORMULA 3 CHAMPIONSHIP, FIA FORMULA 3 , FORMULA 3 , F 3 and related marks are trade marks of the Fédération Internationale de L ’ Automobile and used under exclusive licence. All rights res",
+      "documentTitle": "Doc 51 - F3 Race 2 (Feature 1) - Provisional starting grid Published on 12.09.26 15:11 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_madrid_event_-_f3_race_2_feature_1_-_provisional_starting_grid.pdf",
+      "sourceTitle": "Official FIA document",
+      "sourceType": "official-fia",
+      "sourcePage": "https://www.fia.com/documents/championship/championships/fia-formula-3-championship-1012"
+    },
+    {
       "id": "fia-series-6eedcee7bca776e8eee6e0",
       "series": "f2",
       "season": 2026,
@@ -1912,61 +2246,42 @@
       "sourcePage": "https://www.fia.com/documents/championships/formula-2-championship-44/season/season-2025-2071"
     },
     {
-      "id": "2026|Hungarian Grand Prix|11|Pit-lane start|https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_final_starting_grid.pdf",
+      "id": "2026|Las Vegas Grand Prix|87|5-place grid drop|https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_87_-_changes_to_pu_elements.pdf",
       "series": "f1",
       "season": 2026,
-      "event": "Hungarian Grand Prix",
-      "published": "2026-07-26T12:00:00Z",
-      "driver": "Sergio Pérez",
-      "team": "Cadillac F1 Team",
-      "carNumber": "11",
-      "penalty": "Pit-lane start",
-      "gridPlaces": null,
-      "sanctionType": "pit-lane-start",
-      "status": "confirmed",
-      "reason": "Car 11 - Required to start from the pit lane - Car modified whilst under Parc Fermé conditions - Stewards' document no. 50 The F1 FORMULA 1 logo, F1 logo, FORMULA 1, FORMULA ONE, F1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing BV, a Formula 1",
-      "documentTitle": "Doc 52 - Final Starting Grid - Hungarian Grand Prix",
-      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_final_starting_grid.pdf",
-      "sourceTitle": "Official FIA document",
-      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072"
-    },
-    {
-      "id": "2026|Hungarian Grand Prix|44|3-place grid drop|https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_final_starting_grid.pdf",
-      "series": "f1",
-      "season": 2026,
-      "event": "Hungarian Grand Prix",
-      "published": "2026-07-26T12:00:00Z",
-      "driver": "Lewis Hamilton",
-      "team": "Ferrari",
-      "carNumber": "44",
-      "penalty": "3-place grid drop",
-      "gridPlaces": 3,
+      "event": "Las Vegas Grand Prix",
+      "published": "2026-11-20T00:00:00Z",
+      "driver": "Oliver Bearman",
+      "team": "Haas F1 Team",
+      "carNumber": "87",
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
       "sanctionType": "grid-drop",
       "status": "confirmed",
-      "reason": "Car 44 - 3 place grid penalty - Impeding another driver - Stewards' document no. 36",
-      "documentTitle": "Doc 52 - Final Starting Grid - Hungarian Grand Prix",
-      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_final_starting_grid.pdf",
+      "reason": "xt Race in which the driver participates. Reason The penalty is imposed in accordance with Article B8.2.8 of the FIA F1 Regulations. In this case, the use of the (MGU-K) carries a 5 grid place penalty by virtue of Article B8.2.8 b) of the FIA F1 Regulations and the use of the (ICE), (TC) and (EXH) additional element(s) carries a 10 grid place penalty by virtue of Article B8.2.8 a) of the FIA F1 Regulations. Therefore, there is an accumulation of 35 places.",
+      "documentTitle": "Doc 20 - Infringement - Car 87 - Changes to PU elements Published on 20.11.26 06:46 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_87_-_changes_to_pu_elements.pdf",
       "sourceTitle": "Official FIA document",
-      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072"
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
     },
     {
-      "id": "2026|Hungarian Grand Prix|12|3-place grid drop|https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_final_starting_grid.pdf",
+      "id": "2026|Las Vegas Grand Prix|18|5-place grid drop|https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_18_-_changes_to_pu_elements.pdf",
       "series": "f1",
       "season": 2026,
-      "event": "Hungarian Grand Prix",
-      "published": "2026-07-26T12:00:00Z",
-      "driver": "Andrea Kimi Antonelli",
-      "team": "Mercedes",
-      "carNumber": "12",
-      "penalty": "3-place grid drop",
-      "gridPlaces": 3,
+      "event": "Las Vegas Grand Prix",
+      "published": "2026-11-20T00:00:00Z",
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "carNumber": "18",
+      "penalty": "5-place grid drop",
+      "gridPlaces": 5,
       "sanctionType": "grid-drop",
       "status": "confirmed",
-      "reason": "Car 12 - 3 place grid penalty - Failing to slow for yellow flags - Stewards' document no. 41",
-      "documentTitle": "Doc 52 - Final Starting Grid - Hungarian Grand Prix",
-      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_final_starting_grid.pdf",
+      "reason": "hich the driver participates. Reason The penalty is imposed in accordance with Article B8.2.8b of the FIA F1 Regulations. The use of each additional element in this case carries a 5 grid place penalty therefore there is an accumulation of 10 places. Competitors are reminded that they have the right to appeal certain decisions of the Stewards, in accordance with Article 15 of the FIA International Sporting Code and Chapter 5 of the FIA Judicial and Discipli",
+      "documentTitle": "Doc 19 - Infringement - Car 18 - Changes to PU elements Published on 20.11.26 06:33 CET",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_infringement_-_car_18_-_changes_to_pu_elements.pdf",
       "sourceTitle": "Official FIA document",
-      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072"
+      "sourcePage": "https://www.fia.com/documents/championships/fia-formula-one-world-championship-14"
     },
     {
       "id": "historical-ce4f40e4819688815c67",
@@ -11285,7 +11600,7 @@
         2025,
         2026
       ],
-      "documentsScanned": 99,
+      "documentsScanned": 109,
       "penaltyRecords": 5,
       "sourcePages": [
         "https://www.fia.com/events/formula-2-championship/season-2017/fia-formula-2",
@@ -11325,8 +11640,8 @@
         2025,
         2026
       ],
-      "documentsScanned": 0,
-      "penaltyRecords": 0,
+      "documentsScanned": 15,
+      "penaltyRecords": 1,
       "sourcePages": [
         "https://www.fia.com/events/fia-formula-3-championship/season-2019/fia-formula-3",
         "https://www.fia.com/events/fia-formula-3-championship/season-2020/fia-formula-3",
@@ -11345,7 +11660,7 @@
     "url": "https://github.com/j5t3313/F1_Penalties_Dashboard",
     "license": "MIT",
     "licenseUrl": "https://github.com/j5t3313/F1_Penalties_Dashboard/blob/main/LICENSE",
-    "updatedAt": "2026-11-19T09:33:22Z",
+    "updatedAt": "2026-11-20T17:06:24Z",
     "coverage": {
       "2020": {
         "rowsRead": 139,
