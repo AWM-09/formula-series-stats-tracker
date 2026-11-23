@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:31:48Z",
+  "updatedAt": "2026-11-23T20:26:23Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,382 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "5771767c40238117",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen considering 2027 Daytona 24 Hours entry",
+      "summary": "Ahead of the Formula 1 Las Vegas Grand Prix, Max Verstappen first paid a visit to Daytona. The Dutchman said he was primarily there to film content with Red Bull, but the visit also raises the question of whether he is seriously considering taking part in the Rolex 24, the endur…",
+      "link": "https://www.autosport.com/f1/news/max-verstappen-reveals-he-is-considering-2027-daytona-24-hours-entry/10877159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-23T17:43:13Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "6bca597e2b394234",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton-endorsed Mercedes junior wins F4 World Cup in Macau",
+      "summary": "Kenzo Craigie, who was previously named by Lewis Hamilton as a driver for his dream F1 team, has claimed the FIA F4 World Cup in Macau",
+      "link": "https://www.crash.net/f1/news/1110849/1/lewis-hamilton-endorsed-mercedes-junior-wins-f4-world-cup-macau",
+      "published": "2026-11-23T16:10:00Z",
+      "source": "Crash.net",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "driver-moves",
+        "regulations"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "6138a103570637a5",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 2027 grid: Who will be racing and where?",
+      "summary": "The 2027 Formula 1 grid has very much taken shape with all but one spot now confirmed following a rather safe ‘silly season’ that didn’t present much drama. There is only one team - Haas - that is changing its line-up for next season as many potentially enthralling storylines fa…",
+      "link": "https://www.autosport.com/f1/news/f1-2027-grid-who-will-be-racing-and-where/10847600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-23T16:09:34Z",
+      "source": "Autosport",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Haas"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "784213dcc9f7f6a7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lewis Hamilton addresses Ferrari number one debate after Charles Leclerc collision",
+      "summary": "Lewis Hamilton has addressed the debate surrounding Ferrari's number one driver following another collision with Charles Leclerc",
+      "link": "https://www.crash.net/f1/news/1110846/1/lewis-hamilton-addresses-ferrari-number-one-debate-after-charles-leclerc",
+      "published": "2026-11-23T15:15:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "8fae7aa529b46dad",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Was the Las Vegas GP best race of the year - or too fake?",
+      "summary": "The nature of the Las Vegas Grand Prix divided opinion in Formula 1's fanbase, and these opposing views were shared across the grid as the myriad overlapping passes were lauded and derided in equal measure. Among the numerous changes for the lead, as Max Verstappen had to bat aw…",
+      "link": "https://www.autosport.com/f1/news/was-the-las-vegas-gp-best-race-of-the-year-or-too-fake/10877213/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-23T13:44:36Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "a4189e5ba863397a",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Colton Herta suffers fresh F1 setback after losing Formula 2 seat",
+      "summary": "Colton Herta's Formula 1 ambitions have suffered another blow after his Formula 2 campaign came to an early end",
+      "link": "https://www.crash.net/f1/news/1110843/1/colton-herta-suffers-fresh-f1-setback-after-losing-formula-2-seat",
+      "published": "2026-11-23T13:15:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "5ff268dd07945174",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Mercedes faces major F1 customer engine shake-up under proposed 2030 regulations",
+      "summary": "Mercedes could be forced to reduce its Formula 1 customer engine supply agreements under proposed regulations for the 2030 season",
+      "link": "https://www.crash.net/f1/news/1110840/1/mercedes-faces-major-f1-customer-engine-shake-under-proposed-2030-regulations",
+      "published": "2026-11-23T12:35:00Z",
+      "source": "Crash.net",
+      "category": "Technical & rules",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "dff972520c4a2302",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Why Ferrari believes written rules won't help manage Leclerc and Hamilton",
+      "summary": "The post-race media session with Ferrari Formula 1 team boss Frederic Vasseur in Las Vegas was, in several respects, almost a carbon copy of the conversation in Mexico City. On both occasions, the discussion with the written press took place in a small, almost cosy room at the b…",
+      "link": "https://www.autosport.com/f1/news/why-ferrari-believes-written-rules-wont-help-manage-leclerc-and-hamilton/10877158/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-23T12:15:05Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "2ae1bb7344e6a121",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lando Norris makes remarkable battery admission after Las Vegas GP podium",
+      "summary": "Lando Norris has revealed the extent of his battery management struggles during the Las Vegas Grand Prix",
+      "link": "https://www.crash.net/f1/news/1110836/1/lando-norris-makes-remarkable-battery-admission-after-las-vegas-gp-podium",
+      "published": "2026-11-23T11:45:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "d71b460040576366",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Martin Brundle’s Lewis Hamilton and Charles Leclerc warning comes true at Las Vegas GP",
+      "summary": "Martin Brundle warned Ferrari that Lewis Hamilton and Charles Leclerc would clash again following their Mexico GP incident",
+      "link": "https://www.crash.net/f1/news/1110832/1/martin-brundles-lewis-hamilton-and-charles-leclerc-warning-comes-true-las-vegas",
+      "published": "2026-11-23T10:40:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "0ba28fb109b04cb1",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Haas announce Rafael Camara decision for remaining 2026 F1 races",
+      "summary": "Haas have confirmed their plans for Rafael Camara for the final two races of the 2026 F1 season",
+      "link": "https://www.crash.net/f1/news/1110830/1/haas-announce-rafael-camara-decision-remaining-2026-f1-races",
+      "published": "2026-11-23T10:05:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Haas"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "4e59b512c786d9c6",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen compares chaotic Las Vegas GP win to playing Mario Kart",
+      "summary": "Max Verstappen compared the chaotic Las Vegas Grand Prix to Mario Kart but admitted the racing left him unconvinced despite taking victory.",
+      "link": "https://www.crash.net/f1/news/1110829/1/max-verstappen-compares-chaotic-las-vegas-gp-win-playing-mario-kart",
+      "published": "2026-11-23T09:45:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "ca5a6b3ae3c37071",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Herta replaced at Hitech to end F2 season early",
+      "summary": "Colton Herta will end his torrid time in Formula 2 early by not returning for the final two rounds of the 2026 season following a “mutual agreement” with Hitech. The nine-time IndyCar race winner made the transition to European single-seaters this year as part of his bid to gain…",
+      "link": "https://www.autosport.com/formula2/news/colton-herta-replaced-at-hitech-to-end-poor-f2-season-early/10877140/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-23T09:42:39Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "e7039d00036cfbc0",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Why Bearman’s expected 2027 Haas F1 deal remains unsigned",
+      "summary": "Ferrari protege Oliver Bearman remains the only driver on the F1 grid without a contract for 2027. It is a situation that would have been hard to imagine just a few weeks ago, given that his retention at Haas had been taken for granted since last summer. The announcement of Rafa…",
+      "link": "https://www.autosport.com/f1/news/why-bearmans-expected-2027-haas-f1-deal-remains-unsigned/10877066/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-23T09:05:17Z",
+      "source": "Autosport",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [
+        "Ferrari",
+        "Haas"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "674e6f2831ca68dc",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
+      "summary": "Formula 1 is planning a shift to just two power unit supplies per manufacturer in 2030, Autosport has learned, raising questions over the status of Mercedes' three current customers. Over the Las Vegas weekend the FIA announced there was unanimous support to bring the next gener…",
+      "link": "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-22T20:32:03Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "ea6eaec9d2e10f4c",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Camara to finish F1 season with Haas, ending F2 title bid",
+      "summary": "Haas rookie Rafael Camara will see out the season with Haas in Qatar and Abu Dhabi, effectively ending his F2 championship challenge. Camara was confirmed in October as a full-time replacement for Esteban Ocon in 2027, and was fast-tracked into the seat after Ocon's relationship…",
+      "link": "https://www.autosport.com/f1/news/haas-keeps-rafael-camara-in-f1-ending-his-2026-f2-title-bid/10877044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-22T18:32:32Z",
+      "source": "Autosport",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Haas"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "9abb36e18e49903c",
       "series": "f1",
@@ -1021,377 +1397,6 @@
         "general"
       ],
       "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "1e612b12f0e53059",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen on Las Vegas GP pole as Ferrari suffers qualifying shocker",
-      "summary": "Max Verstappen on pole after penalised Kimi Antonelli tops Las Vegas qualifying.",
-      "link": "https://www.crash.net/f1/news/1110511/1/max-verstappen-las-vegas-gp-pole-ferrari-suffers-qualifying-shocker",
-      "published": "2026-11-21T05:12:23Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "39a7d5c37d86339c",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen warned for George Russell incident in final Las Vegas F1 practice",
-      "summary": "Max Verstappen avoids grid penalty for Las Vegas practice clash with George Russell.",
-      "link": "https://www.crash.net/f1/news/1110478/1/max-verstappen-warned-george-russell-incident-final-las-vegas-f1-practice",
-      "published": "2026-11-21T04:27:06Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "grid-penalty"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "ab3f87648bbca2d3",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Las Vegas Grand Prix qualifying as it happened",
-      "summary": "Live coverage of FP3 and qualifying at the Las Vegas Grand Prix",
-      "link": "https://www.crash.net/f1/live/1044271/f1-las-vegas-grand-prix-live-updates-fp3-and-qualifying",
-      "published": "2026-11-21T03:00:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "b5fd9bfe1d96df36",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 – Russell tops final practice in Las Vegas after Verstappen clash",
-      "summary": "Sport news George Russell led a Mercedes one-two in the final practice session for the 2026 FIA Formula 1 Las Vegas Grand Prix, finishing nearly a second clear of team-mate Kimi Antonelli, but the British Mercedes driver was called by the Stewards along with Red Bull Racing’s Ma…",
-      "link": "https://www.fia.com/news/f1-russell-tops-final-practice-las-vegas-after-verstappen-clash",
-      "published": "2026-11-21T02:13:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "driver-moves",
-        "regulations"
-      ],
-      "teams": [
-        "Mercedes",
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7499a72a4c9ddb40",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Las Vegas GP: Russell fastest in final practice after Verstappen collision",
-      "summary": "George Russell collided with Max Verstappen in a tense third practice session at the Las Vegas Grand Prix as the Mercedes Formula 1 driver topped the timesheets. After both of Thursday's practice sessions had been derailed by rain, the Las Vegas Strip was buzzing with activity a…",
-      "link": "https://www.autosport.com/f1/news/f1-las-vegas-gp-russell-fastest-in-final-practice-after-verstappen-collision/10876189/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-21T01:46:05Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "12ac353bdcdb10c1",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Las Vegas Grand Prix: Full final practice results",
-      "summary": "Full results from the final practice session at the 2026 F1 Las Vegas Grand Prix in Nevada.",
-      "link": "https://www.crash.net/f1/results/1110452/1/f1-las-vegas-grand-prix-full-final-practice-results",
-      "published": "2026-11-21T01:40:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "865e5367d4c1a4ef",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 - 2026 Las Vegas Grand Prix Post - Qualifying Press Conference Transcript",
-      "summary": "Sport news DRIVERS 1 – Kimi ANTONELLI (Mercedes) 2 – Max VERSTAPPEN (Red Bull Racing) 3 – George RUSSELL (Mercedes) PARC FERMÉ INTERVIEWS (Conducted by James Hinchcliffe) Q: Here with your pole-sitter, Kimi Antonelli. Eighth pole of the season for you, and Kimi, you crossed the…",
-      "link": "https://www.fia.com/news/f1-2026-las-vegas-grand-prix-post-qualifying-press-conference-transcript",
-      "published": "2026-11-20T21:40:00Z",
-      "source": "FIA",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes",
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "28b6d63c823a550d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 set for V8 return from 2030",
-      "summary": "Formula 1 has moved closer to a return to V8 engines from the 2030 season as the FIA announced that a unanimous agreement has been reached between the governing body, F1 management and the power unit manufacturers. F1 has long worked towards cheaper and simpler engines for the n…",
-      "link": "https://www.autosport.com/f1/news/f1-set-for-v8-return-from-2030/10875119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-20T19:02:00Z",
-      "source": "Autosport",
-      "category": "Technical & rules",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "a519a8c2232f9460",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Unanimous agreement for F1 V8 engine return plan reached",
-      "summary": "F1 is set to return to V8 engines from 2030 after a breakthrough agreement was reached.",
-      "link": "https://www.crash.net/f1/news/1110159/1/key-agreement-reached-f1s-poised-return-v8-engines",
-      "published": "2026-11-20T18:57:15Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "8cb470f43a1a987b",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Alpine suddenly releases Paul Aron from F1 reserve driver role",
-      "summary": "Alpine has released Paul Aron from his F1 reserve driver role.",
-      "link": "https://www.crash.net/f1/news/1110300/1/alpine-suddenly-releases-paul-aron-f1-reserve-driver-role",
-      "published": "2026-11-20T10:55:49Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Alpine"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "18d84099db14d5aa",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Liam Lawson mocks reality star after claiming he could beat F1 driver in a race",
-      "summary": "Liam Lawson shoots down reality star Jamie Laing's claim he could beat F1 driver in a go-kart race.",
-      "link": "https://www.crash.net/f1/news/1110290/1/liam-lawson-mocks-reality-star-after-claiming-he-could-beat-f1-driver-race",
-      "published": "2026-11-20T10:38:23Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "8947eb15c1b0fb35",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Abnormal Las Vegas GP practice leaves F1 teams heading into the unknown",
-      "summary": "F1 teams are in the dark heading into qualifying and the race at the Las Vegas Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1110283/1/abnormal-las-vegas-gp-practice-leaves-f1-teams-heading-unknown",
-      "published": "2026-11-20T10:06:00Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "9ad3da9ed4871138",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton shares fresh update on Ferrari contract situation: \"No need to think about it\"",
-      "summary": "Lewis Hamilton provides a fresh update on his Ferrari F1 contract situation.",
-      "link": "https://www.crash.net/f1/news/1110273/1/lewis-hamilton-shares-fresh-update-ferrari-contract-situation-no-need-think-about",
-      "published": "2026-11-20T08:42:38Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "1d9d3e4035da5b23",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Pirelli reintroduces stint limit for F1 Qatar GP",
-      "summary": "Formula 1 teams will again have to follow a prescribed stint limit for each car at the Qatar Grand Prix to protect the Pirelli tyres around the high-degradation track. Drivers must complete no more than 27 laps per stint at Lusail International Circuit, meaning teams will likely…",
-      "link": "https://www.autosport.com/f1/news/pirelli-reintroduces-stint-limit-for-f1-qatar-gp/10875958/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-20T08:21:11Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "ad815c19ba2b3f23",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Why McLaren is selling its 2027 F1 car before it even races",
-      "summary": "McLaren explains its thinking behind selling its 2027 F1 car before it even races.",
-      "link": "https://www.crash.net/f1/news/1110272/1/why-mclaren-selling-its-f1-2027-car-it-even-races",
-      "published": "2026-11-20T08:13:19Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "McLaren"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "ee0023140625256f",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "\"Same as Brazil\" – Red Bull \"trying to understand\" the root cause of Verstappen's complaints",
-      "summary": "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the timesheets, but that means very little given that no more rain is forecast for the remainder of the weekend.…",
-      "link": "https://www.autosport.com/f1/news/same-as-brazil-red-bull-trying-to-understand-the-root-cause-of-verstappens-complaints/10875945/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-20T08:12:55Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Red Bull Racing"
-      ],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
