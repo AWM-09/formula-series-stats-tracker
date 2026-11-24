@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T20:26:23Z",
+  "updatedAt": "2026-11-24T19:39:34Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,234 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "60c7171c6d34dd0e",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "What's next for Herta after F1 2027 snub?",
+      "summary": "Cadillac's decision to stick with veteran incumbent Valtteri Bottas to partner Sergio Perez is a choice for continuity and stability after a debut campaign plagued with issues for Formula 1's 11th team in 2026. It also raises key questions over what's next for Colton Herta. With…",
+      "link": "https://www.autosport.com/f1/news/whats-next-for-herta-after-f1-2027-snub/10877533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-24T17:59:55Z",
+      "source": "Autosport",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Cadillac"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "66f6980d71a916cb",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Former F1 tester who suffered life-changing injuries in full-time racing return",
+      "summary": "A former Formula 1 test driver has secured a full-time seat in one of North America's leading motorsport championships for 2027",
+      "link": "https://www.crash.net/f1/news/1110872/1/former-f1-tester-who-suffered-life-changing-injuries-full-time-racing-return",
+      "published": "2026-11-24T17:10:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "ac2a5af0ecffcaef",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Historic Ayrton Senna Williams F1 car fails to sell at multi-million-dollar auction",
+      "summary": "One of only two Williams F1 cars driven by Ayrton Senna has failed to meet its reserve price after being put up for auction",
+      "link": "https://www.crash.net/f1/news/1110870/1/historic-ayrton-senna-williams-f1-car-fails-sell-multi-million-dollar-auction",
+      "published": "2026-11-24T16:00:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Williams"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "2524bbe643e92ccf",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Motorsport UK announces new Chair as David Richards steps down",
+      "summary": "MSUK has announced a new Chair to replace David Richards",
+      "link": "https://www.crash.net/f1/news/1110868/1/motorsport-uk-announces-new-chair-david-richards-steps-down",
+      "published": "2026-11-24T15:13:20Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "df20afb5c1ab6f6a",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Toto Wolff issues defiant defence of F1 regs and Las Vegas GP as he addresses criticism",
+      "summary": "Toto Wolff has likened the Las Vegas Grand Prix to a combination of NASCAR, the Indianapolis 500 and Formula 1 as he urged critics to remain open-minded",
+      "link": "https://www.crash.net/f1/news/1110865/1/toto-wolff-issues-defiant-defence-f1-regs-and-las-vegas-gp-he-addresses-criticism",
+      "published": "2026-11-24T13:00:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "99b2346540ab6d38",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen eyeing debut in major US race in January",
+      "summary": "Max Verstappen has confirmed that he is exploring the possibility of competing in one of the world's most prestigious endurance races during the F1 winter break",
+      "link": "https://www.crash.net/f1/news/1110863/1/max-verstappen-eyeing-debut-major-us-race-january",
+      "published": "2026-11-24T12:15:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "639aa0f6f15aff34",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "George Russell urged to 'shut up' in brutal Max Verstappen warning",
+      "summary": "George Russell has been warned against engaging in a psychological battle with Max Verstappen following their latest dispute",
+      "link": "https://www.crash.net/f1/news/1110861/1/george-russell-urged-shut-brutal-max-verstappen-warning",
+      "published": "2026-11-24T11:30:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "87388af4b8fb721d",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "McLaren reveal surprising stance on Oscar Piastri’s foul-mouthed radio message",
+      "summary": "McLaren team principal Andrea Stella has addressed Oscar Piastri's frustrated response to a reminder of the team's rules of engagement",
+      "link": "https://www.crash.net/f1/news/1110858/1/mclaren-reveal-surprising-stance-oscar-piastris-foul-mouthed-radio-message",
+      "published": "2026-11-24T10:45:00Z",
+      "source": "Crash.net",
+      "category": "Technical & rules",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [
+        "McLaren"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "1bd95b99f06c7de3",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "George Russell accused of being 'all mouth and no trousers' amid Max Verstappen feud",
+      "summary": "George Russell has been urged to back up his criticism of Max Verstappen with his performances on track following their latest clash",
+      "link": "https://www.crash.net/f1/news/1110857/1/george-russell-accused-being-all-mouth-and-no-trousers-amid-max-verstappen-feud",
+      "published": "2026-11-24T10:15:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "3aafffcda7b4f16b",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Guenther Steiner calls for radical Charles Leclerc demotion threat after Ferrari clashes",
+      "summary": "Guenther Steiner has proposed a radical solution to Ferrari's growing rivalry between Lewis Hamilton and Charles Leclerc",
+      "link": "https://www.crash.net/f1/news/1110855/1/guenther-steiner-calls-radical-charles-leclerc-demotion-threat-after-ferrari",
+      "published": "2026-11-24T09:45:00Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Ferrari"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "5771767c40238117",
       "series": "f1",
@@ -1159,244 +1387,6 @@
       "teams": [
         "Ferrari"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7a2f9284e015698d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen gives frosty two-word response to George Russell clash at Las Vegas GP",
-      "summary": "Max Verstappen has dismissed his clash with George Russell in Las Vegas.",
-      "link": "https://www.crash.net/f1/news/1110521/1/max-verstappen-gives-frosty-two-word-response-george-russell-las-vegas-clash",
-      "published": "2026-11-21T07:41:05Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "416e4f95b1041541",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Jacques Villeneuve slams Mercedes and ‘nasty’ Kimi Antonelli over Las Vegas qualifying tactics",
-      "summary": "Jacques Villeneuve criticises Mercedes and Kimi Antonelli for not helping George Russell in Las Vegas qualifying.",
-      "link": "https://www.crash.net/f1/news/1110520/1/jacques-villeneuve-slams-mercedes-and-nasty-kimi-antonelli-over-las-vegas",
-      "published": "2026-11-21T07:16:15Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7d6197dc32a7eac3",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Verstappen responds to Russell after Las Vegas GP practice clash over 'gentleman's agreement'",
-      "summary": "During the final practice session for the Formula 1 Las Vegas Grand Prix, Max Verstappen and George Russell crossed paths once again. The Dutchman overtook the Mercedes driver, but then slowed down in front of him and, according to the stewards, changed direction several times.…",
-      "link": "https://www.autosport.com/f1/news/verstappen-responds-to-russell-after-las-vegas-gp-practice-clash-over-gentlemans-agreement/10876337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-21T07:05:12Z",
-      "source": "Autosport",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "driver-moves",
-        "regulations"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "fb4fb96be4e4a576",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 – Antonelli fastest in Las Vegas Qualifying but Verstappen inherits pole position",
-      "summary": "Sport news Kimi Antonelli set the fastest time in Qualifying for the 2026 FIA Formula 1 Las Vegas Grand Prix, but a five-place grid penalty means Max Verstappen will start Saturday's race from pole position. The Mercedes driver produced a superb final lap of 1:33.893 to finish 0…",
-      "link": "https://www.fia.com/news/f1-antonelli-fastest-las-vegas-qualifying-verstappen-inherits-pole-position",
-      "published": "2026-11-21T07:03:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "grid-penalty",
-        "driver-moves",
-        "regulations"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "b34f47b4cef95df4",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Lewis Hamilton reveals Ferrari floor damage and engine issues dogged him Las Vegas GP qualifying",
-      "summary": "Lewis Hamilton reveals several issues affected his Ferrari in Las Vegas qualifying.",
-      "link": "https://www.crash.net/f1/news/1110519/1/lewis-hamilton-reveals-ferrari-floor-damage-and-engine-issues-dogged-him-las",
-      "published": "2026-11-21T06:41:16Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f4847503314c7055",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Floor damage, deployment down to Hamilton's Las Vegas GP Q2 exit",
-      "summary": "Lewis Hamilton put Ferrari's Q2 exit in qualifying for the Las Vegas Grand Prix down to energy deployment and floor damage, as the seven-time Formula 1 world champion felt he'd rallied from difficulties with overall tyre grip. The Briton struggled throughout FP3 under braking, a…",
-      "link": "https://www.autosport.com/f1/news/floor-damage-deployment-down-to-lewis-hamiltons-las-vegas-q2-exit/10876316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-21T06:33:00Z",
-      "source": "Autosport",
-      "category": "Technical & rules",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "c6cd544c60679d76",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Russell slams Verstappen after Las Vegas GP practice clash: ‘He walks around like he’s bigger and better than everyone’",
-      "summary": "George Russell has hit out at Max Verstappen after they collided in Free Practice 3 at Formula 1’s Las Vegas Grand Prix. Verstappen overtook the Mercedes ahead of Turn 14 in a quest for free air, but Russell moved to get back ahead, with the Dutchman unsuccessfully closing the d…",
-      "link": "https://www.autosport.com/f1/news/george-russell-slams-max-verstappen-after-las-vegas-clash-he-walks-around-like-hes-bigger-and-bette/10876309/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-21T06:28:41Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Mercedes"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f70116328e6dc797",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "George Russell reignites Max Verstappen feud: “Somebody’s got to stand up to that guy”",
-      "summary": "Tensions have bubbled up between George Russell and Max Verstappen following their fastest F1 clash in Las Vegas.",
-      "link": "https://www.crash.net/f1/news/1110518/1/george-russell-reignites-max-verstappen-feud-somebodys-got-stand-guy",
-      "published": "2026-11-21T06:15:19Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "525c5723b5a7bffb",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Las Vegas GP: Antonelli tops qualifying but Verstappen gets pole",
-      "summary": "Max Verstappen will start on pole at the Formula 1 Las Vegas Grand Prix despite Kimi Antonelli going fastest - while Charles Leclerc and Lewis Hamilton both failed to make Q3. The 2026 world champion beat the Red Bull driver by 0.258s, but is set for a five-place grid drop due t…",
-      "link": "https://www.autosport.com/f1/news/f1-las-vegas-gp-antonelli-tops-qualifying-but-verstappen-gets-pole/10876233/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-21T05:20:37Z",
-      "source": "Autosport",
-      "category": "Race weekend",
-      "topicTags": [
-        "grid-penalty",
-        "driver-moves"
-      ],
-      "teams": [
-        "Red Bull Racing"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": true,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "360accbfe6c7130e",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 Las Vegas Grand Prix: Full qualifying results",
-      "summary": "Full results from the final practice session at the 2026 F1 Las Vegas Grand Prix in Nevada.",
-      "link": "https://www.crash.net/f1/results/1110512/1/f1-las-vegas-grand-prix-full-qualifying-results",
-      "published": "2026-11-21T05:15:00Z",
-      "source": "Crash.net",
-      "category": "Race weekend",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
