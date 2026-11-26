@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-25T18:49:01Z",
+  "updatedAt": "2026-11-26T18:36:37Z",
   "season": 2026,
   "nextRace": {
     "name": "Qatar Grand Prix",
     "date": "2026-11-29",
     "round": "22"
   },
-  "sourceNewsUpdatedAt": "2026-11-25T18:46:17Z",
+  "sourceNewsUpdatedAt": "2026-11-26T18:33:59Z",
   "aiEnrichment": "local-structured-fallback",
   "teams": [
     {
