@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T18:22:19Z",
+  "updatedAt": "2026-11-28T17:03:12Z",
   "source": "Crash.net, Autosport and FIA RSS",
   "feedStatus": {
     "f1:crashnet": "ok",
@@ -11,6 +11,419 @@
   "aiEnrichment": "local-structured-fallback",
   "aiModel": "",
   "articles": [
+    {
+      "id": "8576bcd20d1c6525",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 Qatar Grand Prix LIVE: Qualifying updates",
+      "summary": "Follow all the action from Saturday at the 2026 F1 Qatar Grand Prix.",
+      "link": "https://www.crash.net/f1/live/1044272/f1-qatar-grand-prix-live-qualifying-updates",
+      "published": "2026-11-28T17:00:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "technical-upgrade"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "unspecified",
+      "gridPenaltyMentioned": false,
+      "importance": "medium",
+      "aiTagged": false
+    },
+    {
+      "id": "c0ac5c0504c363fc",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "George Russell’s Mercedes F1 engineering reshuffle at the Qatar GP explained",
+      "summary": "There have been changes behind the scenes at Mercedes on George Russell's side of the F1 garage.",
+      "link": "https://www.crash.net/f1/news/1111292/1/george-russells-mercedes-f1-engineering-reshuffle-qatar-gp-explained",
+      "published": "2026-11-28T16:24:29Z",
+      "source": "Crash.net",
+      "category": "General",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "000b2f0d303d23fb",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 – Antonelli tops final practice in Qatar as Mercedes continue to dominate",
+      "summary": "Sport news Kimi Antonelli completed a clean sweep of the Qatar Grand Prix practice sessions as Mercedes continued to set the pace at Lusail International Circuit, the World Champion leading team-mate George Russell and Max Verstappen in the final practice session ahead of qualif…",
+      "link": "https://www.fia.com/news/f1-antonelli-tops-final-practice-qatar-mercedes-continue-dominate",
+      "published": "2026-11-28T15:53:00Z",
+      "source": "FIA",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "f116b1d65301794f",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 Qatar GP: Antonelli takes clean sweep of top spot in practice",
+      "summary": "Kimi Antonelli has handed Mercedes a clean sweep of Qatar Grand Prix practice sessions as the Silver Arrows head to Formula 1 qualifying with a huge advantage. George Russell went quickest before halfway as teams embarked on soft-tyre runs as Mercedes' continued its ominous form…",
+      "link": "https://www.autosport.com/f1/news/f1-qatar-gp-fp3-report/10878646/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-28T15:36:53Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "8d33210dc0d452d9",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 Qatar Grand Prix: Full final practice results",
+      "summary": "Full results from the final practice session at the 2026 F1 Qatar Grand Prix at the Lusail International Circuit",
+      "link": "https://www.crash.net/f1/results/1111286/1/f1-qatar-grand-prix-full-final-practice-results",
+      "published": "2026-11-28T15:35:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "64b4fc80d4b8ad70",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Kimi Antonelli completes assertive Qatar GP practice clean sweep",
+      "summary": "Kimi Antonelli completes Qatar Grand Prix practice hat-trick.",
+      "link": "https://www.crash.net/f1/news/1111285/1/kimi-antonelli-completes-assertive-qatar-gp-practice-clean-sweep",
+      "published": "2026-11-28T15:33:53Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "d4b3bb372968a38b",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 set for tyre supply battle as rival manufacturer emerges",
+      "summary": "Pirelli could face competition from two rival manufacturers for Formula 1's next tyre supply contract, with its current deal expiring at the end of 2028",
+      "link": "https://www.crash.net/f1/news/1111208/1/f1-set-tyre-supply-battle-rival-manufacturer-emerges",
+      "published": "2026-11-28T13:40:00Z",
+      "source": "Crash.net",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "7eeb955ffdf0237b",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Qatar F1 tyre problem worse than expected with “100% wear after 15 laps”",
+      "summary": "Pirelli has revealed that tyre wear at the Qatar Grand Prix has exceeded its pre-event predictions despite measures being introduced to limit tyre mileage",
+      "link": "https://www.crash.net/f1/news/1111202/1/qatar-f1-tyre-problem-worse-expected-100-wear-after-15-laps",
+      "published": "2026-11-28T13:15:00Z",
+      "source": "Crash.net",
+      "category": "Technical & rules",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "eaf20ba06a9a0e64",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "FIA explores DRS return alongside push-to-pass system for F1’s V8 engines",
+      "summary": "Although the framework announced last week establishes the key elements of Formula 1’s next power unit regulations – a 2.1-litre turbocharged V8 with a significantly reduced electrical component – many details still need to be worked out over the coming months. One of the key re…",
+      "link": "https://www.autosport.com/f1/news/fia-explores-drs-return-alongside-push-to-pass-system-for-f1s-v8-engines/10878582/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-28T12:04:31Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "438adc81ac596d85",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "What time is the next F1 race? Full Qatar GP schedule and how to watch",
+      "summary": "The next round of the 2026 Formula 1 season takes place at the Qatar Grand Prix.",
+      "link": "https://www.crash.net/f1/news/1110875/1/what-time-next-f1-race-full-qatar-gp-schedule-and-how-watch",
+      "published": "2026-11-28T12:03:21Z",
+      "source": "Crash.net",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "9c05e6bd20175a3c",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Why Williams breached the 2025 F1 cost cap",
+      "summary": "Williams' breach of Formula 1's cost cap regulations for the 2025 season was down to a difference in interpretation between its own finance team and the FIA adjudicators, relating to the company's restructure as the team moved assets into a new limited liability partnership. The…",
+      "link": "https://www.autosport.com/f1/news/why-williams-breached-the-2025-f1-cost-cap/10878549/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-28T10:41:51Z",
+      "source": "Autosport",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [
+        "Williams"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "481a06732c22d26d",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "100% wear in 15 laps – F1’s tyre challenges in Qatar far more extreme than Pirelli expected",
+      "summary": "Every year, the Lusail International Circuit represents the biggest challenge on the Formula 1 calendar for its sole tyre supplier, Pirelli. It is precisely for that reason that a maximum stint length is once again in place this season, with the limit this time set at 27 laps pe…",
+      "link": "https://www.autosport.com/f1/news/100-wear-in-15-laps-f1s-tyre-challenges-in-qatar-far-more-extreme-than-pirelli-expected/10878519/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-28T09:11:29Z",
+      "source": "Autosport",
+      "category": "Technical & rules",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "093046ef1e70711a",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Hankook poised to enter race for F1 tyre supply contract",
+      "summary": "It's another vivid demonstration of Formula 1's ever-growing global reach and popularity that another serious contender has emerged to bid for its exclusive tyre-supply contract. Pirelli took over from Bridgestone as F1's sole tyre supplier in 2011 and for much of its first deca…",
+      "link": "https://www.autosport.com/f1/news/hankook-poised-to-enter-race-for-f1-tyre-supply-contract/10878399/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "published": "2026-11-28T08:00:03Z",
+      "source": "Autosport",
+      "category": "Driver moves",
+      "topicTags": [
+        "driver-moves"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "dcc55ac95668ab12",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Max Verstappen reveals major Red Bull concern after difficult Qatar GP practice",
+      "summary": "Max Verstappen has highlighted Red Bull’s balance issues following a challenging opening day at the Qatar Grand Prix",
+      "link": "https://www.crash.net/f1/news/1111149/1/max-verstappen-reveals-major-red-bull-concern-after-difficult-qatar-gp-practice",
+      "published": "2026-11-27T19:40:00Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "3dac9d4265ab02b2",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Lando Norris fears Mercedes “in a different category” after ominous start to Qatar GP",
+      "summary": "Lando Norris is worried about Mercedes' ominous pace on Friday at the Qatar Grand Prix.",
+      "link": "https://www.crash.net/f1/news/1111148/1/lando-norris-fears-mercedes-different-category-after-ominous-start-qatar-gp",
+      "published": "2026-11-27T19:27:45Z",
+      "source": "Crash.net",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "5e177309afbfc2f8",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Details of F1 engine freeze ahead of V8 return emerge",
+      "summary": "The FIA has revealed its plans to restrict power unit development ahead of F1's proposed return to V8 engines in 2030.",
+      "link": "https://www.crash.net/f1/news/1111145/1/details-f1-engine-freeze-ahead-v8-return-emerge",
+      "published": "2026-11-27T19:20:00Z",
+      "source": "Crash.net",
+      "category": "Technical & rules",
+      "topicTags": [
+        "regulations"
+      ],
+      "teams": [],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "f4f9e105a98f8dd7",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "Why Audi’s call for Yuki Tsunoda penalty was rejected at International Court of Appeal",
+      "summary": "Audi has failed in its bid to get Yuki Tsunoda penalised for an incident at the Italian Grand Prix two months ago.",
+      "link": "https://www.crash.net/f1/news/1111144/1/why-audis-call-yuki-tsunoda-penalty-was-rejected-international-court-appeal",
+      "published": "2026-11-27T18:53:43Z",
+      "source": "Crash.net",
+      "category": "Governance & calendar",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "Audi"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
+    {
+      "id": "76021e2907e564fa",
+      "series": "f1",
+      "seriesLabel": "F1",
+      "title": "F1 – Antonelli leads Mercedes one-two in disrupted Qatar FP2",
+      "summary": "Sport news Kimi Antonelli continued Mercedes’ strong start to the Qatar Grand Prix weekend by topping the second free practice session at Lusail International Circuit, ahead of team-mate George Russell and McLaren’s Lando Norris, as two red flags disrupted the evening’s running.…",
+      "link": "https://www.fia.com/news/f1-antonelli-leads-mercedes-one-two-disrupted-qatar-fp2",
+      "published": "2026-11-27T18:52:00Z",
+      "source": "FIA",
+      "category": "Race weekend",
+      "topicTags": [
+        "general"
+      ],
+      "teams": [
+        "McLaren",
+        "Mercedes"
+      ],
+      "drivers": [],
+      "event": "",
+      "majorUpgrade": false,
+      "upgradeStatus": "not-upgrade",
+      "gridPenaltyMentioned": false,
+      "importance": "low",
+      "aiTagged": false
+    },
     {
       "id": "d7a0299222125386",
       "series": "f1",
@@ -200,7 +613,7 @@
       "id": "a27bf9bb75f96bbc",
       "series": "f1",
       "seriesLabel": "F1",
-      "title": "F1 Qatar Grand Prix LIVE: Reaction to Friday practice",
+      "title": "F1 Qatar Grand Prix Friday practice as it happened",
       "summary": "Follow all the action from Friday practice at the 2026 F1 Qatar Grand Prix.",
       "link": "https://www.crash.net/f1/live/1044272/f1-qatar-grand-prix-live-updates-friday-practice",
       "published": "2026-11-27T16:00:00Z",
@@ -458,28 +871,6 @@
       "category": "Governance & calendar",
       "topicTags": [
         "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "438adc81ac596d85",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "What time is the next F1 race? Full Qatar GP schedule and how to watch",
-      "summary": "The next round of the 2026 Formula 1 season takes place at the Qatar Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1110875/1/what-time-next-f1-race-full-qatar-gp-schedule-and-how-watch",
-      "published": "2026-11-27T09:37:00Z",
-      "source": "Crash.net",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "general"
       ],
       "teams": [],
       "drivers": [],
@@ -997,401 +1388,6 @@
       "teams": [
         "Aston Martin"
       ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "a54ed7fb1602ed49",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Alonso to not let his age determine F1 retirement",
-      "summary": "Fernando Alonso says he will quit Formula 1 when he feels slow and he doesn’t need to be as fit as a football player to be competitive. Alonso is the most experienced driver in F1’s history, having competed in 23 seasons from 2001 to 2026, and the two-time champion has maintaine…",
-      "link": "https://www.autosport.com/f1/news/alonso-to-not-let-age-determine-f1-retirement/10877846/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-26T10:42:24Z",
-      "source": "Autosport",
-      "category": "General",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d2aa2f02175db38d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 2027 grid: Which drivers have a seat and who is out of contract?",
-      "summary": "The complete F1 grid for the 2027 season, including every team’s confirmed driver line-ups (so far).",
-      "link": "https://www.crash.net/f1/feature/1088707/1/f1-2027-grid-every-teams-confirmed-driver-line",
-      "published": "2026-11-26T09:20:00Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "685d69de744f5c22",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Ollie Bearman finally confirmed at Haas for F1 2027 after contract saga",
-      "summary": "Haas has confirmed it will keep Ollie Bearman for the 2027 F1 season, making him their second signing, after Rafael Camara was announced.",
-      "link": "https://www.crash.net/f1/news/1110893/1/ollie-bearman-finally-confirmed-haas-f1-2027-after-contract-saga",
-      "published": "2026-11-26T09:18:33Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Haas"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "5596f3eeb6c620a3",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Haas finally announces Bearman for F1 2027",
-      "summary": "Oliver Bearman will officially stay at Haas for the 2027 Formula 1 season after he and the team finally put pen to paper on a new deal. The American squad announced the renewal on Thursday, meaning the 21-year-old Briton will partner Brazilian rookie Rafael Camara at Haas next s…",
-      "link": "https://www.autosport.com/f1/news/haas-announce-bearman-f1-2027/10877815/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-26T09:04:37Z",
-      "source": "Autosport",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Haas"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "9c95c586992da6e6",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1 cost cap: What are the rules and how much money can teams spend?",
-      "summary": "Everything you need to know about the F1 cost cap rules.",
-      "link": "https://www.crash.net/f1/news/1014425/1/f1-cost-cap-how-red-bull-broke-it-their-punishment-and-2025-budget",
-      "published": "2026-11-25T16:49:00Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "d92ec4c379fad6db",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Williams breaches F1 2025 cost cap, Alpine guilty of procedural violation",
-      "summary": "Williams and Alpine have fallen foul of Formula 1's 2025 cost cap, reaching an Accepted Breach Agreement with the FIA, with Williams incurring a sporting penalty for overspending and Alpine handed a fine. The FIA announced on Wednesday that Williams overspent the 2025 cost cap b…",
-      "link": "https://www.autosport.com/f1/news/williams-breaches-2025-f1-cost-cap-reveals-penalty/10877744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "published": "2026-11-25T16:42:17Z",
-      "source": "Autosport",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [
-        "Williams",
-        "Alpine"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "521a7a30b077a343",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Williams hit with penalty as two teams breach F1 cost cap rules",
-      "summary": "FIA finds two F1 teams guilty of breaching the 2025 cost cap rules.",
-      "link": "https://www.crash.net/f1/news/1110889/1/williams-hit-penalty-two-teams-breach-f1-cost-cap-rules",
-      "published": "2026-11-25T16:29:18Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [
-        "Williams"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "3f6abc3f91917c12",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "FIA completes its review of compliance with the 2025 FIA Formula 1 Financial Regulations",
-      "summary": "Sport news The review of the Reporting Documentation was a very thorough and intensive process spanning almost eight months. FIA confirms that the review process is particularly time consuming considering both the complexities of the Financial Regulations and the necessity to as…",
-      "link": "https://www.fia.com/news/fia-completes-its-review-compliance-2025-fia-formula-1-financial-regulations",
-      "published": "2026-11-25T16:00:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "43aca29aab921c0c",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Accepted Breach agreement between Alpine Racing Limited and the FIA for procedural breach of the FIA Formula 1 Financial Regulations for F1 Teams",
-      "summary": "Sport news Alpine Racing Limited (“ALPINE”) was found to have committed a Procedural Breach under the Financial Regulations notwithstanding the fact that its Relevant Costs during the 2025 Reporting Period were below the Cost Cap. The Cost Cap Administration offered ALPINE an Ac…",
-      "link": "https://www.fia.com/news/accepted-breach-agreement-between-alpine-racing-limited-and-fia-procedural-breach-fia-formula-1",
-      "published": "2026-11-25T15:59:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [
-        "Alpine"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "931c950f497124aa",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Accepted breach agreement between Williams Grand Prix Engineering Limited and the FIA for breach of the FIA Formula 1 Financial Regulations for F1 Teams",
-      "summary": "Sport news Williams Grand Prix Engineering Limited (“WGPE”) was found to have unintentionally committed a Minor Overspend Breach and a Procedural Breach under the Financial Regulations, arising out of WGPE’s adoption of a good faith interpretation of the Financial Regulations wh…",
-      "link": "https://www.fia.com/news/accepted-breach-agreement-between-williams-grand-prix-engineering-limited-and-fia-breach-fia",
-      "published": "2026-11-25T15:58:00Z",
-      "source": "FIA",
-      "category": "Governance & calendar",
-      "topicTags": [
-        "regulations"
-      ],
-      "teams": [
-        "Williams"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "7b627a6c52abdef6",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "F1’s 27-lap tyre limit rule for Qatar Grand Prix explained",
-      "summary": "Pirelli has imposed a mandated lap limit on each tyre set for the Qatar Grand Prix.",
-      "link": "https://www.crash.net/f1/news/1110887/1/f1s-27-lap-tyre-limit-rule-qatar-grand-prix-explained",
-      "published": "2026-11-25T15:44:12Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "cac82ed2b4fa6f31",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Ferrari told to ‘say Lewis Hamilton is number one or get a new team boss’ in blunt David Croft ultimatum",
-      "summary": "David Croft spells out blunt ultimatum for Ferrari after Lewis Hamilton and Charles Leclerc run-in.",
-      "link": "https://www.crash.net/f1/news/1110886/1/ferrari-told-say-lewis-hamilton-number-one-or-get-new-team-boss-blunt-david-croft",
-      "published": "2026-11-25T15:14:56Z",
-      "source": "Crash.net",
-      "category": "Team news",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "c32120471f2ef13d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen vs George Russell: The timeline of F1’s biggest rivalry",
-      "summary": "Max Verstappen and George Russell's F1 rivalry reignited in Las Vegas. This is the history behind their bitter feud.",
-      "link": "https://www.crash.net/f1/feature/1110882/1/max-verstappen-vs-george-russell-timeline-f1s-biggest-rivalry",
-      "published": "2026-11-25T13:45:33Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "9a515c0ef2b06ad9",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Fernando Alonso admits Aston Martin \"can’t be competitive\" as he outlines huge F1 shortfall",
-      "summary": "Fernando Alonso makes major admission about Honda's power unit deficit.",
-      "link": "https://www.crash.net/f1/news/1110880/1/fernando-alonso-admits-aston-martin-cant-be-competitive-he-outlines-huge-f1",
-      "published": "2026-11-25T11:24:58Z",
-      "source": "Crash.net",
-      "category": "Technical & rules",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Aston Martin"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "f3190d78a93d85a5",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Charles Leclerc sells Ferrari SUV he pranged in viral Monaco crash",
-      "summary": "Charles Leclerc is selling one of his Ferrari cars.",
-      "link": "https://www.crash.net/f1/news/1110878/1/charles-leclerc-sells-ferrari-suv-he-pranged-viral-monaco-crash",
-      "published": "2026-11-25T10:36:03Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [
-        "Ferrari"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "6b66d10d103581f9",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Colton Herta slammed by Will Buxton for 'childish' decision after F1 setback",
-      "summary": "Will Buxton has questioned Colton Herta's decision to reject a Cadillac reserve driver role following the team's decision to retain Valtteri Bottas for 2027",
-      "link": "https://www.crash.net/f1/news/1110873/1/colton-herta-slammed-will-buxton-childish-decision-after-f1-setback",
-      "published": "2026-11-25T10:00:00Z",
-      "source": "Crash.net",
-      "category": "Driver moves",
-      "topicTags": [
-        "driver-moves"
-      ],
-      "teams": [
-        "Cadillac"
-      ],
-      "drivers": [],
-      "event": "",
-      "majorUpgrade": false,
-      "upgradeStatus": "not-upgrade",
-      "gridPenaltyMentioned": false,
-      "importance": "low",
-      "aiTagged": false
-    },
-    {
-      "id": "fb4c2bc9ea09480d",
-      "series": "f1",
-      "seriesLabel": "F1",
-      "title": "Max Verstappen played GTA 6 for 40 hours and still won the Las Vegas GP",
-      "summary": "Max Verstappen reveals how much time he spent playing GTA 6 in Las Vegas.",
-      "link": "https://www.crash.net/f1/news/1110876/1/max-verstappen-played-gta-6-40-hours-and-still-won-las-vegas-gp",
-      "published": "2026-11-25T09:55:06Z",
-      "source": "Crash.net",
-      "category": "General",
-      "topicTags": [
-        "general"
-      ],
-      "teams": [],
       "drivers": [],
       "event": "",
       "majorUpgrade": false,
